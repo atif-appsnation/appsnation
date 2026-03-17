@@ -68,7 +68,7 @@
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 	<!-- <meta name="theme-color" content="#4302b2"> -->
-	<link href="{{asset('images/logo/favicon.webp')}}" rel="icon">
+	<link href="{{asset('images/logo/favicon.webp')}}" rel="icon" type="image/webp">
 	<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
 	<link href="{{asset('css/plugin.min.css')}}" rel="stylesheet">
 	<link href="{{asset('css/swiper.min.css')}}" rel="stylesheet">
