@@ -40,33 +40,34 @@ class AboutController extends Controller
             $meta
         ));
     }
-    public function applicant(Request $request)
-    {
+    
+    // public function applicant(Request $request)
+    // {
 
-        if ($request->file('filename')) {
-            $filePath = $request->file('filename');
-            $imageName = $filePath->getClientOriginalName();
-            $fileName = md5(time()) . '.' . $request->file('filename')->extension();
-            $fileName2 = URL::to('/') . '/uploads/uploads/' . $fileName;
-            $path = $request->file('filename')->storeAs('uploads', $fileName, 'uploads');
-        } else {
-            $fileName2 = "";
-        }
+    //     if ($request->file('filename')) {
+    //         $filePath = $request->file('filename');
+    //         $imageName = $filePath->getClientOriginalName();
+    //         $fileName = md5(time()) . '.' . $request->file('filename')->extension();
+    //         $fileName2 = URL::to('/') . '/uploads/uploads/' . $fileName;
+    //         $path = $request->file('filename')->storeAs('uploads', $fileName, 'uploads');
+    //     } else {
+    //         $fileName2 = "";
+    //     }
 
-        $applicant = Career::create([
+    //     $applicant = Career::create([
 
-            'name' => $request->name,
-            'email' =>  $request->email,
-            'phone' => $request->phone,
-            'jobrole' => $request->job,
-            'file' => $fileName2,
-            'position' => $request->position,
-            'created_at' => Carbon::now(),
-            'updated_at' => Carbon::now()
+    //         'name' => $request->name,
+    //         'email' =>  $request->email,
+    //         'phone' => $request->phone,
+    //         'jobrole' => $request->job,
+    //         'file' => $fileName2,
+    //         'position' => $request->position,
+    //         'created_at' => Carbon::now(),
+    //         'updated_at' => Carbon::now()
         
-        ]);
-        return Redirect::to('/thank-you')->with('success', 'Item created successfully!');
-    }
+    //     ]);
+    //     return Redirect::to('/thank-you')->with('success', 'Item created successfully!');
+    // }
 
     public function clients()
     {
@@ -108,11 +109,7 @@ class AboutController extends Controller
             $fileName2 = "";
         }
 
-
-
         $applicant = Career::create([
-
-
             'name' => $request->name,
             'email' =>  $request->email,
             'phone' => $request->phone,

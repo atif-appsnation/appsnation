@@ -195,5 +195,13 @@ class OtherController extends Controller
             $meta,
         ));
     }
+    public function thankyou()
+    {
+        $meta = $this->loadMeta('Main');
+
+        return view('thankyou', array_merge(
+            $meta,
+        ));
+    }
     
 }
