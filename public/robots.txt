@@ -1,2 +1,17 @@
 User-agent: *
-Disallow:
+Disallow: /products/
+
+
+Disallow: /*.phtml$
+Disallow: /* https://hub.appsnation.co/login
+
+Disallow: /*?replytocom
+Disallow: /*?s=
+Disallow: /*?filter=
+
+
+User-agent: *
+Allow: /
+
+
+Sitemap: https://www.appsnation.co/sitemap.xml
