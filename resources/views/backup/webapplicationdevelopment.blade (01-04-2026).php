@@ -48,7 +48,7 @@
 <!--End About-->
 
 <!--Start Service-->
-<section class="service-section-app py-3">
+<section class="service-section-app py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -70,7 +70,7 @@
 						<h4>Custom Web App Development</h4>
 					</div>
 					<div class="services-text-div">
-						<p>: Tailored web applications for businesses in healthcare, finance, retail, and manufacturing to improve operations.</p>
+						<p>Our custom web application development services solutions that tackle business difficulties in healthcare, finance, retail, and manufacturing are developed by us, a top web app development company. We make certain that the web solution meets your company's needs. Your business operations will be streamlined using custom web apps.</p>
 					</div>
 				</div>
 			</div>
@@ -83,7 +83,7 @@
 						<h4>Cross-platform Apps</h4>
 					</div>
 					<div class="services-text-div">
-						<p>We build cross-platform apps for Android, iOS, and Windows to ensure a seamless user experience across devices.</p>
+						<p>Apps Nation creates web and mobile applications that are compatible with all operating systems, including Android, iOS, and Windows, and provide the greatest possible user experience. These apps work across all platforms, allowing you to expand your brand's reach and engagement.</p>
 					</div>
 				</div>
 			</div>
@@ -96,7 +96,7 @@
 						<h4>E-commerce Solutions</h4>
 					</div>
 					<div class="services-text-div">
-						<p>Full eCommerce solutions with secure payment gateway integration to streamline shopping, cart, and product operations.</p>
+						<p>We've created eCommerce company solutions that include a complete portal, shopping cart, and product solutions, as well as the integration of a secure payment gateway. We make certain that each feature we integrate facilitates the seamless operation of your eCommerce business.</p>
 					</div>
 				</div>
 			</div>
@@ -109,7 +109,7 @@
 						<h4>Web Portal Development</h4>
 					</div>
 					<div class="services-text-div">
-						<p>We create B2B, B2C, and other web portals for easy communication and business growth with clients and partners.</p>
+						<p>We create platforms for easy communication with clients to help you grow your business. We create business-to-business (B2B), business-to-consumer (B2C), vendor portals, as well as job, matrimony, dating, mailing, and other sorts of web platforms</p>
 					</div>
 				</div>
 			</div>
@@ -122,7 +122,7 @@
 						<h4>Custom CMS Web Development</h4>
 					</div>
 					<div class="services-text-div">
-						<p> Unique CMS development tailored to your business needs, ensuring complete control and seamless content management.</p>
+						<p>For the customer, we create a unique content management system from the scratch for the client to facilitate them to the fullest. We create a CMS framework that is tailored to your specific business needs and that you own completely.</p>
 					</div>
 				</div>
 			</div>
@@ -135,7 +135,7 @@
 						<h4>Technology Consulting</h4>
 					</div>
 					<div class="services-text-div">
-						<p>Offering expert technology consulting to help you navigate OS, server, and platform decisions with tailored advice.</p>
+						<p>We have worked with many clients globally as one of the leading bespoke web application development experts. We have gathered expertise of these industries' operational and functional know-how. We want to be your trusted IT partner when it comes to OS, server, platform, and technology consultancy.</p>
 					</div>
 				</div>
 			</div>
@@ -144,65 +144,61 @@
 </section>
 <!--End Service-->
 
-
 <!--Start Features-->
 <section class="features-section-app dark-bg2 py-5">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-5 fadeIn">
+			<div class="col-sm-12 col-md-12 col-lg-5 wow fadeIn">
 				<div class="tab-content" id="imagetab">
-
 					@foreach($agencystack as $k=>$items)
 					@if($k==0)
 
-					<div class="tab-pane features-content active" id="panel_a_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
-						<img src="uploads/{!!$items['image']!!}" alt="img" class="img-fluid">
+					<div class="tab-pane active" id="panel_a_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
+						<img src="uploads/{!!$items['image']!!}" alt="img" class="img-fluid" width="100%" height="100%">
 					</div>
 					@else
-					<div class="tab-pane features-content fade" id="panel_a_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
-						<img src="uploads/{!!$items['image']!!}" alt="img" class="img-fluid">
+					<div class="tab-pane fade" id="panel_a_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
+						<img src="uploads/{!!$items['image']!!}" alt="img" class="img-fluid" width="100%" height="100%">
 					</div>
 					@endif
 
 					@endforeach
-
 				</div>
 			</div>
+
 			<div class="col-sm-12 col-md-12 col-lg-7 my-auto pl-3 pl-sm-3 pl-md-5 pt-3 pt-sm-3 pt-md-3 pt-lg-0 wow fadeIn">
-				<h2>Different Industries We Serve:</h2>
-				<p class="py-3">We help a diverse clientele build result-driven mobile apps for different industries.</p>
-				<ul class="nav nav-tabs features-tab" id="headingtab" role="tablist">
-
+				<div class="common-heading">
+					<div data-text="Industries" class="light-bg-text bg-text">
+						<h2>Creative <span>Web App</span> Development Agency</h2>
+					</div>
+				</div>
+				<p class="py-3">We help a diverse clientele build result-driven web apps for different industries.</p>
+				<ul class="nav nav-tabs features-tab mt50" id="headingtab" role="tablist">
 					@foreach($agencystack as $k=>$items)
-					@if($k==0)
-					<li class="nav-item">
-						<a class="nav-link active" id="{!!$items['id']!!}-tab" data-bs-target="#panel_b_{!!$items['id']!!}" data-bs-secondary="#panel_a_{!!$items['id']!!}" data-bs-toggle="tab" href="#{!!$items['id']!!}" role="tab" aria-controls="{!!$items['id']!!}" aria-selected="false">{!!$items['heading']!!}</a>
-					</li>
+                    @if($k==0)
+                    <li class="nav-item">
+                        <a class="nav-link active" id="{!!$items['id']!!}-tab" data-bs-target="#panel_b_{!!$items['id']!!}" data-bs-secondary="#panel_a_{!!$items['id']!!}" data-bs-toggle="tab" href="#{!!$items['id']!!}" role="tab" aria-controls="{!!$items['id']!!}" aria-selected="false">{!!$items['heading']!!}</a>
+                    </li>
 
-					@else
-					<li class="nav-item">
-						<a class="nav-link" id="{!!$items['id']!!}-tab" data-bs-target="#panel_b_{!!$items['id']!!}" data-bs-secondary="#panel_a_{!!$items['id']!!}" data-bs-toggle="tab" href="#{!!$items['id']!!}" role="tab" aria-controls="{!!$items['id']!!}" aria-selected="false">{!!$items['heading']!!}</a>
-					</li>
-					@endif
-					@endforeach
-
+                    @else
+                    <li class="nav-item">
+                        <a class="nav-link" id="{!!$items['id']!!}-tab" data-bs-target="#panel_b_{!!$items['id']!!}" data-bs-secondary="#panel_a_{!!$items['id']!!}" data-bs-toggle="tab" href="#{!!$items['id']!!}" role="tab" aria-controls="{!!$items['id']!!}" aria-selected="false">{!!$items['heading']!!}</a>
+                    </li>
+                    @endif
+                    @endforeach
 				</ul>
 				<div class="tab-content pt-3" id="texttab">
-
 					@foreach($agencystack as $k=>$items)
 					@if($k==0)
-
-					<div class="tab-pane image-content active" id="panel_b_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
+					<div class="tab-pane active" id="panel_b_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
 						<h3>{!!$items['heading']!!}</h3>
-						<p class="py-3">{!!$items['content']!!}</p>
+						<p>{!!$items['content']!!}</p>
 					</div>
 					@else
-
-					<div class="tab-pane image-content fade" id="panel_b_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
+					<div class="tab-pane fade" id="panel_b_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
 						<h3>{!!$items['heading']!!}</h3>
-						<p class="py-3">{!!$items['content']!!}</p>
+						<p>{!!$items['content']!!}</p>
 					</div>
-
 					@endif
 					@endforeach
 				</div>
@@ -212,11 +208,7 @@
 </section>
 <!--End Features-->
 
-
 <!--Start Let's Work Together-->
-<section class="my-1">
-	<div class="container">
-		
 <div class="row py-5 justify-content-center hire-developer">
 	<div class="col-lg-9">
 		<div class="free-cta-title v-center wow fadeIn">
@@ -234,9 +226,6 @@
 		</div>
 	</div>
 </div>
-
-	</div>
-</section>
 <!--End Let's Work Together-->
 
 <!--Start Why Choose-->
@@ -259,7 +248,7 @@
 						<img src="images/services/web-app-development/experience.svg" alt="Experience" class="img-fluid" width="100%" height="100%">
 					</div>
 					<h3 class="title">Experience</h3>
-					<p class="description">Access our extensive experience in developing sophisticated custom apps to meet your business needs.</p>
+					<p class="description">When you hire us, you receive access to our extensive experience developing sophisticated custom apps.</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3 mt-md-0">
@@ -268,7 +257,7 @@
 						<img src="images/services/web-app-development/focus-on-expertise.svg" alt="Focus on Expertise" class="img-fluid" width="100%" height="100%">
 					</div>
 					<h3 class="title">Focus on Expertise</h3>
-					<p class="description"> We foster a mobile expert culture, committed to staying ahead through specialization and innovation.</p>
+					<p class="description">We cultivate a mobile expert culture that maintains a great commitment to stay at the forefront of our business through specialization.</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3 mt-lg-0">
@@ -277,7 +266,7 @@
 						<img src="images/services/web-app-development/cost-reduction.svg" alt="Cost Reduction" class="img-fluid" width="100%" height="100%">
 					</div>
 					<h3 class="title">Cost Reduction</h3>
-					<p class="description">Develop high-quality mobile apps cost-effectively with our proven expertise and vast code repository.</p>
+					<p class="description">We offer a cost-effective way to develop excellent mobile apps thanks to our time-tested development competence and large code repository.</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3">
@@ -286,7 +275,7 @@
 						<img src="images/services/web-app-development/lower-the-risk.svg" alt="Lower The Risk" class="img-fluid" width="100%" height="100%">
 					</div>
 					<h3 class="title">Lower The Risk</h3>
-					<p class="description">We reduce risk and ensure quick time-to-value by delivering fast and efficient solutions in a changing market.</p>
+					<p class="description">We eliminate risk and give quick time-to-value to step-out into the continually shifting market by delivering quickly and efficiently.</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3">
@@ -295,8 +284,7 @@
 						<img src="images/services/web-app-development/reliable-and-flexile.svg" alt="Reliable and Flexile" class="img-fluid" width="100%" height="100%">
 					</div>
 					<h3 class="title">Reliable and Flexile</h3>
-					<p class="description">Using the latest practices and tech skills, we stay adaptable to client needs and avoid unnecessary challenges.
-</p>
+					<p class="description">We avoid difficulties and are adaptive to client needs by using the most up-to-date practises and technological skills.</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3">
@@ -305,7 +293,7 @@
 						<img src="images/services/web-app-development/one-partner-for-everyone.svg" alt="One Partner For Everyone" class="img-fluid" width="100%" height="100%">
 					</div>
 					<h3 class="title">One Partner For Everyone</h3>
-					<p class="description">Streamline your process with one partner offering end-to-end solutions, avoiding inefficiencies from multiple vendors.</p>
+					<p class="description">Avoid costly resource onboarding and inefficiencies caused by many vendors. Our team is ready to help you with end-to-end business solutions.</p>
 				</div>
 			</div>
 		</div>
@@ -332,8 +320,7 @@
 					<div class="card-body">
 						<p class="timeline-year">01</p>
 						<h3 class="title">Research and development</h3>
-						<p class="description"> A step-by-step procedure for assessing, validating, and developing a strategy to bring your idea to life.
-</p>
+						<p class="description">Apps Nation has a proper step by step procedure for research and development. Have a look:</p>
 						<ul class="order-list pt-2">
 							<strong>
 								<li>Assessing your requirements</li>
@@ -353,7 +340,7 @@
 					<div class="card-body">
 						<p class="timeline-year">02</p>
 						<h3 class="title">Front-end Development</h3>
-						<p class="description">Crafting the user journey, setting up front-end architecture, and designing an intuitive UI/UX for seamless interaction.</p>
+						<p class="description">With proper thorough assessment, we move on to the next step:</p>
 						<ul class="order-list pt-2">
 							<strong>
 								<li>The user's journey is being charted.</li>
@@ -373,8 +360,7 @@
 					<div class="card-body">
 						<p class="timeline-year">03</p>
 						<h3 class="title">Back-end Development</h3>
-						<p class="description">Executing back-end development by integrating third-party plugins and ensuring smooth configuration and implementation.
-</p>
+						<p class="description">With front-end architecture being setup, next step is the execution of back-end development:</p>
 						<ul class="order-list pt-2">
 							<strong>
 								<li>Integration of third-party plugins in the backend setup and configuration</li>
@@ -391,8 +377,7 @@
 					<div class="card-body">
 						<p class="timeline-year">04</p>
 						<h3 class="title">Manual and automated QA</h3>
-						<p class="description"> Ensuring smooth app functionality across browsers and screens with comprehensive manual and automated QA testing.
-</p>
+						<p class="description">We keep QA professionals in the loop so you can swiftly roll out new features and ensure that your app functions smoothly across all browsers and screens.</p>
 						<ul class="order-list pt-2">
 							<strong>
 								<li>Testing of Functionality</li>
@@ -412,7 +397,7 @@
 					<div class="card-body">
 						<p class="timeline-year">05</p>
 						<h3 class="title">Web App Development</h3>
-						<p class="description">Building proof-of-concept web apps to evaluate your idea's long-term potential and viability for execution.</p>
+						<p class="description">We produce a proof-of-concept best web app development framework to examine the long-term potential of the web application in development and to assess the viability of your idea for genuine execution.</p>
 					</div>
 				</div>
 			</div>
@@ -421,8 +406,7 @@
 					<div class="card-body">
 						<p class="timeline-year">06</p>
 						<h3 class="title">Maintenance and Support</h3>
-						<p class="description"> Providing continuous assessment and support to ensure your web application operates efficiently with the right web stack.
-</p>
+						<p class="description">Our web application development professionals thoroughly assess your company requirements and accessible technologies to assist you in selecting the most appropriate web stack.</p>
 					</div>
 				</div>
 			</div>
@@ -499,9 +483,6 @@
 <!--End Tech-->
 
 <!--Start Let's Work Together-->
-<section class="my-1">
-	<div class="container">
-	
 <div class="row py-5 justify-content-center hire-developer">
 	<div class="col-lg-8">
 		<div class="free-cta-title v-center wow fadeIn">
@@ -519,9 +500,6 @@
 		</div>
 	</div>
 </div>
-	
-	</div>
-</section>
 <!--End Let's Work Together-->
 
 <!-- Start Technologies -->
@@ -654,10 +632,6 @@
 <!--End Badges-->
 
 <!--Start Let's Work Together-->
-<section class="my-1">
-	<div class="container">
-
-	
 <div class="row py-5 justify-content-center hire-developer">
 	<div class="col-lg-8">
 		<div class="free-cta-title v-center wow fadeIn">
@@ -675,8 +649,6 @@
 		</div>
 	</div>
 </div>
-</div>
-</section>
 <!--End Let's Work Together-->
 
 <!--Start Testinomial-->

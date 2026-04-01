@@ -1,4 +1,4 @@
-/* Version: 1.3 | Last updated: 14-03-2026 */
+/* Version: 1.4 | Last updated: 01-04-2026 */
 
 :root {
     --first-color: #0dacaf;
@@ -1534,7 +1534,7 @@ a.play-video::after {
 }
 
 .breadcrumb-areav2.portfolio-new-section{
-    background: url('../images/banner/Portfolio-banner.png') !important;
+    background: url('../images/banner/portfolio-banner.webp') !important;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -5482,15 +5482,13 @@ h3 a {
 }
 
 .services-card-rows .servive-card-col .card .services-text-div p {
-    font-family: 'Roboto', sans-serif;
-
-    color: black;
+    color: var(--black-color);
     font-weight: 500;
     word-spacing: 2px;
 }
 
 .services-card-rows .servive-card-col .card:hover .services-text-div p {
-    color: white;
+    color: var(--white-color);
     font-weight: 500;
     word-spacing: 2px;
 }
@@ -5498,14 +5496,21 @@ h3 a {
 .services-card-rows .servive-card-col .card:hover .service-heading h3 {
     font-size: 34px;
     line-height: 40px;
-    color: white;
+    color: var(--white-color);
 }
 
+.service-card:hover .service-heading h3 {
+    color: var(--white-color);
+}
+
+.service-card:hover .services-img-div img {
+    filter: invert(1);
+}
+    
 .scale-up-services-section {
     background: var(--light-grey);
     /* background: linear-gradient(135deg, #FFFFFF 0%, var(--light-grey) 100%); */
     font-family: 'Inter', sans-serif;
-
 }
 
 .scale-up-services-section img {
@@ -5514,7 +5519,7 @@ h3 a {
 }
 
 .scale-up-services-section .achievements-count {
-    background-color: white;
+    background-color: var(--white-color);
     border-radius: 30px;
 }
 
@@ -5711,7 +5716,7 @@ h3 a {
 .tcd {
     display: block;
     background: #1B1B1B;
-    color: white;
+    color: var(--white-color);
     box-shadow: 0 11px 20px rgb(123 149 162 / 15%);
     font-weight: 400;
     font-size: 14px;
@@ -5721,7 +5726,7 @@ h3 a {
 }
 
 .tcd h3 {
-    color: white;
+    color: var(--white-color);
 }
 
 .posiqut {
@@ -8096,7 +8101,7 @@ a.smllbtnn {
 }
 
 .switch-wrapper .slider {
-    background-color: white;
+    background-color: var(--white-color);
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -8304,7 +8309,7 @@ a.smllbtnn {
 
 .green-tag span {
     background-color: var(--first-color);
-    color: white;
+    color: var(--white-color);
 }
 
 .widebloktag span+span {
@@ -8325,7 +8330,7 @@ a.smllbtnn {
     font-size: 14px;
     word-spacing: 3px;
     font-weight: 500;
-    color: black;
+    color: var(--black-color);
 }
 
 .info-list-ul {
@@ -10017,7 +10022,7 @@ textarea#message::placeholder {
 }
 
 .accordion .item .item-header h2 button {
-    color: white;
+    color: var(--white-color);
     font-size: 20px;
     padding: 15px;
     display: block;
@@ -10562,7 +10567,7 @@ color: var(--white-color); */
 
 /* 
 .game-icon:hover {
-    background-color: black;
+    background-color: var(--black-color);
 }
 */
 
@@ -10573,8 +10578,8 @@ color: var(--white-color); */
 
 .service_box li:hover h5 {
     /* transform: scale(1.5); */
-    /* background-color: black; */
-    color: white;
+    /* background-color: var(--black-color); */
+    color: var(--white-color);
 }
 
 
@@ -10584,10 +10589,10 @@ color: var(--white-color); */
 /* transform: scale(1.5); */
 
 
-/* background-color: black; */
+/* background-color: var(--black-color); */
 
 
-/* color: white; */
+/* color: var(--white-color); */
 
 
 /* } */
@@ -10857,6 +10862,7 @@ button:not(:disabled) {
 
 .solutions-banner {
     background: var(--black2-color);
+    background: url('../images/banner/solution-banner.webp')  center center/ cover no-repeat;
 }
 
 .solutions-link {
@@ -10948,6 +10954,7 @@ button:not(:disabled) {
 
 .industries-banner {
     background: var(--black2-color);
+    background:url('../images/banner/industries-banner.webp')  right/ cover no-repeat;
 }
 
 .industries-link {
@@ -11900,7 +11907,7 @@ i.fa-brands.fa-instagram {
 }
 
 .why-choose-us .choose-us:hover h3 {
-    color: white;
+    color: var(--white-color);
 }
 
 .main-timeline {
@@ -14842,7 +14849,7 @@ footer h4 {
 .challenges-heading span {
     font-size: 28px;
     font-weight: 700;
-    color: white;
+    color: var(--white-color);
     background-color: #007bff;
     margin: 10px;
     padding: 10px;
@@ -14977,11 +14984,11 @@ footer h4 {
     text-align: right;
     padding-right: 15px;
     width: 50%;
-    color: white;
+    color: var(--white-color);
 }
 
 .demog-value {
-    color: white;
+    color: var(--white-color);
     text-align: left;
 }
 
@@ -15197,7 +15204,7 @@ b {
 
 .wood-land-app h1,
 .wood-land-app p {
-    color: white;
+    color: var(--white-color);
     font-weight: bold;
 }
 
@@ -15209,7 +15216,7 @@ b {
 
 .wood-land-button {
     background-color: #58D39C;
-    color: black;
+    color: var(--black-color);
     padding: 10px 25px;
     border-radius: 10px;
     font-weight: bold;
@@ -15220,7 +15227,7 @@ b {
 
 .wood-land-button:hover {
     background-color: transparent;
-    color: white;
+    color: var(--white-color);
     border: 1px solid #58D39C;
     border-radius: 20px;
     transition: 0.3s ease-in-out;
@@ -15234,17 +15241,17 @@ b {
 
 .wood-land-client-overview h2,
 h6 {
-    color: black;
+    color: var(--black-color);
     padding-top: 10px;
 }
 
 .wood-land-client-overview h2 {
-    color: black;
+    color: var(--black-color);
     padding-bottom: 10px;
 }
 
 .wood-land-client-overview p {
-    color: black;
+    color: var(--black-color);
     padding-bottom: 13px;
 }
 
@@ -15369,7 +15376,7 @@ h6 {
 
 .wood-land-project-goals .green h5,
 .wood-land-project-goals .green p {
-    color: black;
+    color: var(--black-color);
 }
 
 .wood-land-project-goals .black {
@@ -15380,7 +15387,7 @@ h6 {
 
 .wood-land-project-goals .black h5,
 .wood-land-project-goals .black p {
-    color: white;
+    color: var(--white-color);
 }
 
 .wood-land-designs .container {
@@ -15399,7 +15406,7 @@ h6 {
 }
 
 .wood-land-designs .wood-land-text-theme {
-    color: black;
+    color: var(--black-color);
     font-weight: 600;
 }
 
@@ -15423,7 +15430,7 @@ h6 {
 
 .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) h4,
 .left-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) p {
-    color: white;
+    color: var(--white-color);
 }
 
 .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box {
@@ -15437,7 +15444,7 @@ h6 {
 }
 
 .right-column-wood-land .wood-land-text-theme {
-    color: white;
+    color: var(--white-color);
     font-weight: 600;
 }
 
@@ -15447,7 +15454,7 @@ h6 {
 
 .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) h4,
 .right-column-wood-land .wood-land-feature-box-group .wood-land-feature-box:nth-child(2) p {
-    color: black;
+    color: var(--black-color);
 }
 
 /* End Wood Land App  */
@@ -15476,7 +15483,7 @@ h6 {
 
 .wood-land-button:hover {
     background-color: transparent;
-    color: white;
+    color: var(--white-color);
     border: 1px solid #58D39C;
     border-radius: 20px;
     transition: 0.3s ease-in-out;
@@ -15514,7 +15521,7 @@ h6 {
 }
 
 .neuro-night-designs .neuro-night-text-theme {
-    color: white;
+    color: var(--white-color);
     font-weight: 600;
 }
 
@@ -15553,7 +15560,7 @@ h6 {
 .neuro-night-feature-box-group .neuro-night-feature-box h4,
 .left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p,
 .right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p {
-    color: white;
+    color: var(--white-color);
 }
 
 .Tech-Stack-section {
@@ -15595,7 +15602,7 @@ h6 {
     align-items: center;
     gap: 10px;
     background-color: #007599;
-    color: white;
+    color: var(--white-color);
     padding: 30px;
     border-radius: 20px;
 }
@@ -15603,7 +15610,7 @@ h6 {
 .neuro-night-project-card .card-number-circle {
     border: 4px white solid;
     background-color: #007599;
-    color: white;
+    color: var(--white-color);
     padding: 10px;
 }
 
@@ -19215,7 +19222,7 @@ textarea::-ms-input-placeholder {
 .card-number-circle {
     width: 45px;
     height: 45px;
-    background-color: white;
+    background-color: var(--white-color);
     border: 4px solid #ff7f00;
     color: #ff7f00;
     border-radius: 50%;
@@ -19373,13 +19380,13 @@ textarea::-ms-input-placeholder {
 
 
 .white-background {
-    background-color: white;
+    background-color: var(--white-color);
     border-radius: 20px;
 }
 
 
 .persona-section-wrapper {
-    background-color: white;
+    background-color: var(--white-color);
     padding: 20px;
     border: 1px #0000002e solid;
     border-radius: 20px;
@@ -20009,7 +20016,7 @@ textarea::-ms-input-placeholder {
     padding: 0px 26px;
     border-radius: 20px;
     font-size: 17px;
-    color: white;
+    color: var(--white-color);
     font-weight: bold;
     margin: 10px 0;
 }
@@ -20029,7 +20036,7 @@ textarea::-ms-input-placeholder {
 }
 
 .item-info-div .casestudyButton:hover a {
-    color: white;
+    color: var(--white-color);
 }
 
 .item-info-div p {
@@ -20062,7 +20069,7 @@ textarea::-ms-input-placeholder {
 
 .mike-mathis-app h1,
 .mike-mathis-app p {
-    color: white;
+    color: var(--white-color);
     font-weight: bold;
 }
 
@@ -20088,7 +20095,7 @@ textarea::-ms-input-placeholder {
 /*Start Project-info */
 
 .Project-info {
-    background-color: whitesmoke;
+    background-color: var(--white-color)smoke;
     border-radius: 30px;
     padding: 60px 0;
     background-size: 100% 65%;
@@ -20108,7 +20115,7 @@ textarea::-ms-input-placeholder {
     font-size: 54px;
     font-weight: bold;
     margin-bottom: 25px;
-    color: black;
+    color: var(--black-color);
     word-spacing: 8px;
 }
 
@@ -20116,7 +20123,7 @@ textarea::-ms-input-placeholder {
     font-size: 16px;
     line-height: 1.6;
     font-weight: bold;
-    color: black;
+    color: var(--black-color);
     margin-bottom: 10px;
 }
 
@@ -20145,14 +20152,14 @@ textarea::-ms-input-placeholder {
     font-size: 54px;
     font-weight: bold;
     margin-bottom: 15px;
-    color: white;
+    color: var(--white-color);
 }
 
 .Project-Description-titleparagraph {
     font-size: 14px;
     line-height: 1.9;
     font-weight: bold;
-    color: white;
+    color: var(--white-color);
 }
 
 /* ===== end Project-Description  ===== */
@@ -20243,13 +20250,13 @@ textarea::-ms-input-placeholder {
 }
 
 .mike-mathis-wireframe p {
-    color: white;
+    color: var(--white-color);
     padding-bottom: 30px;
 }
 
 .mike-mathis-wireframe h2,
 .mike-mathis-wireframe h4 {
-    color: white;
+    color: var(--white-color);
     padding-bottom: 30px;
 }
 
@@ -20346,7 +20353,7 @@ textarea::-ms-input-placeholder {
 
 .grave-love-problem-contant h2,
 .grave-love-problem-contant p {
-    color: white;
+    color: var(--white-color);
 }
 
 /* End grave love problem-section  */
@@ -20356,7 +20363,7 @@ textarea::-ms-input-placeholder {
 .grave-problem-solution .card-connector-plus,
 .grave-problem-solution .start-plus-circle {
     background-color: #373631;
-    color: white;
+    color: var(--white-color);
 }
 
 .grave-problem-solution .section-wrapper::before,
@@ -20369,11 +20376,11 @@ textarea::-ms-input-placeholder {
 /* start grave love problem solution  */
 .bg-custom-gray {
     background-color: #373631;
-    color: white;
+    color: var(--white-color);
 }
 
 .bg-custom-gray h4 {
-    color: white;
+    color: var(--white-color);
 }
 
 .bg-custom-gray .number-circle {
@@ -20381,8 +20388,8 @@ textarea::-ms-input-placeholder {
 }
 
 .bg-custom-white {
-    background-color: white;
-    color: black;
+    background-color: var(--white-color);
+    color: var(--black-color);
     border: 1px solid #373631;
 }
 
@@ -20405,13 +20412,13 @@ textarea::-ms-input-placeholder {
 }
 
 .grave-love-wireframe p {
-    color: white;
+    color: var(--white-color);
     padding-bottom: 30px;
 }
 
 .grave-love-wireframe h2,
 .grave-love-wireframe h4 {
-    color: white;
+    color: var(--white-color);
     padding-bottom: 30px;
 }
 
@@ -20475,7 +20482,7 @@ textarea::-ms-input-placeholder {
 .grave-brown h5,
 .grave-brown h6,
 .grave-brown p {
-    color: white;
+    color: var(--white-color);
     padding: 0;
     margin: 0;
 }
@@ -20490,7 +20497,7 @@ textarea::-ms-input-placeholder {
 .grave-light h5,
 .grave-light h6,
 .grave-light p {
-    color: black;
+    color: var(--black-color);
     margin: 0;
 
 }
@@ -20570,7 +20577,7 @@ textarea::-ms-input-placeholder {
 
 .bomb-defuse-app .bread-titlev2 {
     text-align: center;
-    color: white;
+    color: var(--white-color);
 }
 
 .bomb-defuse-app .bread-titlev2 h1 {
@@ -20602,7 +20609,7 @@ textarea::-ms-input-placeholder {
 
 .introduction-bomb-squad .introduction-bomb-squad-content h2,
 .introduction-bomb-squad .introduction-bomb-squad-content p {
-    color: white;
+    color: var(--white-color);
     margin-bottom: 20px;
 }
 
@@ -20629,7 +20636,7 @@ textarea::-ms-input-placeholder {
 
 .project-idea-bomb-defuse .project-idea-content h2,
 .project-idea-bomb-defuse .project-idea-content p {
-    color: white;
+    color: var(--white-color);
 }
 
 .project-idea-bomb-defuse .project-idea-content h2 span,
@@ -20688,7 +20695,7 @@ textarea::-ms-input-placeholder {
 }
 
 .achievements-bomb-defuse p {
-    color: white;
+    color: var(--white-color);
     line-height: 40px;
 }
 
@@ -20708,7 +20715,7 @@ textarea::-ms-input-placeholder {
 }
 
 .bomb-defuse-result-section p {
-    color: white;
+    color: var(--white-color);
     line-height: 40px;
 }
 
@@ -20774,7 +20781,7 @@ textarea::-ms-input-placeholder {
 
 .couple-app-client-overview h2,
 .couple-app-client-overview h6 {
-    color: black;
+    color: var(--black-color);
     padding-top: 10px;
 }
 
@@ -20784,7 +20791,7 @@ textarea::-ms-input-placeholder {
 }
 
 .couple-app-client-overview p {
-    color: black;
+    color: var(--black-color);
     padding-bottom: 13px;
 }
 
@@ -20914,7 +20921,7 @@ textarea::-ms-input-placeholder {
 }
 
 .couple-app-designs .neuro-night-text-theme {
-    color: white;
+    color: var(--white-color);
     font-weight: 600;
 }
 
@@ -20957,7 +20964,7 @@ textarea::-ms-input-placeholder {
 .couple-app-designs .neuro-night-feature-box-group .neuro-night-feature-box h4,
 .couple-app-designs .left-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p,
 .couple-app-designs .right-column-neuro-night .neuro-night-feature-box-group .neuro-night-feature-box p {
-    color: white;
+    color: var(--white-color);
 }
 
 /* End project design goal */
@@ -20980,11 +20987,11 @@ textarea::-ms-input-placeholder {
 
 .car-mechanic .bread-titlev2 {
     text-align: center;
-    color: white;
+    color: var(--white-color);
 }
 
 .car-mechanic .bread-titlev2 h1 {
-    color: white;
+    color: var(--white-color);
     margin-top: 20px;
 }
 
@@ -21007,7 +21014,7 @@ textarea::-ms-input-placeholder {
 }
 
 .car-mechanic .car-mechanic-hero-tag {
-    background-color: white;
+    background-color: var(--white-color);
     color: #FF5E00;
     padding: 20px 10px 20px 10px;
     text-align: center;
@@ -21024,7 +21031,7 @@ textarea::-ms-input-placeholder {
 
 .car-mehanic .car-mehanic-content h2,
 .car-mehanic .car-mehanic-content p {
-    color: white;
+    color: var(--white-color);
     margin-bottom: 20px;
 }
 
@@ -21051,7 +21058,7 @@ textarea::-ms-input-placeholder {
 
 .project-idea-car-mechanic .project-idea-content h2,
 .project-idea-car-mechanic .project-idea-content p {
-    color: white;
+    color: var(--white-color);
 }
 
 .project-idea-car-mechanic .project-idea-content h2 span,
@@ -21069,7 +21076,7 @@ textarea::-ms-input-placeholder {
 /*End project idea car mechanic Section*/
 .car-mechanic-result-section h2,
 .car-mechanic-result-section p {
-    color: white;
+    color: var(--white-color);
     text-align: center;
 }
 
@@ -21099,7 +21106,7 @@ textarea::-ms-input-placeholder {
 .toy-sort-puzzle .bread-titlev2 h1,
 .toy-sort-puzzle .bread-titlev2 p {
     text-align: center;
-    color: white;
+    color: var(--white-color);
 
 }
 
@@ -21144,7 +21151,7 @@ textarea::-ms-input-placeholder {
 
 .toy-sort-introduction .toy-sort-title,
 .toy-sort-introduction .toy-sort-paragraph {
-    color: white;
+    color: var(--white-color);
 }
 
 .toy-sort-introduction .toy-sort-title span,
@@ -21163,7 +21170,7 @@ textarea::-ms-input-placeholder {
 
 .toy-sort-project-idea .toy-sort-title,
 .toy-sort-project-idea .toy-sort-paragraph {
-    color: white;
+    color: var(--white-color);
 }
 
 .toy-sort-project-idea .toy-sort-title span,
@@ -21178,7 +21185,7 @@ textarea::-ms-input-placeholder {
 .toy-sort-audience-target h2,
 .toy-sort-audience-target p {
     text-align: center;
-    color: white;
+    color: var(--white-color);
 }
 
 .toy-sort-audience-target h2 span {
@@ -21196,7 +21203,7 @@ textarea::-ms-input-placeholder {
 
 /*start toy sort element section*/
 .toy-sort-Element h2 {
-    color: white;
+    color: var(--white-color);
     text-align: center;
 }
 
@@ -21216,7 +21223,7 @@ textarea::-ms-input-placeholder {
 
 /*start toy sort player feedback section */
 .toy-sort-player-feedback h2 {
-    color: white;
+    color: var(--white-color);
 }
 
 .toy-sort-player-feedback .imageFloteLeft img,
@@ -21248,7 +21255,7 @@ textarea::-ms-input-placeholder {
 }
 
 .royal-relax-spa h1 {
-    color: black;
+    color: var(--black-color);
     font-weight: bold;
     line-height: 60px;
 }
@@ -21320,7 +21327,7 @@ textarea::-ms-input-placeholder {
 
 .royal-relax-project-description-contant h2,
 .royal-relax-project-description-contant p {
-    color: white;
+    color: var(--white-color);
 }
 
 .royal-relax-project-description-img img {
@@ -21342,12 +21349,12 @@ textarea::-ms-input-placeholder {
 
 .royal-relax-spa-problem-solution .start-plus-circle {
     background-color: #6D5AE8;
-    color: white;
+    color: var(--white-color);
 }
 
 .royal-relax-spa-problem-solution .card-connector-plus {
     background-color: #6D5AE8;
-    color: white;
+    color: var(--white-color);
 }
 
 .royal-relax-spa-problem-solution .card-custom {
@@ -21403,7 +21410,7 @@ textarea::-ms-input-placeholder {
 .royal-relax-spa-wireframe h2,
 .royal-relax-spa-wireframe p,
 .royal-relax-spa-wireframe h4 {
-    color: white;
+    color: var(--white-color);
 }
 
 /*End royal relax spa wireframe section*/
@@ -21451,7 +21458,7 @@ textarea::-ms-input-placeholder {
 .load-board-hero-section h5,
 .load-board-hero-section p {
     text-align: center;
-    color: white;
+    color: var(--white-color);
     padding: 10 px 0 20px 0;
 }
 
@@ -21708,7 +21715,7 @@ textarea::-ms-input-placeholder {
 /* Step number circle */
 .load-board-step-number {
     background: #3F83F8;
-    color: white;
+    color: var(--white-color);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -21828,7 +21835,7 @@ textarea::-ms-input-placeholder {
 .all-traders-hero-content .tagcase {
     border: none;
     background: #ED000A;
-    color: white;
+    color: var(--white-color);
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
@@ -21915,7 +21922,7 @@ textarea::-ms-input-placeholder {
     background-color: #007bff;
     padding: 5px;
     margin-right: 6px;
-    color: white;
+    color: var(--white-color);
     font-size: 12px;
     border-radius: 50%;
     display: inline;
@@ -21978,7 +21985,7 @@ textarea::-ms-input-placeholder {
 .all-tarders-wireframe .common-heading h5,
 .all-tarders-wireframe .common-heading {
     text-align: center;
-    color: white;
+    color: var(--white-color);
 }
 
 /* End all tarders wireframe section*/
@@ -22001,7 +22008,7 @@ textarea::-ms-input-placeholder {
 }
 
 .challenges-turned-section .challenges-turned-box .challenges-turned-contant p {
-    color: black;
+    color: var(--black-color);
     font-weight: 400;
 }
 
@@ -22018,7 +22025,7 @@ textarea::-ms-input-placeholder {
 
 .challenges-turned-section .challenges-turned-box .challenges-turned-contant .challenges-turned-tital span {
     background: #026DBF;
-    color: white;
+    color: var(--white-color);
     padding: 10px;
     border-radius: 50%;
 }
@@ -22045,7 +22052,7 @@ textarea::-ms-input-placeholder {
 .Alejandro-hero-section .bread-titlev2 h1,
 .Alejandro-hero-section .bread-titlev2 p {
     text-align: center;
-    color: white;
+    color: var(--white-color);
 }
 
 .Alejandro-hero-section .logo {
@@ -22086,7 +22093,7 @@ textarea::-ms-input-placeholder {
 .Alejandro-problem-solution .section-wrapper::before,
 .Alejandro-problem-solution .section-wrapper::after {
     background-color: #191463;
-    color: white;
+    color: var(--white-color);
     z-index: 10;
 }
 
@@ -22139,12 +22146,12 @@ textarea::-ms-input-placeholder {
 .Alejandro-wireframe {
     background: url("../images/case-studies/Alejandro-app/wireFram-background.webp") center/cover no-repeat;
     padding: 20px;
-    color: white;
+    color: var(--white-color);
 }
 
 .Alejandro-wireframe h2,
 .Alejandro-wireframe h4 {
-    color: white;
+    color: var(--white-color);
 
 }
 
@@ -22175,7 +22182,7 @@ textarea::-ms-input-placeholder {
 }
 
 .banner-box-image h2 {
-    color: white;
+    color: var(--white-color);
     font-weight: bolder;
 }
 
@@ -22195,26 +22202,26 @@ textarea::-ms-input-placeholder {
 
 .banner-box-image .banner-btn a {
     background-color: var(--first-color);
-    color: white;
+    color: var(--white-color);
     padding: 11px 9px 11px 9px;
     border-radius: 10px;
 }
 
 .banner-box-image .banner-btn a:hover {
     background-color: transparent;
-    color: white;
+    color: var(--white-color);
     border: 2px solid var(--first-color);
 }
 
 .banner-box-image .banner-btn a.active {
     background-color: transparent;
-    color: white;
+    color: var(--white-color);
     border: 2px solid var(--first-color);
 }
 
 .banner-box-image .banner-btn a.active:hover {
     background-color: var(--first-color);
-    color: white;
+    color: var(--white-color);
     border: none;
 }
 
@@ -22433,7 +22440,7 @@ textarea::-ms-input-placeholder {
 .process-tabs .tabs .tabs-icons .tabs-icons-wrapper span {
     display: block;
     padding: 10px 30px 0 30px;
-    color: black;
+    color: var(--black-color);
     text-align: center;
 }
 
@@ -22489,7 +22496,7 @@ textarea::-ms-input-placeholder {
     margin-top: 7%;
     border-right: 2px solid var(--first-color);
     line-height: 100px;
-    color: white;
+    color: var(--white-color);
     font-weight: 800;
     font-size: 18px;
 }

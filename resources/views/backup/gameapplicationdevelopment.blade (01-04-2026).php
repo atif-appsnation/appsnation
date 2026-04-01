@@ -512,10 +512,6 @@
 		</div>
 	</div>
 </section>
-
-
-
-
 <!--End Process-->
 
 <!--Start Tech-->
