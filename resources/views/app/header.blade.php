@@ -767,55 +767,55 @@
 	</div>
 	<!-- Mobile Contact -->
 	<script>
-    function setCookie(cname, cvalue, exdays) {
-        const d = new Date();
-        d.setTime(d.getTime() + ((exdays * 0.000694444) * 24 * 60 * 60 * 1000));
-        let expires = "expires=" + d.toUTCString();
-        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-    }
+		function setCookie(cname, cvalue, exdays) {
+			const d = new Date();
+			d.setTime(d.getTime() + ((exdays * 0.000694444) * 24 * 60 * 60 * 1000));
+			let expires = "expires=" + d.toUTCString();
+			document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+		}
 
-    function getCookie(cname) {
-        let name = cname + "=";
-        let decodedCookie = decodeURIComponent(document.cookie);
-        let ca = decodedCookie.split(';');
-        for (let i = 0; i < ca.length; i++) {
-            let c = ca[i];
-            while (c.charAt(0) == ' ') {
-                c = c.substring(1);
-            }
-            if (c.indexOf(name) == 0) {
-                return c.substring(name.length, c.length);
-            }
-        }
-        return "";
-    }
+		function getCookie(cname) {
+			let name = cname + "=";
+			let decodedCookie = decodeURIComponent(document.cookie);
+			let ca = decodedCookie.split(';');
+			for (let i = 0; i < ca.length; i++) {
+				let c = ca[i];
+				while (c.charAt(0) == ' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+					return c.substring(name.length, c.length);
+				}
+			}
+			return "";
+		}
 
-    function checkCookie() {
-        let user = getCookie("username11");
-            if (window.innerWidth <= 1320) {	
+		function checkCookie() {
+			let user = getCookie("username11");
+				if (window.innerWidth <= 1320) {	
 
-        if (user != "") {
-            // alert("Welcome again " + user);
-            console.log("no");
-        } else {
-                let delay = (Math.floor(Math.random() * 6) + 65) * 1000;
-                setTimeout(() => {
-                    $('#menu-popup').modal('show');
-                }, delay);
-                console.log(delay);
-                
+			if (user != "") {
+				// alert("Welcome again " + user);
+				console.log("no");
+			} else {
+					let delay = (Math.floor(Math.random() * 6) + 65) * 1000;
+					setTimeout(() => {
+						$('#menu-popup').modal('show');
+					}, delay);
+					console.log(delay);
+					
 
-            }
-            console.log("yes");
+				}
+				console.log("yes");
 
-            user = "talha";
-            // user = prompt("Please enter your name:", "");
-            if (user != "" && user != null) {
-                setCookie("username11", user, 0.5);
-            }
-        }
-    }
-    checkCookie()
-</script>
+				user = "talha";
+				// user = prompt("Please enter your name:", "");
+				if (user != "" && user != null) {
+					setCookie("username11", user, 0.5);
+				}
+			}
+		}
+		checkCookie()
+	</script>
 
 	<!--End Header -->

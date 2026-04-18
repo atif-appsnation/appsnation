@@ -1856,8 +1856,6 @@
 </section>
 <!--End Testinomial-->
 
-
-
 <!--Start Blogs-->
 <section class="blogs-section py-5">
 	@if(count($data['data']) > 0)
@@ -1879,7 +1877,7 @@
 					<div class="entry-blog-post dg-bg2">
 						<span class="bypost-">
 							<a href="{{ $post['guid'] }}">
-								<i class="fas fa-tag"></i> Appsnation
+								<i class="fas fa-tag"></i> AppsNation
 							</a>
 						</span>
 						<span class="posted-on-">
