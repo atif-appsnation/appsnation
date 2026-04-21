@@ -132,28 +132,23 @@
 <!--End Visualization-->
 
 <!--Start Let's Work Together-->
-<section class="my-1">
-	<div class="container">
-
-		<div class="row py-5 justify-content-center hire-developer">
-			<div class="col-lg-9">
-				<div class="free-cta-title v-center wow fadeIn">
-					<div class="row justify-content-center">
-						<div class="col-lg-8 my-auto">
-							<p class="text-center text-lg-start">Let's Start a <span>New Project</span> Together</span> </p>
-						</div>
-						<div class="col-lg-4 text-center text-lg-start mt-5 mt-lg-0">
-							<a href="{{url('/contact-us')}}" class="btn-main button-arounder lnk">Inquire Now
-								<i class="fas fa-chevron-right fa-icon"></i>
-								<span class="circle"></span>
-							</a>
-						</div>
-					</div>
+<div class="row py-5 justify-content-center hire-developer">
+	<div class="col-lg-9">
+		<div class="free-cta-title v-center wow fadeIn">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 my-auto">
+					<p class="text-center text-lg-start">Let's Start a <span>New Project</span> Together</span> </p>
+				</div>
+				<div class="col-lg-4 text-center text-lg-start mt-5 mt-lg-0">
+					<a href="{{url('/contact-us')}}" class="btn-main button-arounder lnk">Inquire Now
+						<i class="fas fa-chevron-right fa-icon"></i>
+						<span class="circle"></span>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 <!--End Let's Work Together-->
 
 <!--Start Service-->
@@ -570,28 +565,23 @@
 <!--End Process-->
 
 <!--Start Let's Work Together-->
-<section class="my-1">
-	<div class="container">
-		
-		<div class="row py-5 justify-content-center hire-developer">
-			<div class="col-lg-8">
-				<div class="free-cta-title v-center wow fadeIn">
-					<div class="row justify-content-center">
-						<div class="col-lg-8 my-auto">
-							<p class="text-center text-lg-start">Hire a <span>Dedicated Developer</span> </p>
-						</div>
-						<div class="col-lg-4 text-center text-lg-start mt-5 mt-lg-0">
-							<a href="{{url('/contact-us')}}" class="btn-main button-arounder lnk">Let's Work Together
-								<i class="fas fa-chevron-right fa-icon"></i>
-								<span class="circle"></span>
-							</a>
-						</div>
-					</div>
+<div class="row py-5 justify-content-center hire-developer">
+	<div class="col-lg-8">
+		<div class="free-cta-title v-center wow fadeIn">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 my-auto">
+					<p class="text-center text-lg-start">Hire a <span>Dedicated Developer</span> </p>
+				</div>
+				<div class="col-lg-4 text-center text-lg-start mt-5 mt-lg-0">
+					<a href="{{url('/contact-us')}}" class="btn-main button-arounder lnk">Let's Work Together
+						<i class="fas fa-chevron-right fa-icon"></i>
+						<span class="circle"></span>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 <!--End Let's Work Together-->
 
 <!-- Start Technologies -->
@@ -720,28 +710,23 @@
 <!--End Badges-->
 
 <!--Start Let's Work Together-->
-<section class="my-1">
-	<div class="container">
-		
-		<div class="row py-5 justify-content-center hire-developer">
-			<div class="col-lg-8">
-				<div class="free-cta-title v-center wow fadeIn">
-					<div class="row justify-content-center">
-						<div class="col-lg-7 my-auto">
-							<p class="text-center text-lg-start">We Promise. <span>We Deliver.</span> </p>
-						</div>
-						<div class="col-lg-5 text-center text-lg-start mt-5 mt-lg-0">
-							<a href="{{url('/contact-us')}}" class="btn-main button-arounder lnk">Let's Work Together
-								<i class="fas fa-chevron-right fa-icon"></i>
-								<span class="circle"></span>
-							</a>
-						</div>
-					</div>
+<div class="row py-5 justify-content-center hire-developer">
+	<div class="col-lg-8">
+		<div class="free-cta-title v-center wow fadeIn">
+			<div class="row justify-content-center">
+				<div class="col-lg-7 my-auto">
+					<p class="text-center text-lg-start">We Promise. <span>We Deliver.</span> </p>
+				</div>
+				<div class="col-lg-5 text-center text-lg-start mt-5 mt-lg-0">
+					<a href="{{url('/contact-us')}}" class="btn-main button-arounder lnk">Let's Work Together
+						<i class="fas fa-chevron-right fa-icon"></i>
+						<span class="circle"></span>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 <!--End Let's Work Together-->
 
 <!--Start Testinomial-->
