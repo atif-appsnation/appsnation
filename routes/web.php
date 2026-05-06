@@ -240,8 +240,6 @@ Route::get('/case-studies/mover-app','CaseStudyController@moverApps');
 // Route::get('/case-studies/mover-web','HomeController@moverWeb');
 Route::get('/case-studies/mover-web','CaseStudyController@moverWeb');
 
-
-
 // Route::get('/solutions','HomeController@solutions');
 Route::get('/solutions','SolutionController@solutions');
 
@@ -296,7 +294,6 @@ Route::get('/app-development-riyadh','Location\GccLocationController@riyadh');
 
 // Route::get('/app-development-rome','HomeController@rome');
 Route::get('/app-development-rome','Location\EuropeLocationController@rome');
-
 
 // Route::get('/app-development-san-francisco','HomeController@san_francisco');
 Route::get('/app-development-san-francisco','Location\UsaLocationController@san_francisco');
@@ -392,3 +389,4 @@ Route::get('/case-studies/toy-sort-puzzle','CaseStudyController@toySortPuzzle');
 Route::get('/case-studies/royal-relax-spa','CaseStudyController@royalrelaxspa');
 Route::get('/case-studies/load-board','CaseStudyController@Loadboard');
 Route::get('/case-studies/all-traders-app','CaseStudyController@alltraders');
+Route::get('/metaverse-development','HomeController@metaverseAppDevelopment');

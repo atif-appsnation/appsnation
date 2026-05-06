@@ -32,7 +32,7 @@ class ReceivedMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Thank-You For Contacting Us')->view('leademail.receivedemail');
+        return $this->subject('Thank You For Contacting Us')->view('leademail.receivedemail');
 
     }
 }

@@ -37,11 +37,9 @@ use MetaTrait, PageDataTrait, BlogTrait;
 class HomeController extends Controller
 {
     //
-
     protected $trustpilotservice;
     protected $techbehemothsService;
     protected $trustlistservice;
-
 
     public function __construct(TrustPilotService $trustpilotservice, TechbehemothsService $techbehemothsService, TrustListService $trustlistservice)
     {
@@ -143,7 +141,6 @@ class HomeController extends Controller
         return view('advertising', ['metabank' => $metabank, 'metabank2' => $metabank2, 'metatitle' => $metatitle, 'metatag' => $metatag,]);
     }
 
-
     public function healthCareAndlifeScience()
     {
         $metabank = Metabank::where('slug', 'HealthCareAndLifeScience')->where('type', 'Tag')->get();
@@ -154,7 +151,6 @@ class HomeController extends Controller
 
         return view('healthcareandlifescience', ['metabank' => $metabank, 'metabank2' => $metabank2, 'metatitle' => $metatitle, 'metatag' => $metatag,]);
     }
-
 
     public function ecommerceAndRetail()
     {
@@ -167,7 +163,6 @@ class HomeController extends Controller
         return view('ecommerceandretail', ['metabank' => $metabank, 'metabank2' => $metabank2, 'metatitle' => $metatitle, 'metatag' => $metatag,]);
     }
 
-
     public function education()
     {
         $metabank = Metabank::where('slug', 'Education')->where('type', 'Tag')->get();
@@ -179,7 +174,6 @@ class HomeController extends Controller
         return view('education', ['metabank' => $metabank, 'metabank2' => $metabank2, 'metatitle' => $metatitle, 'metatag' => $metatag,]);
     }
 
-
     public function softwareAndHighTech()
     {
         $metabank = Metabank::where('slug', 'SoftwareAndHighTech')->where('type', 'Tag')->get();
@@ -190,7 +184,6 @@ class HomeController extends Controller
 
         return view('softwareandhightech', ['metabank' => $metabank, 'metabank2' => $metabank2, 'metatitle' => $metatitle, 'metatag' => $metatag,]);
     }
-
 
     public function automativeAndtransport()
     {
@@ -204,7 +197,6 @@ class HomeController extends Controller
         return view('automativeandtransport', ['metabank' => $metabank, 'metabank2' => $metabank2, 'metatitle' => $metatitle, 'metatag' => $metatag,]);
     }
 
-
     public function gamingAndLeisure()
     {
         $metabank = Metabank::where('slug', 'GamingAndLeisure')->where('type', 'Tag')->get();
@@ -216,7 +208,6 @@ class HomeController extends Controller
         return view('gamingandleisure', ['metabank' => $metabank, 'metabank2' => $metabank2, 'metatitle' => $metatitle, 'metatag' => $metatag,]);
     }
 
-
     public function financialSoftwareDevelopment()
     {
         $metabank = Metabank::where('slug', 'FinancialSoftwareDevelopment')->where('type', 'Tag')->get();
@@ -227,7 +218,6 @@ class HomeController extends Controller
 
         return view('financialsoftwaredevelopment', ['metabank' => $metabank, 'metabank2' => $metabank2, 'metatitle' => $metatitle, 'metatag' => $metatag,]);
     }
-
 
     public function mediaAndEntertainment()
     {
@@ -251,7 +241,6 @@ class HomeController extends Controller
         return view('travelandhospitality', ['metabank' => $metabank, 'metabank2' => $metabank2, 'metatitle' => $metatitle, 'metatag' => $metatag,]);
     }
 
-
     public function realStateAndProperty()
     {
         $metabank = Metabank::where('slug', 'RealEstateAndProperty')->where('type', 'Tag')->get();
@@ -262,7 +251,6 @@ class HomeController extends Controller
 
         return view('realstateandproperty', ['metabank' => $metabank, 'metabank2' => $metabank2, 'metatitle' => $metatitle, 'metatag' => $metatag,]);
     }
-
 
     public function sportsTeamsAndLeagues()
     {
@@ -377,7 +365,6 @@ class HomeController extends Controller
     }
 
     //services pages
-
     public function androidApp()
     {
         $metabank = Metabank::where('slug', 'AndroidApp')->where('type', 'Tag')->get();
@@ -386,16 +373,12 @@ class HomeController extends Controller
         $metatag = Metatag::where('slug', 'AndroidApp')->get();
         $metatitle = Metatitle::where('slug', 'AndroidApp')->get();
 
-
-
         $techstack = Techstack::where('android', 1)->orderBy('lft', 'asc')->get()->toArray();
         $agencystack = Agencystack::where('android', 1)->orderBy('lft', 'asc')->get()->toArray();
         $awards = Award::orderBy('lft', 'asc')->get()->toArray();
         $casestudy = Casestudyapp::all();
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('android-app');
-
-
 
         return view(
             'androidapplicationdevelopment',
@@ -575,7 +558,6 @@ class HomeController extends Controller
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('web-app');
 
-
         return view(
             'webapplicationdevelopment',
             [
@@ -611,7 +593,6 @@ class HomeController extends Controller
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('ar-app');
 
-
         return view(
             'arapplicationdevelopment',
             [
@@ -646,7 +627,6 @@ class HomeController extends Controller
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('vr-app');
 
-
         return view(
             'vrapplicationdevelopment',
             [
@@ -679,7 +659,6 @@ class HomeController extends Controller
         $casestudy = Casestudyapp::all();
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('iot-app');
-
 
         return view(
             'iotapplicationdevelopment',
@@ -715,7 +694,6 @@ class HomeController extends Controller
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('wearable-app');
 
-
         return view(
             'wearableapplicationdevelopment',
             [
@@ -735,8 +713,6 @@ class HomeController extends Controller
         );
     }
 
-
-    ////////////////////
     public function contactus()
     {
         $metabank = Metabank::where('slug', 'Contactus')->where('type', 'Tag')->get();
@@ -805,7 +781,6 @@ class HomeController extends Controller
         // return $trustPilotTestimonial;
         // die();
 
-
         return view('testimonials', ['metabank' => $metabank, 'metabank2' => $metabank2, 'testimonials' => $testimonials, 'awards' => $awards, 'metatitle' => $metatitle, 'metatag' => $metatag, 'trustPilotTestimonial' => $trustPilotTestimonial, 'techBehemothsTestimonials' => $techBehemothsTestimonials, 'trustlistTestimonials'=>$trustlistTestimonials]);
     }
 
@@ -819,7 +794,6 @@ class HomeController extends Controller
 
         return view('career', ['metabank' => $metabank, 'metabank2' => $metabank2, 'metatitle' => $metatitle, 'metatag' => $metatag,]);
     }
-
 
     public function portfolio()
     {
@@ -874,7 +848,7 @@ class HomeController extends Controller
         ];
 
         // Send to admin(s)
-        Mail::to("webdevappsnation@gmail.com")->send(new \App\Mail\ReceivedMail($details));
+        Mail::to("sales@appsnation.co")->send(new \App\Mail\ReceivedMail($details));
     
         // Send confirmation to user
         // Mail::to($field['email'])->send(new SendMail($details));
@@ -919,8 +893,8 @@ class HomeController extends Controller
         ];
         // Mail::to("waqar@futurealiti.com")->send(new ReceivedMail($details));
         // Mail::to("info@appsnation.co")->send(new ReceivedMail($details));
-        // Mail::to("sales@appsnation.co")->send(new ReceivedMail($details));
-        Mail::to("webdevappsnation@gmail.com")->send(new \App\Mail\ReceivedMail($details));
+        Mail::to("sales@appsnation.co")->send(new \App\Mail\ReceivedMail($details));
+        //Mail::to("webdevappsnation@gmail.com")->send(new \App\Mail\ReceivedMail($details));
 
       
         // Mail::to($field['email'])->send(new SendMail($details));
@@ -973,14 +947,13 @@ class HomeController extends Controller
 
         // Mail::to("waqar@futurealiti.com")->send(new ReceivedMail($details));
         // Mail::to("info@appsnation.co")->send(new ReceivedMail($details));
-        // Mail::to("sales@appsnation.co")->send(new ReceivedMail($details));
-        Mail::to("webdevappsnation@gmail.com")->send(new \App\Mail\ReceivedMail($details));
+        Mail::to("sales@appsnation.co")->send(new \App\Mail\ReceivedMail($details));
+        //Mail::to("webdevappsnation@gmail.com")->send(new \App\Mail\ReceivedMail($details));
 
 
         return Redirect::to('/thank-you')->with('success', 'Item created successfully!');
         // // return view('welcome');
     }
-
 
     public function mainmobileapp()
     {
@@ -1011,7 +984,6 @@ class HomeController extends Controller
         );
     }
 
-
     public function mainwebapp()
     {
         $metabank = Metabank::where('slug', 'WebPortalApp')->where('type', 'Tag')->get();
@@ -1024,7 +996,6 @@ class HomeController extends Controller
         $casestudy = Casestudyapp::all();
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('cross-platform-app');
-
 
         return view(
             'mainwebapp',
@@ -1042,7 +1013,6 @@ class HomeController extends Controller
     }
 
 
-
     public function mainarvrapp()
     {
         $metabank = Metabank::where('slug', 'Ar-VrApp')->where('type', 'Tag')->get();
@@ -1055,7 +1025,6 @@ class HomeController extends Controller
         $casestudy = Casestudyapp::all();
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('ar-vr-app');
-
 
         return view(
             'mainarvrapp',
@@ -1086,8 +1055,6 @@ class HomeController extends Controller
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('connect-devices');
 
-
-
         return view(
             'mainconnecteddevices',
             [
@@ -1116,8 +1083,6 @@ class HomeController extends Controller
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('design-and-animation');
 
-
-
         return view(
             'maindesignandanimationservices',
             [
@@ -1133,7 +1098,6 @@ class HomeController extends Controller
         );
     }
 
-
     public function applicant(Request $request)
     {
 
@@ -1146,8 +1110,6 @@ class HomeController extends Controller
         } else {
             $fileName2 = "";
         }
-
-
 
         $applicant = Career::create([
 
@@ -1347,16 +1309,12 @@ class HomeController extends Controller
         $metatag = Metatag::where('slug', 'Exterior-3d')->get();
         $metatitle = Metatitle::where('slug', 'Exterior-3d')->get();
 
-
-
         $techstack = Techstack::where('exterior', 1)->orderBy('lft', 'asc')->get()->toArray();
         $agencystack = Agencystack::where('exterior', 1)->orderBy('lft', 'asc')->get()->toArray();
         $awards = Award::orderBy('lft', 'asc')->get()->toArray();
         $casestudy = Casestudyapp::all();
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('exterior-3d');
-
-
 
         return view(
             'exterior3d',
@@ -1371,8 +1329,6 @@ class HomeController extends Controller
                 'metatitle' => $metatitle,
                 'metatag' => $metatag,
                 'data' => $data,
-
-
             ]
         );
     }
@@ -1384,16 +1340,12 @@ class HomeController extends Controller
         $metatag = Metatag::where('slug', 'Interior-3d')->get();
         $metatitle = Metatitle::where('slug', 'Interior-3d')->get();
 
-
-
         $techstack = Techstack::where('interior', 1)->orderBy('lft', 'asc')->get()->toArray();
         $agencystack = Agencystack::where('interior', 1)->orderBy('lft', 'asc')->get()->toArray();
         $awards = Award::orderBy('lft', 'asc')->get()->toArray();
         $casestudy = Casestudyapp::all();
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('interior-3d');
-
-
 
         return view(
             'interior3d',
@@ -1408,8 +1360,6 @@ class HomeController extends Controller
                 'metatitle' => $metatitle,
                 'metatag' => $metatag,
                 'data' => $data,
-
-
             ]
         );
     }
@@ -1421,16 +1371,12 @@ class HomeController extends Controller
         $metatag = Metatag::where('slug', 'Animation')->get();
         $metatitle = Metatitle::where('slug', 'Animation')->get();
 
-
-
         $techstack = Techstack::where('animation', 1)->orderBy('lft', 'asc')->get()->toArray();
         $agencystack = Agencystack::where('animation', 1)->orderBy('lft', 'asc')->get()->toArray();
         $awards = Award::orderBy('lft', 'asc')->get()->toArray();
         $casestudy = Casestudyapp::all();
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('animation');
-
-
 
         return view(
             'animationservices',
@@ -1457,16 +1403,12 @@ class HomeController extends Controller
         $metatag = Metatag::where('slug', 'IndustrialAutomation')->get();
         $metatitle = Metatitle::where('slug', 'IndustrialAutomation')->get();
 
-
-
         $techstack = Techstack::where('automation', 1)->orderBy('lft', 'asc')->get()->toArray();
         $agencystack = Agencystack::where('automation', 1)->orderBy('lft', 'asc')->get()->toArray();
         $awards = Award::orderBy('lft', 'asc')->get()->toArray();
         $casestudy = Casestudyapp::all();
         $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
         $data = $this->blogApi('automation');
-
-
 
         return view(
             'industrialautomation',
@@ -1493,8 +1435,6 @@ class HomeController extends Controller
 
         $metatag = Metatag::where('slug', 'FloorPlan')->get();
         $metatitle = Metatitle::where('slug', 'FloorPlan')->get();
-
-
 
         $techstack = Techstack::where('floorplan', 1)->orderBy('lft', 'asc')->get()->toArray();
         $agencystack = Agencystack::where('floorplan', 1)->orderBy('lft', 'asc')->get()->toArray();
@@ -3361,8 +3301,7 @@ class HomeController extends Controller
         );
     }
 
-
-     public function alltraders()
+    public function alltraders()
     {
         $metatag = Metatag::where('slug', 'alltraders')->get();
         $metatitle = Metatitle::where('slug', 'alltraders')->get();
@@ -3372,6 +3311,38 @@ class HomeController extends Controller
             [
                 'metatitle' => $metatitle,
                 'metatag' => $metatag,
+            ]
+        );
+    }
+
+    public function metaverseAppDevelopment()
+    {
+        $metabank = Metabank::where('slug', 'MetaverseApp')->where('type', 'Tag')->get();
+        $metabank2 = Metabank::where('slug', 'MetaverseApp')->where('type', 'Meta')->get();
+
+        $metatag = Metatag::where('slug', 'MetaverseApp')->get();
+        $metatitle = Metatitle::where('slug', 'MetaverseApp')->get();
+
+        $techstack = Techstack::where('metaverse', 1)->orderBy('lft', 'asc')->get()->toArray();
+        $agencystack = Agencystack::where('metaverse', 1)->orderBy('lft', 'asc')->get()->toArray();
+        $awards = Award::orderBy('lft', 'asc')->get()->toArray();
+        $casestudy = Casestudyapp::all();
+        $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
+        $data = $this->blogApi('metaverse-app');
+
+        return view(
+            'metaversedevelopment',
+            [
+                'techstack' => $techstack,
+                'agencystack' => $agencystack,
+                'awards' => $awards,
+                'casestudy' => $casestudy,
+                'testimonials' => $testimonials,
+                'metabank' => $metabank,
+                'metabank2' => $metabank2,
+                'metatitle' => $metatitle,
+                'metatag' => $metatag,
+                'data' => $data,
             ]
         );
     }

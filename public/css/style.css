@@ -10161,14 +10161,11 @@ button.btn.btn-link[aria-expanded=false] .fa-minus {
 .awards-slider .owl-item .card img {
     transform: scaleY(1);
     transition: all 0.3s ease-in;
-
-
 }
 
 .awards-slider .owl-item .card:hover img {
-    transform: scaleY(1.1);
+    /* transform: scaleY(1.1); */
     transition: all 0.3s ease-in;
-
 }
 
 ul.order-list li {
@@ -15773,7 +15770,7 @@ img {
     text-transform: capitalize;
     font-size: 16px;
     line-height: 26px;
-    margin-top: 22px;
+    /* margin-top: 22px; */
 }
 
 /* img.img-fluid.d-block.mx-auto {
@@ -22826,25 +22823,37 @@ textarea::-ms-input-placeholder {
 }
 
  /* Connect With Us section */
- .connect-with-us .info-cards .cont-prt{
- background: var(--light-grey);
- padding: 50px 10px;
- border: 1px solid var(--gray-color);
- border-radius: 30px;
-     transition: transform 0.3s ease; 
- }
- .connect-with-us .info-cards .cont-prt:hover{
+.connect-with-us .info-cards .cont-prt{
+    background: var(--light-grey);
+    padding: 50px 10px;
+    border: 1px solid var(--gray-color);
+    border-radius: 30px;
+    transition: transform 0.3s ease; 
+}
+
+.connect-with-us .info-cards .cont-prt:hover{
      transform: scale(1.05);
- border: 1px solid var(--first-color);
+    border: 1px solid var(--first-color);
    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
    background: var(--first-color);
 
  }
- .connect-with-us .info-cards .cont-prt:hover h4,
- .connect-with-us .info-cards .cont-prt:hover .txt{
+
+.connect-with-us .info-cards .cont-prt:hover h4,
+.connect-with-us .info-cards .cont-prt:hover .txt{
     color: var(--white-color);
- }
+}
 
 .info-cards .cont-prt {
     text-align: center;
 }
+
+/* Start MR App Development */
+
+.metaverse-banner {
+    background: url(../images/banner/metaverse-banner.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* End MR App Development */

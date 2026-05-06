@@ -56,7 +56,7 @@ class OtherController extends Controller
         ];
 
         // Send to admin(s)
-        Mail::to("webdevappsnation@gmail.com")->send(new \App\Mail\ReceivedMail($details));
+        Mail::to("sales@appsnation.co")->send(new \App\Mail\ReceivedMail($details));
     
         // Send confirmation to user
         // Mail::to($field['email'])->send(new SendMail($details));
@@ -101,14 +101,15 @@ class OtherController extends Controller
         ];
         // Mail::to("waqar@futurealiti.com")->send(new ReceivedMail($details));
         // Mail::to("info@appsnation.co")->send(new ReceivedMail($details));
-        // Mail::to("sales@appsnation.co")->send(new ReceivedMail($details));
-        Mail::to("webdevappsnation@gmail.com")->send(new \App\Mail\ReceivedMail($details));
+        Mail::to("sales@appsnation.co")->send(new \App\Mail\ReceivedMail($details));
+        //Mail::to("webdevappsnation@gmail.com")->send(new \App\Mail\ReceivedMail($details));
 
       
         // Mail::to($field['email'])->send(new SendMail($details));
         return Redirect::to('/thank-you')->withSuccess('Great! Form successfully submit.');
         // // return view('welcome');
     }
+
      public function leadsservices(Request $request)
     {
         // return "hello world";
@@ -155,8 +156,8 @@ class OtherController extends Controller
 
         // Mail::to("waqar@futurealiti.com")->send(new ReceivedMail($details));
         // Mail::to("info@appsnation.co")->send(new ReceivedMail($details));
-        // Mail::to("sales@appsnation.co")->send(new ReceivedMail($details));
-        Mail::to("webdevappsnation@gmail.com")->send(new \App\Mail\ReceivedMail($details));
+        Mail::to("sales@appsnation.co")->send(new \App\Mail\ReceivedMail($details));
+        //Mail::to("webdevappsnation@gmail.com")->send(new \App\Mail\ReceivedMail($details));
 
 
         return Redirect::to('/thank-you')->with('success', 'Item created successfully!');
@@ -171,7 +172,8 @@ class OtherController extends Controller
             $meta,
         ));
     }
-        public function companypolicy()
+
+    public function companypolicy()
     {
         $meta = $this->loadMeta('CompanyPolicy');
 
@@ -179,6 +181,7 @@ class OtherController extends Controller
             $meta,
         ));
     }
+
     public function locations()
     {
         $meta = $this->loadMeta('locations');
@@ -187,6 +190,7 @@ class OtherController extends Controller
             $meta,
         ));
     }
+
     public function cost_calculator()
     {
         $meta = $this->loadMeta('costcalculator');
@@ -195,6 +199,7 @@ class OtherController extends Controller
             $meta,
         ));
     }
+
     public function thankyou()
     {
         $meta = $this->loadMeta('Main');

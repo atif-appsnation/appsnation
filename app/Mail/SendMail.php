@@ -28,7 +28,7 @@ class SendMail extends Mailable
      */
     public function build()
     {
-        return $this->subject($this->details['subject'] ?? 'Thank-You For Contacting Us')
+        return $this->subject($this->details['subject'] ?? 'Thank You For Contacting Us')
                     ->view('leademail.send');
                     
     }
