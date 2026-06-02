@@ -84,7 +84,7 @@ class CostCalculatorController extends Controller
         } catch (\Illuminate\Validation\ValidationException $e) {
             Log::error('Validation Error:', $e->errors());
             return redirect()->route('cost-calculator')->with('error', 'Please fill in all required fields correctly.');
-// return $e->getMessage();
+        // return $e->getMessage();
         } catch (\Exception $e) {
             Log::error('Cost Calculator Error:', [
                 'message' => $e->getMessage(),
@@ -92,7 +92,7 @@ class CostCalculatorController extends Controller
             ]);
             
             return redirect()->route('cost-calculator')->with('error', 'An error occurred while processing your request. Please try again.');
-// return $e->getMessage();
+        // return $e->getMessage();
         
         }
     }
