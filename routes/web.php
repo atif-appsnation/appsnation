@@ -369,13 +369,6 @@ Route::get('/cost-calculator', 'OtherController@cost_calculator')->name('cost-ca
 // Route::get('/upcity-review-data','ScraperController@upCityTestimonials');
 Route::post('/submit-cost-calculator', [App\Http\Controllers\CostCalculatorController::class, 'submit'])->name('cost-calculator.submit');
 
-// new case study
-// Route::get('/case-studies/royal-ride-app','HomeController@royalRideApp');
-Route::get('/case-studies/royal-ride-app','CaseStudyController@royalRideApp');
-
-// Route::get('/case-studies/boujee-beachin-app','HomeController@boujeeBeachinApp');
-Route::get('/case-studies/boujee-beachin-app','CaseStudyController@boujeeBeachinApp');
-
 Route::get('/case-studies/royal-ride-app','HomeController@royalRideApp');
 Route::get('/case-studies/boujee-beachin-app','HomeController@boujeeBeachinApp');
 Route::get('/case-studies/wood-land-app','HomeController@woodLandApp');
@@ -389,4 +382,5 @@ Route::get('/case-studies/toy-sort-puzzle','CaseStudyController@toySortPuzzle');
 Route::get('/case-studies/royal-relax-spa','CaseStudyController@royalrelaxspa');
 Route::get('/case-studies/load-board','CaseStudyController@Loadboard');
 Route::get('/case-studies/all-traders-app','CaseStudyController@alltraders');
+Route::get('/case-studies/alejandro-app','HomeController@alejandroApp');
 Route::get('/metaverse-development','HomeController@metaverseAppDevelopment');

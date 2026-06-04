@@ -1,4 +1,4 @@
-/* Version: 1.3 | Last updated: 14-03-2026 */
+/* Version: 1.4 | Last updated: 17-03-2026 */
 
 @media screen and (max-width:1920px) and (min-width:992px) {
 	.dropdown:hover>.dropdown-menu {
@@ -170,6 +170,7 @@
 	}
 }
 
+
 @media only screen and (max-width:1320px) {
 	.mouse-cursor {
 		display: none;
@@ -234,7 +235,7 @@
 	.pbwide {
 		grid-template-columns: auto;
 		grid-gap: 50px;
-		/* padding: 50px 30px; */
+		padding: 50px 30px;
 	}
 
 	.img-wide-blocktt {
@@ -943,6 +944,7 @@
 	}
 }
 
+
 @media only screen and (max-width:767px) {
 	h1 {
 		font-size: 38px;
@@ -1307,12 +1309,14 @@
 	}
 }
 
+
 @media (min-width:576px) {
 	.modal-dialog {
 		max-width: 1200px;
 		margin: 1.75rem auto;
 	}
 }
+
 
 @media (max-width:580px) {
 	.ftr-brand-pp .btn-main {
@@ -1494,6 +1498,7 @@
 
 }
 
+
 @media only screen and (max-width:350px) {
 
 	.header-heading h1 {
@@ -1528,6 +1533,32 @@
 		margin: 10px 0 0;
 	}
 
+
+
+	/* royal ride app case study */
+	.hero-section-royalRide {
+		margin-top: 140px;
+		margin-bottom: 32px;
+
+	}
+
+	.royalRideLogo p {
+		text-align: center;
+	}
+
+	.royalRideLogo h1 {
+		font-size: 50px;
+		line-height: 62px;
+	}
+
+	.royalRideLogo img {
+		width: 110px;
+	}
+
+	.hero-img-1 img {
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 /* Custom */
@@ -1564,7 +1595,9 @@
 	.real-estate-app img, .restaurant-app img, .shopping-express-app img, .sports-app img {
 		width: 65%;
 	} */
+
 }
+
 
 @media only screen and (max-width:767px) {
 
@@ -1710,11 +1743,11 @@
 		margin-top: 20px;
 	}
 
-	/* .awards-slider .owl-item {
+	.awards-slider .owl-item {
 		margin-right: 11.5px !important;
 		width: 93vw !important;
 		margin-left: 2px !important;
-	} */
+	}
 
 	/* .awards-slider .owl-stage-outer {
 	    height: 400px;
@@ -1747,6 +1780,10 @@
 
 	.quote-form {
 		margin-top: 25px;
+	}
+
+	.service-section-app {
+		padding-bottom: 3rem !important;
 	}
 
 	/* .techonology-used- .tab-body {
@@ -1811,6 +1848,7 @@
 
 	.achievements-count {
 		padding: 20px 10px;
+
 	}
 
 	.achievements-count div:nth-child(1) {
@@ -1821,6 +1859,7 @@
 		border-right: 0px solid var(--white-color);
 		border-bottom: 2px solid var(--black-color);
 	}
+
 
 	.contact-div p {
 		font-size: 32px;
@@ -2230,7 +2269,7 @@
 	}
 
 	.solutions-carousel .item {
-		min-height: 100vh;
+		min-height: 120vh;
 	}
 
 	.solutions-section .owl-nav {
@@ -2248,267 +2287,68 @@
 		right: 55.1%;
 	}
 
-	.home-banner-box-section .banner-box-image {
-		aspect-ratio: 1592 / 1600;
+
+	/* start case study */
+	/* royal ride case study start */
+	.hero-section-royalRide {
+		margin-top: 0;
+		margin-bottom: 100px;
+
 	}
 
-	.process-btns {
-		display: block;
+	.royalRideLogo p {
+		text-align: center;
 	}
 
-	.process-btns button {
-		margin-bottom: 10px;
+	.royalRideLogo h1 {
+		font-family: "Poppins", sans-serif;
+		font-weight: 600;
+		font-style: normal;
+		font-size: 50px;
+		line-height: 62px;
 	}
 
-	.process-tabs .tabs .tabs-icons {
-    	grid-template-columns: repeat(2, 1fr);
+	.royalRideLogo img {
+		width: 110px;
 	}
 
-	.dm-banner-box-section .banner-box-image {
-		aspect-ratio: 1728 / 1149;
+	.hero-img-1 img {
+		max-width: 100%;
+		height: auto;
 	}
 
-	.distribution-map .map-point:focus {
-		left: 50% !important;
+	/* royal ride case study */
+	.Problem-section {
+		padding: 10px 0;
+		text-align: center;
 	}
 
-	.distribution-map .map-point.map-button-five {
-		left: 18%;
+	.problem-left-container {
+		margin-bottom: 30px;
 	}
 
-	.distribution-map .map-point.map-button-third {
-		top: 82%;
-		left: 84%;
+	.Problem-section h2 {
+		font-size: 26px;
 	}
 
-	.distribution-map .map-point.map-button-eight {
-		top: 53%;
-		left: 62%;
+	.Problem-section p {
+		font-size: 15px;
 	}
 
-	.distribution-map .map-point.map-button-seven {
-		top: 52%;
-		left: 58%;
+	.problem-left-container img {
+		max-width: 100%;
 	}
 
+	/* royal relax case studt start */
+	.royal-relax-spaceing {
+		margin: 40px 0 80px 0;
+	}
+
+	/* map section */
 	.distribution-map .map-point i {
 		font-size: 18px;
 	}
 
-	.distribution-map .map-point.map-button-third:focus {
-		left: 70%;
-	}
-
-	.distribution-map .map-point.map-button-five:focus {
-		left: 55%
-	}
-
-
-	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 35%;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 35%;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li {
-		margin: 0;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
-		width: 70px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li a {
-		padding: 13px 12px;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 35%;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 35%;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li {
-		margin: 0;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
-		width: 70px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li a {
-		padding: 13px 12px;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now img {
-		left: -5.5%;
-	}
-
-	.cost-calculator-new .wizard-form .book-a-consultant-now img {
-		left: -5.5%;
-	}
-
-	.cost-calculator-new .wizard-form {
-		margin-top: 0;
-	}
-
-	.services-box-section .banner-box-image {
-		border-radius: 30px;
-		padding: 24px 0 23px 63px;
-	}
-
-	.hero-section-royal-ride {
-        background: linear-gradient(to bottom, #C39449 0%, #C39449 5%, transparent 10%);
-        padding-top: 100px;
-        margin-bottom: 0px;
-    }
-
-    .hero-section-royal-ride .royal-ride-logo h1 {
-        line-height: 62px;
-    }
-
-	.royal-ride-analysis .start-connector, .royal-ride-analysis .card-connector-plus {
-		display: none;
-	}
-
-	.royal-ride-persona .persona-card {
-		height: auto;
-	}
-
-	.mike-mathis-app .bread-titlev2 .logo {
-		display: block;
-		margin: 0px auto;
-	}
-
-	.mike-mathis-app h1 {
-		text-align: center;
-	}
-
-	.mike-mathis-app p {
-		text-align: center;
-	}
-
-	.mike-mathis-challanges {
-		background-size: 100% 130%;
-	}
-
-	.banner-box-image h2 {
-		font-size: 25px;
-		line-height: 32px;
-	}
-
-	.case-studies-testimonial .star {
-		width: 50%;
-	}
-
-	.royal-relax-project-description-contant h2 {
-		text-align: start;
-		padding: 10px 0 10px 0;
-	}
-
-	.royal-relax-project-description-contant p {
-		color: var(--white-color);
-		text-align: start;
-		font-size: 14px;
-	}
-
-	.neuro-night-designs .neuro-night-central-line {
-		display: none;
-	}
-
-	.case-studies-problem .col-custom {
-		width: 100%;
-		padding: 0px;
-	}
-
-	.case-studies-problem .card-custom {
-        min-height: auto;
-    }
-
-	.case-studies-problem .col-custom {
-        margin-bottom: 20px;
-    }
-
-	.case-studies-problem .col-custom:last-child {
-        margin-bottom: 0px;
-    }
-
-	.case-studies-problem .start-connector, .case-studies-problem .card-connector-plus {
-		display: none;
-	}
-
-	.case-studies-problem .section-wrapper {
-		padding-top: 20px;
-	}
-
-	.alejandro-hero-section {
-		padding: 150px 0px 0px;
-	}
-
-	.couple-app-designs .central-line {
-		display: none;
-	}
-	
-}
-
-@media screen and (max-width: 767px) {
-	.scrollHalf__grupo__imagen img {
-		width: 100% !important;
-	}
-
-}
-
-@media screen and (min-width: 768px) {
-	.scrollHalf__grupo {
-		min-height: 100vh;
-	}
-
-	.scrollHalf__grupo__imagen {
-		clip: rect(auto, auto, auto, auto);
-		min-height: 100vh;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 50%;
-	}
-
-	.scrollHalf__grupo__imagen img {
-		position: fixed;
-		width: 580px;
-		top: 15%;
-		left: 5%;
-		height: auto;
-	}
-
-	.scrollHalf__grupo__contenido {
-		margin: 0 3vw 0 52vw;
-	}
-
-	/* .scrollHalf__grupo__imagen img {
-		width: 80% !important;
-	} */
-	
-
-	.solution-bg-img,
-	.login-wrap {
-		width: 50%;
-	}
-
-	.royal-ride-analysis .row-five-cols>.col-custom {
-        width: 50%;
-        padding: 0 10px;
-    }
-
-}
-
-@media (max-width: 991px) {
-	.boujee-beachin-designs .central-line {
-		display: none;
-	}
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
@@ -3092,27 +2932,32 @@
 	/* start case studes */
 
 	/* royal ride case study start */
-	.hero-section-royal-ride {
+	.hero-section-royalRide {
 		margin-top: 0;
 		margin-bottom: 90px;
 
 	}
 
-	.royal-ride-logo h1 {
+	.royalRideLogo h1 {
 		font-size: 50px;
 		line-height: 62px;
 	}
 
-	.royal-ride-logo img {
+	.royalRideLogo img {
 		width: 110px;
 	}
 
+	.hero-img-1 img {
+		max-width: 100%;
+		height: auto;
+	}
+
 	/* royal ride case study start */
-	.problem-section h2 {
+	.Problem-section h2 {
 		font-size: 22px;
 	}
 
-	.problem-section p {
+	.Problem-section p {
 		font-size: 12px;
 	}
 
@@ -3145,150 +2990,6 @@
 	.distribution-map .map-point i {
 		font-size: 20px;
 	}
-
-	.home-banner-box-section .banner-box-image {
-		aspect-ratio: 1592 / 740;
-	}
-
-	.process-btns {
-		display: block;
-	}
-
-	.process-btns button {
-		display: flex;
-		flex-direction: row;
-		margin-bottom: 10px;
-	}
-
-	.process-tabs .tabs .tabs-icons {
-    	grid-template-columns: repeat(2, 1fr);
-	}
-
-	.dm-banner-box-section .banner-box-image {
-		aspect-ratio: 1728 / 600;
-	}
-
-	/* MAP SECTION */
-	.distribution-map .map-point.map-button-third:focus {
-		left: 70%;
-	}
-
-	.distribution-map .map-point.map-button-five:focus {
-		left: 55%
-	}
-
-	/* Cost Calculator */
-	.cost-calculator .wizard-form .wizard .steps>ul {
-		flex-wrap: wrap;
-		display: flex !important;
-		border-right: 0;
-		padding-right: 0;
-	}
-
-	.cost-calculator .wizard-form .wizard .steps {
-		width: 100%;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
-		margin-left: 20%;
-	}
-
-	.cost-calculator .wizard-form .wizard .content {
-		width: 100%;
-		margin-top: 80px;
-	}
-
-	.cost-calculator .wizard-form .wizard .actions {
-		max-width: 100%;
-	}
-
-	.cost-calculator .wizard-form .wizard .actions ul {
-		margin: 50px 25px 80px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li {
-		margin: 0 10px;
-	}
-
-	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
-		width: 90px;
-	}
-
-	.cost-calculator .wizard-form .book-a-consultant-now img {
-		left: -4%;
-	}
-
-	.cost-calculator .rough-estimate {
-		margin-top: 0;
-	}
-
-	.cost-calculator-new .wizard-form {
-		margin-top: 20px;
-	}
-
-	.royal-ride-analysis .start-connector, .royal-ride-analysis .card-connector-plus {
-        display: none;
-    }
-
-	.royal-ride-analysis .row-five-cols>.col-custom .card-custom {
-        height: 306px;
-    }
-
-	.mike-mathis-app .bread-titlev2 .logo {
-		display: block;
-		margin: 0px auto;
-	}
-
-	.mike-mathis-app h1 {
-		text-align: center;
-	}
-
-	.mike-mathis-app p {
-		text-align: center;
-	}
-
-	.mike-mathis-challanges {
-		background-size: 100% 130%;
-	}
-
-	.load-board-key-challanges .key-challenge-box {
-		flex: 1 1 calc(50% - 2rem);
-	}
-
-	.neuro-night-designs .neuro-night-central-line {
-		display: none;
-	}
-
-	.case-studies-problem .col-custom {
-		width: 100%;
-        padding: 10px 0px 0px;
-	}
-
-	.case-studies-problem .card-custom {
-        min-height: auto;
-        margin-bottom: 20px;
-    }
-
-	.case-studies-problem .card-custom:last-child {
-        margin-bottom: 0px;
-    }
-
-	.case-studies-problem .start-connector, .case-studies-problem .card-connector-plus {
-		display: none;
-	}
-
-	.case-studies-problem .section-wrapper {
-		padding-top: 20px;
-	}
-
-	.alejandro-hero-section {
-		padding: 150px 0px 0px;
-	}
-
-	.couple-app-designs .central-line {
-		display: none;
-	}
-
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -3832,6 +3533,19 @@
 		margin: 140px 0 40px 0;
 	}
 
+	/* wood land case study */
+	.wood-land-hero-img img {
+		padding-left: 22px;
+		width: 100%;
+		max-width: 500px;
+	}
+
+	.neuro-night-hero-img img {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 500px;
+	}
 
 	/* grave love app case study start */
 	.grave-love-app.breadcrumb-areav2 {
@@ -3850,6 +3564,7 @@
 		max-width: 590px;
 	}
 
+	/* load board case study start */
 	.load-board-hero-section .logo img {
 		max-width: 250px;
 		padding-bottom: 10px;
@@ -3861,64 +3576,7 @@
 		max-height: 415px;
 	}
 
-	.home-banner-box-section .banner-box-image {
-		aspect-ratio: 1592 / 740;
-	}
 
-	.process-btns {
-		display: block;
-	}
-
-	.process-btns button {
-		display: flex;
-		flex-direction: row;
-		margin-bottom: 10px;
-	}
-
-	.process-tabs .tabs .tabs-icons {
-    	grid-template-columns: repeat(2, 1fr);
-		gap: 25px;
-	}
-
-	.process-tabs .tabs .tabs-icons-wrapper i {
-		font-size: 28px;
-	}
-
-	.tabBtn {
-		line-height: 1.8;
-	}
-
-	.dm-banner-box-section .banner-box-image {
-		aspect-ratio: 1728 / 600;
-	}
-
-	.wood-land-development-challenges .info-card {
-		height: 325px;
-	}
-
-	.tcd h3 {
-		font-size: 22px;
-	}
-
-	.all-traders-challanges .challenges-turned-box {
-		height: 500px !important;
-	}
-
-	.load-board-key-challanges .key-challenge-box {
-		flex: 1 1 calc(50% - 2rem);
-	}
-
-	.case-studies-problem .start-connector {
-        left: calc((100% - 1320px) / 226 + 20px);
-    }
-
-	.case-studies-problem .section-wrapper {
-        padding-left: 50px;
-    }
-
-	.alejandro-hero-section {
-		padding: 150px 0px 0px;
-	}
 
 }
 
@@ -4177,6 +3835,20 @@
 		margin: 0 50px auto;
 	}
 
+	.wood-land-hero-img img {
+		padding-left: 22px;
+		width: 100%;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+
+	.neuro-night-hero-img img {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 500px;
+	}
+
 
 	/* grave love app case study start  */
 	.grave-love-app .logo {
@@ -4222,78 +3894,14 @@
 	.challenges-turned-section .challenges-turned-box img {}
 
 	/*Alejandro hero section case study start */
-	.alejandro-hero-section .hero-img {
+	.Alejandro-hero-section .hero-img {
 		max-width: 900px;
 	}
 
-	.home-banner-box-section .banner-box-image {
-		aspect-ratio: 1592 / 600;
-	}
-
-	.process-btns {
-		display: block;
-	}
-
-	.process-btns button {
-		display: flex;
-		flex-direction: row;
-		margin-bottom: 10px;
-	}
-
-	.process-tabs .tabs .tabs-icons {
-    	grid-template-columns: repeat(4, 1fr);
-		gap: 25px;
-	}
-
-	.process-tabs .tabs .tabs-icons-wrapper i {
-		font-size: 28px;
-	}
-
-	.tabBtn {
-		line-height: 1.8;
-	}
-
-	.case-study-wrapper .main-box .box .title-items {
-		opacity: 1;
-		visibility: visible;
-	}
-
-	.case-study-wrapper .main-box .box.active .title-items {
-		opacity: 0;
-		visibility: hidden;
-	}
-
-	.dm-banner-box-section .banner-box-image {
-		aspect-ratio: 1728 / 600;
-	}
-
-	.banner-box-section .banner-box-image {
-		aspect-ratio: 1728 / 550;
-	}
-
-	.load-board-key-challanges .key-challenge-box {
-		flex: 1 1 calc(50% - 2rem);
-	}
-
-	.load-board-hero-section .load-board-hero {
-		max-width: 630px;
-	}
-
-	.neuro-night-hero-img {
-		width: 550px;
-	}
-
-	.case-studies-problem .section-wrapper {
-		padding-left: 50px;
-	}
-
-	.alejandro-hero-section {
-		padding: 270px 0px 0px;
-	}
 
 }
 
-@media only screen and (min-width:1600px) and (max-width:1919px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+@media only screen and (min-width:1600px) and (max-width:1919px) {
 
 	body .bg-text:after {
 		font-size: 150px;
@@ -4539,6 +4147,33 @@
 		right: 38.1%;
 	}
 
+	/* start case studys */
+	/* wood land case study start*/
+	.wood-land-hero-img img {
+		width: 70%;
+		padding-left: 0;
+		margin: 20px auto 0;
+		display: block;
+	}
+
+	/* neuro knights app case study start */
+
+	.neuro-night-hero-img img {
+		width: 70%;
+		padding-left: 0;
+		margin: 20px auto 0;
+		display: block;
+	}
+
+	/* mike-mathis app case study start */
+	.mike-mathis-hero-img img {
+		width: 100%;
+		padding-left: 0;
+		margin: 20px auto 0;
+		display: block;
+	}
+
+
 	/* grave love case study start */
 
 	.grave-love-app .logo {
@@ -4564,64 +4199,28 @@
 		width: 300px;
 	}
 
-	/* home bages */
+	/* load board case study start */
+	.load-board-hero-section p {
+		letter-spacing: 1px;
+	}
+
+	.load-board-hero-section .logo img {
+		max-width: 230px;
+	}
+
+	.load-board-hero-section .load-board-hero-img img {
+		max-width: 900px;
+	}
+
+	/* Alejandro case study start */
+	.Alejandro-hero-section .hero-img {
+		max-width: 950px;
+		margin-top: 86px;
+	}
+
+	/* home badges */
 	.hero-bages-slides-div{
 		margin-top: 10px;
-	}
-
-	.home-banner-box-section .banner-box-image {
-		aspect-ratio: 1592 / 600;
-	}
-
-	.process-btns {
-		display: block;
-	}
-
-	.process-btns button {
-		display: flex;
-		flex-direction: row;
-		margin-bottom: 10px;
-	}
-
-	.process-tabs .tabs .tabs-icons {
-    	grid-template-columns: repeat(4, 1fr);
-		gap: 25px;
-	}
-
-	.process-tabs .tabs .tabs-icons-wrapper i {
-		font-size: 28px;
-	}
-
-	.tabBtn {
-		line-height: 3.8;
-	}
-
-	.dm-banner-box-section .banner-box-image {
-		aspect-ratio: 1728 / 600;
-	}
-
-	.banner-box-section .banner-box-image {
-		aspect-ratio: 1728 / 550;
-	}
-
-	.load-board-key-challanges .key-challenge-box {
-		flex: 1 1 calc(50% - 2rem);
-	}
-
-	.load-board-hero-section .load-board-hero {
-		max-width: 630px;
-	}
-
-	.neuro-night-hero-img {
-		width: 550px;
-	}
-
-	.case-studies-problem .section-wrapper {
-		padding-left: 50px;
-	}
-
-	.alejandro-hero-section {
-		padding: 240px 0px 0px;
 	}
 
 }
@@ -4844,12 +4443,12 @@
 		font-size: 54px;
 	} */
 
-	/* .common-heading p {
+	.common-heading p {
 		font-size: 18px;
 		font-weight: 400;
 		line-height: 35px;
 		margin-bottom: 20px;
-	} */
+	}
 
 	.upper-banner {
 		position: absolute;
@@ -5191,73 +4790,108 @@
 		right: -160px;
 	}
 
-	.home-banner-box-section .banner-box-image {
-		aspect-ratio: 1592 / 600;
-		padding: 24px;
-		border-radius: 30px;
+}
+
+@media screen and (max-width: 767px) {
+	.scrollHalf__grupo__imagen img {
+		width: 100% !important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.scrollHalf__grupo {
+		min-height: 100vh;
 	}
 
-	.process-btns {
-		display: block;
+	.scrollHalf__grupo__imagen {
+		clip: rect(auto, auto, auto, auto);
+		min-height: 100vh;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 50%;
 	}
 
-	.process-btns button {
-		display: flex;
-		flex-direction: row;
-		margin-bottom: 10px;
+	.scrollHalf__grupo__imagen img {
+		position: fixed;
+		width: 580px;
+		top: 15%;
+		left: 5%;
+		height: auto;
 	}
 
-	.process-tabs .tabs .tabs-icons {
-    	grid-template-columns: repeat(4, 1fr);
-		gap: 25px;
+	.scrollHalf__grupo__contenido {
+		margin: 0 3vw 0 52vw;
 	}
 
-	.process-tabs .tabs .tabs-icons-wrapper i {
-		font-size: 28px;
+	/* .scrollHalf__grupo__imagen img {
+		width: 80% !important;
+	} */
+	;
+
+	.solution-bg-img,
+	.login-wrap {
+		width: 50%;
 	}
 
-	.tabBtn {
-		line-height: 3.8;
-	}
+	.service-section-app .owl-theme .owl-nav .owl-prev {}
+}
 
-	.dm-banner-box-section .banner-box-image {
-		aspect-ratio: 1728 / 600;
-	}
+@media (min-width: 355px) and (max-width: 399px) {
 
+	/*Start banner setion */
 	.banner-box-section .banner-box-image {
-		aspect-ratio: 1728 / 550;
+		aspect-ratio: 1592 / 1959 !important;
 	}
 
-	.all-traders-challanges .challenges-turned-box {
-		height: 680px !important;
+	/*End banner setion */
+	.card.h-120.h-100 {
+		height: 120% !important;
 	}
 
-	.load-board-hero-section .load-board-hero {
-		max-width: 860px;
+	.row.pt-6.pt-3 {
+		padding-top: 4rem !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.swiper-slide {
+		width: 90%;
+		/* Adjust width for smaller screens */
+		height: 50vh;
+		/* Smaller height for mobile */
 	}
 
-	.load-board-project-overview .load-board-project-overview {
-		max-width: 700px;
+	/* MAP SECTION */
+	.distribution-map .map-point.map-button-third:focus {
+		left: 70%;
 	}
 
-	.case-studies-testimonial .star {
-		width: 15%;
+	.distribution-map .map-point.map-button-five:focus {
+		left: 55%
 	}
+}
 
-	.load-board-key-challanges .key-challenge-box {
-		flex: 1 1 calc(50% - 2rem);
+@media (max-width: 480px) {
+	.swiper-slide {
+		width: 95%;
+		/* Maximize width for very small screens */
+		height: 40vh;
+		/* Adjust height further for smaller viewport */
 	}
+}
 
-	.neuro-night-hero-img {
-		width: 550px;
+@media (max-width: 991.98px) {
+
+	.bg-img,
+	.login-wrap {
+		width: 100%;
 	}
+}
 
-	.case-studies-problem .section-wrapper {
-		padding-left: 50px;
-	}
-
-	.alejandro-hero-section {
-		padding: 150px 0px 0px;
+@media (max-width: 767.98px) {
+	.wrap .bg-img {
+		height: 250px;
 	}
 }
 
@@ -5267,7 +4901,241 @@
 	}
 }
 
+@media (max-width: 1920px) {
+	.cost-calculator .wizard-form .book-a-consultant-now {
+		bottom: -30px;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now {
+		bottom: -30px;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now {
+		bottom: -30px;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now {
+		bottom: -30px;
+	}
+}
+
+@media (max-width: 1399px) {
+
+
+
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li {
+		margin: 0 13px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
+		width: 100px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li {
+		margin: 0 13px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
+		width: 100px;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now img {
+		left: -13%;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now img {
+		left: -13%;
+	}
+
+	.cost-calculator-new .business-analyst {
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 20px 0;
+		margin-top: 5rem;
+		background-position: right;
+		border-radius: 15px;
+	}
+
+	.cost-calculator-new .business-analyst ul li:nth-child(1) {
+		bottom: -20px;
+	}
+
+	.cost-to-create-cta .img-cont img {
+		right: 0;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now img {
+		left: -13%;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now img {
+		left: -13%;
+	}
+
+	.cost-calculator-new .business-analyst {
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 20px 0;
+		margin-top: 5rem;
+		background-position: right;
+		border-radius: 15px;
+	}
+
+	.cost-calculator-new .business-analyst ul li:nth-child(1) {
+		bottom: -20px;
+	}
+
+
+
+
+	/* start case study  */
+	/* wood land case study start */
+
+	/* Client Overview */
+	.client-wood-land-wrapper {
+		background-color: #F8F8F8;
+		border-radius: 20px;
+		padding: 20px;
+	}
+
+	.wood-land-client-overview h2,
+	.wood-land-client-overview h6 {
+		padding-top: 10px;
+	}
+
+	.wood-land-client-overview h2 {
+		color: black;
+	}
+
+	.wood-land-client-overview p {
+		color: #000;
+	}
+
+	.wood-land-client-overview .left-border-clint-overview {
+		padding-left: 10px;
+		border-left: 2px solid #67FFBB;
+	}
+
+	/* Development Challenges */
+	.wood-land-development-challenges {
+		background: url("../images/case-studies/wood-land-app/development-challange-background-img.webp") center/cover no-repeat;
+		border-radius: 30px;
+		padding: 40px 25px;
+	}
+
+	.development-challenges-left {
+		border-left: 2px solid #67FFBB;
+		padding-left: 15px;
+	}
+
+	.development-challenges-left h2,
+	.development-challenges-left p {
+		color: #fff;
+	}
+
+	.wood-land-development-challenges .info-card3 {
+		height: 240px;
+		margin: 10px 0;
+		background: rgba(255, 255, 255, 0.75);
+		border-radius: 12px;
+		padding: 20px;
+		transition: all 0.3s ease;
+	}
+
+	.wood-land-development-challenges .info-card3:hover {
+		background: rgba(255, 255, 255, 0.95);
+		transform: translateY(-5px);
+	}
+
+	.wood-land-development-challenges .info-card3 .card-number-circle {
+		border: 4px solid #67FFBB;
+		color: #000;
+		width: 45px;
+		height: 45px;
+		border-radius: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+
+	.wood-land-development-challenges .info-card3 p {
+		color: #000;
+		font-size: 12px;
+		line-height: 21px;
+	}
+}
+
 @media (max-width: 1199px) {
+	.cost-calculator-new .wizard-form .wizard .steps>ul li {
+		margin: 0 25px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
+		width: 130px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .content {
+		min-height: auto;
+		margin-bottom: 20px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li {
+		margin: 0 25px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
+		width: 130px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .content {
+		min-height: auto;
+		margin-bottom: 20px;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now img {
+		left: -10%;
+	}
+
+	.cost-calculator .rough-estimate {
+		margin-top: 50px;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now img {
+		left: -10%;
+	}
+
+	.cost-calculator-new .rough-estimate {
+		margin-top: 50px;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now img {
+		left: -10%;
+	}
+
+	.cost-calculator .rough-estimate {
+		margin-top: 50px;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now img {
+		left: -10%;
+	}
+
+	.cost-calculator-new .rough-estimate {
+		margin-top: 50px;
+	}
+
+	/* testimonial card */
+	.testimonial-card p {
+		font-size: 12px;
+		word-spacing: 2px;
+	}
+
+	.tcd h3 {
+		font-size: 22px;
+	}
 
 	/* start case study */
 	/* couple case study */
@@ -5301,6 +5169,27 @@
 		max-width: 400px;
 	}
 
+	/* royal ride case study start */
+	.Problem-section {
+		padding: 50px 0;
+	}
+
+	.problem-left-container img {
+		max-width: 420px;
+	}
+
+	.uiux-section-wrapper {
+		padding: 60px 0;
+	}
+
+	.uiux-image {
+		max-width: 450px;
+	}
+
+	/*start banners section*/
+	.banner-box-section .banner-box-image {
+		aspect-ratio: 1672 /625;
+	}
 
 	.banner-box-image h2 {
 		font-size: 35px;
@@ -5353,17 +5242,509 @@
 	}
 }
 
+@media (max-width: 991px) {
+	.cost-calculator .wizard-form .wizard .steps>ul {
+		flex-wrap: wrap;
+		display: flex !important;
+		border-right: 0;
+		padding-right: 0;
+	}
 
+	.cost-calculator .wizard-form .wizard .steps {
+		width: 100%;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 20%;
+	}
+
+	.cost-calculator .wizard-form .wizard .content {
+		width: 100%;
+		margin-top: 80px;
+	}
+
+	.cost-calculator .wizard-form .wizard .actions {
+		max-width: 100%;
+	}
+
+	.cost-calculator .wizard-form .wizard .actions ul {
+		margin: 50px 25px 80px;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 20%;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps {
+		width: 100%;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul {
+		flex-wrap: wrap;
+		display: flex !important;
+		border-right: 0;
+		padding-right: 0;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li {
+		margin: 0 10px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
+		width: 90px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .content {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .actions {
+		max-width: 100%;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .actions ul {
+		margin: 50px 25px 30px;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 20%;
+	}
+
+	.cost-calculator .wizard-form .wizard .steps {
+		width: 100%;
+	}
+
+	.cost-calculator .wizard-form .wizard .steps>ul {
+		flex-wrap: wrap;
+		display: flex !important;
+		border-right: 0;
+		padding-right: 0;
+	}
+
+	.cost-calculator .wizard-form .wizard .content {
+		width: 100%;
+		margin-top: 80px;
+	}
+
+	.cost-calculator .wizard-form .wizard .actions {
+		max-width: 100%;
+	}
+
+	.cost-calculator .wizard-form .wizard .actions ul {
+		margin: 50px 25px 80px;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 20%;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps {
+		width: 100%;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul {
+		flex-wrap: wrap;
+		display: flex !important;
+		border-right: 0;
+		padding-right: 0;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li {
+		margin: 0 10px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
+		width: 90px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .content {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .actions ul {
+		margin: 50px 25px 30px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .actions {
+		max-width: 100%;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now img {
+		left: -4%;
+	}
+
+	.cost-calculator .rough-estimate {
+		margin-top: 0;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now img {
+		left: -4%;
+	}
+
+	.cost-calculator-new .wizard-form {
+		margin-top: 20px;
+	}
+
+	.cost-calculator-new .rough-estimate {
+		margin-top: 0;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now img {
+		left: -4%;
+	}
+
+	.cost-calculator .rough-estimate {
+		margin-top: 0;
+	}
+
+	.cost-calculator-new .wizard-form {
+		margin-top: 20px;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now img {
+		left: -4%;
+	}
+
+	.cost-calculator-new .rough-estimate {
+		margin-top: 0;
+	}
+
+	/*start banners section*/
+	.banner-box-section .banner-box-image {
+		aspect-ratio: 1672 / 736;
+	}
+
+	.banner-box-image h2 {
+		font-size: 25px;
+		line-height: 32px;
+		width: 227px;
+	}
+
+	.banner-box-image p {
+		font-size: 13px !important;
+		word-spacing: 1px !important;
+	}
+
+	.banner-box-image .banner-btn a {
+		font-size: 12px;
+		line-height: 6px;
+	}
+
+	/*End banners section*/
+	/* home */
+	.solutions-carousel .item {
+		min-height: 150vh;
+	}
+
+	
+
+}
 
 @media (max-width: 767px) {
+	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 35%;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 35%;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li {
+		margin: 0;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
+		width: 70px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li a {
+		padding: 13px 12px;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 35%;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now .text-cont {
+		margin-left: 35%;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li {
+		margin: 0;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li:after {
+		width: 70px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .steps>ul li a {
+		padding: 13px 12px;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now img {
+		left: -5.5%;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now img {
+		left: -5.5%;
+	}
+
+	.cost-calculator-new .wizard-form {
+		margin-top: 0;
+	}
+
+	/*start service pages banner section */
+	.services-box-section .banner-box-image {
+		aspect-ratio: 910 / 549;
+		border-radius: 30px;
+		padding: 24px 0 23px 63px;
+	}
+
+	/*End service pages banner section */
+
+
+	/*start banners section*/
+	.banner-box-section .banner-box-image {
+		aspect-ratio: 1592 / 981;
+	}
+
+	/*End banners section*/
+
+	/* start cse studys */
+
+	/* royal ride case study start */
+	.uiux-section-wrapper {
+		padding: 50px 0;
+		text-align: center;
+	}
+
+	.uiux-text-col {
+		margin-bottom: 40px;
+	}
+
+	.uiux-main-title {
+		font-size: 28px;
+	}
+
+	.uiux-subtitle {
+		font-size: 18px;
+	}
+
+	.uiux-paragraph {
+		font-size: 15px;
+	}
+
+	.uiux-image {
+		max-width: 100%;
+	}
+
+	.problem-left-container img {
+		max-width: 344px;
+	}
+
+	/* start royal relax spa case study */
+	.royal-relax-project-description-contant h2 {
+		text-align: start;
+		padding: 10px 0 10px 0;
+	}
+
+	.royal-relax-project-description-contant p {
+		color: white;
+		text-align: start;
+		font-size: 14px;
+	}
+
+	/* load board case study start */
+	.load-board-hero-section .logo img {
+		max-width: 200px;
+		padding-bottom: 10px;
+	}
+}
+
+@media (max-width: 575px) {
+
+	/* services card slider */
+	.service-section-app .owl-theme .owl-nav {
+		display: none;
+		/* top: 94%; */
+		/* padding: 10px 0 10px 0; */
+	}
+
+	.service-section-app .owl-theme .owl-nav .owl-next {
+		left: 255px;
+	}
+
+	.service-section-app .owl-theme .owl-nav .owl-prev {
+		left: 245px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .content fieldset .radio-buttons {
+		justify-content: center;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .actions ul {
+		display: block;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .actions ul li {
+		margin-bottom: 15px;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .content fieldset .radio-buttons {
+		justify-content: center;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .actions ul {
+		display: block;
+	}
+
+	.cost-calculator-new .wizard-form .wizard .actions ul li {
+		margin-bottom: 15px;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now img {
+		left: 0;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now img {
+		left: 0;
+	}
+
+	.cost-calculator-new .business-analyst {
+		background-image: none;
+		background: linear-gradient(270deg, #089674 0.15%, #000 99.75%);
+		border-radius: 12px;
+		margin-top: 0;
+	}
+
+	.cost-calculator-new .business-analyst ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.cost-calculator-new .business-analyst ul {
+		display: block;
+	}
+
+	.cost-calculator-new .business-analyst ul li:nth-child(1) {
+		position: static;
+	}
+
+	.cost-calculator-new .business-analyst ul li:nth-child(2) {
+		margin-left: 0;
+	}
+
+	.cost-calculator-new .business-analyst ul li:nth-child(3) {
+		position: static;
+	}
+
+	.cost-calculator-new .business-analyst ul li h5 {
+		margin-bottom: 10px;
+	}
+
+	.cost-calculator .wizard-form .book-a-consultant-now img {
+		left: 0;
+	}
+
+	.cost-calculator-new .wizard-form .book-a-consultant-now img {
+		left: 0;
+	}
+
+	.cost-calculator-new .business-analyst {
+		background-image: none;
+		background: linear-gradient(270deg, #089674 0.15%, #000 99.75%);
+		border-radius: 12px;
+		margin-top: 0;
+	}
+
+	.cost-calculator-new .business-analyst ul {
+		display: block;
+	}
+
+	.cost-calculator-new .business-analyst ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.cost-calculator-new .business-analyst ul li:nth-child(1) {
+		position: static;
+	}
+
+	.cost-calculator-new .business-analyst ul li:nth-child(2) {
+		margin-left: 0;
+	}
+
+	.cost-calculator-new .business-analyst ul li:nth-child(3) {
+		position: static;
+	}
+
+	.cost-calculator-new .business-analyst ul li h5 {
+		margin-bottom: 10px;
+	}
+
+	/*Start banner setion */
+	.banner-box-section .banner-box-image {
+		aspect-ratio: 1592 / 979;
+	}
+
+	/*End banner setion */
+
+	/*start service pages banner section */
+	.services-box-section .banner-box-image {
+		aspect-ratio: 696 / 549;
+		border-radius: 30px;
+		padding: 24px 0 23px 63px;
+	}
+
+	/*End service pages banner section */
+
+}
+
+@media (max-width: 767px) {
+	/*Start services section banner */
+
+	.services-box-section .owl-theme .owl-nav.disabled+.owl-dots {
+		margin-top: -22px !important;
+	}
+
+	/* services card slider */
+	.service-section-app .owl-theme .owl-nav .owl-next {
+		right: -475px;
+		font-size: 60px;
+	}
+
+	.cost-calculator .wizard-form .wizard .content fieldset .radio-buttons label {
+		width: 42% !important;
+	}
+
 	/* start case studys */
 	/* car mechanic case study */
 	#car-mechanic-background {
 		background-size: 100% 58.7%;
 	}
 
+	/* load board case study start */
+	.load-board-project-overview-section .load-board-project-overview-contant p {
+		font-size: 10px;
+		margin-bottom: 22px;
+	}
+
+	.load-board-problem-challenges-section .load-board-problem-challenges-contant p {
+		font-size: 10px;
+		margin-bottom: 22px;
+	}
+
 	/* awards section */
 
+
+	.award-img {
+		max-width: 200px;
+
+		display: block;
+		margin: 0 auto;
+	}
 
 	.awards-slider .owl-item .card img {
 		max-width: 150px;
@@ -5374,6 +5755,48 @@
 		padding: 0 50px 0 50px;
 	}
 
+	/* new process section */
+	.process-btns {
+		background: none;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+	}
+
+	.tabBtn.active {
+		background-color: #0F766E;
+		border-left: 2px solid #74E3D3;
+	}
+
+	.process-btns button span {
+
+		font-size: 10px;
+		gap: 0;
+		line-height: 20px;
+
+	}
+
+	.process-btns button {
+		display: flex;
+		flex-direction: row;
+		width: fit-content;
+	}
+
+	.process-tabs .tabs {
+		height: 735px;
+
+	}
+
+	.process-tabs .tabs .tabs-icons {
+		gap: 10px;
+		grid-template-columns: repeat(2, 1fr);
+		line-height: 25px;
+	}
+
+	.process-tabs .tabs .tabs-icons-wrapper i {
+		font-size: 30px;
+
+	}
 
 	/* hero bages slider start */
 	.hero-slider .hero-bage-p {
@@ -5388,6 +5811,16 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+	/* services card slider */
+	.service-section-app .owl-theme .owl-nav .owl-next {
+		right: -657px;
+		font-size: 60px;
+	}
+
+	.cost-calculator .wizard-form .wizard .content fieldset .radio-buttons label {
+		width: 28% !important;
+	}
+
 	/* start case studys */
 	/* awards section */
 	.awards-slider .owl-item .card img {
@@ -5399,12 +5832,90 @@
 		padding: 0 50px 0 50px;
 	}
 
+	/* royal ride case study */
+	.persona-card {
+		margin-bottom: 0;
+	}
+
+	.row-five-cols>.col-custom {
+		width: 50%;
+	}
 
 	/* car mechanic case study */
 	#car-mechanic-background {
 		background-size: 100% 66.4%;
 	}
 
+	/* royal ride case study start */
+	.hero-section-royalRide {
+		background: linear-gradient(to bottom, #C39449 0%, #C39449 5%, transparent 20%);
+		padding-top: 90px;
+		margin-bottom: 2px;
+
+	}
+
+
+	.royalRideLogo h1 {
+		font-size: 50px;
+		line-height: 62px;
+	}
+
+	.royalRideLogo img {
+		width: 110px;
+	}
+
+	.hero-img-1 img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.problem-left-container img {
+		max-width: 344px;
+	}
+
+	/* load board case study start */
+	.load-board-project-overview-section .load-board-project-overview-contant p {
+		font-size: 10px;
+		margin-bottom: 22px;
+	}
+
+	.load-board-project-overview-section .load-board-project-overview-img img {
+		max-width: 600px;
+	}
+
+	.load-board-problem-challenges-section .load-board-problem-challenges-contant p {
+		font-size: 10px;
+		margin-bottom: 22px;
+	}
+
+
+
+	/* new process section */
+	.process-btns {
+		background: none;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+	}
+
+	.tabBtn.active {
+		background-color: #0F766E;
+		border-left: 2px solid #74E3D3;
+	}
+
+	.process-btns button span {
+
+		font-size: 10px;
+		gap: 0;
+		line-height: 20px;
+
+	}
+
+	.process-btns button {
+		display: flex;
+		flex-direction: row;
+		width: fit-content;
+	}
 
 	/* hero bages slider start */
 	.hero-slider .hero-bage-p {
@@ -5419,6 +5930,16 @@
 
 @media (min-width:992px) and (max-width:1199px) {
 
+	/* services card slider */
+	.service-section-app .owl-theme .owl-nav .owl-next {
+		right: -881px;
+		font-size: 60px;
+	}
+
+	.service-section-app .owl-theme .owl-nav .owl-prev {
+		left: -35px;
+		font-size: 60px;
+	}
 
 	/* grave love case study */
 	.grave-love-problem-contant h2 {
@@ -5432,10 +5953,106 @@
 	/* car-mechanic case study */
 	#car-mechanic-background {
 		background-size: 100% 72%;
-	
+	}
+
+	/* mike matis case study completed */
+	.Project-Description {
+		background-size: 100% 75%;
+	}
+
+	.Project-Description .Project-Description-left-container img {
+		width: 100%;
+		max-width: 330px;
+	}
+
+	.Project-Description-title {
+		font-size: 44px;
+		font-weight: bold;
+		margin-bottom: 15px;
+		padding-top: 31px;
+		color: white;
+	}
+
+	.Project-Description-titleparagraph {
+		font-size: 16px;
+		line-height: 1.9;
+		font-weight: bold;
+		color: white;
 	}
 
 
+	/* start Project-info */
+
+
+	.Project-info .Project-info-img img {
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.Project-info-contant h2 {
+		font-size: 44px;
+		font-weight: bold;
+		margin-bottom: 15px;
+		color: black;
+	}
+
+	.Project-info-contant p {
+		font-size: 16px;
+		line-height: 1.9;
+		font-weight: bold;
+		color: black;
+	}
+
+	/* ===== end Project-Description  ===== */
+
+	/* ===== Start Project challenges  ===== */
+	.Project-Challenges {
+		background-size: 100% 65%;
+	}
+
+	.Project-Challenges .Project-Challenges-left-container img {
+		width: 100%;
+		max-width: 330px;
+	}
+
+	.mike-mathis-wireframe .wire-img {
+		max-width: 330px;
+	}
+
+
+	/* load board case study start */
+	.load-board-project-overview-section .load-board-project-overview-contant p {
+		font-size: 10px;
+	}
+
+	.load-board-project-overview-section .load-board-project-overview-img img {
+		max-width: 600px;
+	}
+
+	.load-board-problem-challenges-section .load-board-problem-challenges-contant p {
+		font-size: 10px;
+	}
+
+	/* all traders case study start */
+
+	.all-traders-clients-overview .client-overview-img img {
+
+		margin: 79px auto;
+	}
+
+	.all-traders-clients-overview .common-heading p,
+	.all-traders-clients-overview .common-heading .points-client-review p {
+		font-size: 12px;
+	}
+
+	.all-traders-clients-overview .common-heading .points-client-review h5 {
+		font-size: 12px;
+	}
+
+	.all-traders-clients-overview .common-heading h2 {
+		font-size: 25px;
+
+	}
 
 	/* awards section */
 	.awards-slider .owl-item .card img {
@@ -5445,6 +6062,29 @@
 	.award-item h5 {
 		font-size: 16px;
 		padding: 0 50px 0 50px;
+	}
+
+	/* new process setion */
+	.tabBtn {
+		gap: 15px;
+		padding: 10px 7px;
+	}
+
+	.tabBtn span {
+
+		font-size: 12px;
+	}
+
+	.tabBtn.active span {
+		font-size: 12px;
+	}
+
+	.process-tabs .tabs .tabs-icons {
+		gap: 5px;
+	}
+
+	.process-tabs .tabs .tabs-icons-wrapper i {
+		font-size: 28px;
 	}
 
 	/* hero bages slider start */
@@ -5459,6 +6099,11 @@
 
 @media (min-width:1200px) and (max-width:1399px) {
 
+	/* services card slider */
+	.service-section-app .owl-theme .owl-nav .owl-next {
+		right: -1079px;
+		font-size: 60px;
+	}
 
 	.hire-developer-app-development img {
 		right: -250px;
@@ -5494,6 +6139,11 @@
 		padding-left: 22px;
 	}
 
+	/* all traders case study start */
+	.all-traders-clients-overview .client-overview-img img {
+
+		margin: 29px auto;
+	}
 
 	/* new process setion */
 	.tabBtn.active span {
@@ -5511,9 +6161,17 @@
 
 @media (max-width: 991px) {
 
+	/* start case studys */
+	.hero-section-Boujee-beachin {
+		padding: 90px 0;
+	}
 
 	.logo-img {
 		max-width: 200px;
+	}
+
+	.Boujee-beachin-Logo h1 {
+		font-size: 2.2rem;
 	}
 
 	.hero-main-img {
@@ -5521,17 +6179,40 @@
 	}
 
 	/* Alejandro objectives section case study start */
-	.alejandro-objectives-section .central-line {
+	.Alejandro-objectives-section .central-line {
 		display: none;
 	}
 
+	/* all traders case study start */
+	.all-traders-app-design-objectives .central-line {
+		display: none;
+	}
 }
 
 @media (max-width: 1400px) {
 
+	/* start hero section */
+	.hero-section-Boujee-beachin {
+		text-align: start;
+		padding-top: 140px;
+	}
 
 	.logo-img {
 		max-width: 120px;
+	}
+
+	.Boujee-beachin-Logo h1 {
+		font-size: 1.9rem;
+		font-weight: 800;
+	}
+
+	.Boujee-beachin-Logo h1 span {
+		font-size: 1.9rem;
+		font-weight: 800;
+	}
+
+	.Boujee-beachin-Logo p {
+		font-size: 1rem;
 	}
 
 	.case-tag {
@@ -5547,10 +6228,32 @@
 
 @media (max-width: 767px) {
 
+	/* Home */
+	.solutions-carousel .item {
+		min-height: 115vh;
+	}
 
+	/* start case study */
+	.hero-section-Boujee-beachin {
+		text-align: center;
+		padding-top: 140px;
+	}
+
+	.Boujee-beachin-Logo {
+		align-items: center;
+		text-align: center;
+	}
 
 	.logo-img {
 		max-width: 170px;
+	}
+
+	.Boujee-beachin-Logo h1 {
+		font-size: 1.8rem;
+	}
+
+	.Boujee-beachin-Logo p {
+		font-size: 1rem;
 	}
 
 	.case-tag {
@@ -5562,6 +6265,10 @@
 		margin-top: 20px;
 	}
 
+	.boujee-beachin-wireframe ul li {
+		font-size: 10px;
+		padding: 6px 12px
+	}
 
 	/* couple app case study */
 	.couple-app {
@@ -5640,6 +6347,11 @@
 		display: none;
 	}
 
+	/* all traders case study start */
+
+	.all-traders-problem-section .all-traders-problem-box-wrapper {
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 575px) {
@@ -5648,6 +6360,10 @@
 		max-width: 150px;
 	}
 
+	.Boujee-beachin-Logo h1 {
+		font-size: 1.6rem;
+		line-height: 1.4;
+	}
 
 	.case-tag {
 		padding: 6px 16px;
@@ -5661,6 +6377,11 @@
 }
 
 @media (max-width: 992px) {
+
+	.Objectives-section-Boujee-beachin h3 {
+		text-align: center;
+		margin-top: 22px;
+	}
 
 	/* couple app case study  */
 	.couple-app-hero-img img {
@@ -5724,11 +6445,82 @@
 		padding-left: 0;
 	}
 
+	/* wood land case study start */
+	.wood-land-app {
+		margin: auto;
+		text-align: center;
+		background-position: center;
+	}
 
-	
+	.bread-titlev2 {
+		margin: 0 auto;
+	}
 
+	.wood-land-button {
+		width: 70%;
+
+	}
+
+	.wood-land-hero-img img {
+		width: 80%;
+		padding-left: 0;
+		margin: 20px auto 0;
+		display: block;
+	}
+
+	/* development-challenges section */
+	.development-challenges-left {
+		border-left: none;
+	}
+
+	.development-challenges-left h2,
+	.development-challenges-left p {
+		padding-top: 22px;
+	}
+
+	.wood-land-designs .wood-land-central-line {
+		display: none;
+	}
+
+
+	/* NeuroKnights case study start */
+	.neuro-knight-app {
+		margin: auto;
+		text-align: center;
+		background-position: center;
+	}
+
+
+	.neuro-night-hero-img img {
+		width: 80%;
+		padding-left: 0;
+		margin: 20px auto 0;
+		display: block;
+	}
+
+	.neuro-night-designs .neuro-night-central-line {
+		display: none;
+	}
+
+	/*Start problem section NeuroKnights */
+	.neuro-knight-right {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.neuro-knight-right .common-heading {
+		text-align: center;
+	}
+
+	.neuro-knight-right img {
+		margin: 0 auto;
+		display: block;
+	}
 
 	/* start tech-img-box */
+
+
+
 
 	.col-12.d-flex {
 		flex-direction: column;
@@ -5742,6 +6534,107 @@
 	}
 
 
+	/* mike mathis case study start */
+	.mike-mathis-app {
+		margin: auto;
+		text-align: center;
+		background-position: center;
+	}
+
+
+	.mike-mathis-hero-img img {
+		width: 80%;
+		padding-left: 0;
+		margin: 20px auto 0;
+		display: block;
+	}
+
+
+
+
+	.Project-Description {
+		background-size: 100% 130%;
+	}
+
+	.Project-Description .Project-Description-left-container img {
+		width: 100%;
+		max-width: 200px;
+	}
+
+	.Project-Description-title {
+		font-size: 34px;
+		font-weight: bold;
+		margin-bottom: 15px;
+		color: white;
+	}
+
+	.Project-Description-titleparagraph {
+		font-size: 16px;
+		line-height: 1.9;
+		font-weight: bold;
+		color: white;
+	}
+
+	/* ===== end Project-Description  ===== */
+
+	/* ==========start Project-info====== */
+
+	.Project-info .Project-info-img img {
+		width: 100%;
+		max-width: 200px;
+	}
+
+	.Project-info-contant h2 {
+		font-size: 34px;
+		font-weight: bold;
+		margin-bottom: 15px;
+		color: black;
+	}
+
+	.Project-info-contant p {
+		font-size: 16px;
+		line-height: 1.9;
+		font-weight: bold;
+		color: black;
+	}
+
+	/* ======End Project-info====== */
+
+	/* ===== Start Project challenges  ===== */
+	.Project-Challenges {
+		background-size: 100% 130%;
+	}
+
+	.Project-Challenges .Project-Challenges-left-container img {
+		width: 100%;
+		max-width: 200px;
+	}
+
+
+
+	/* uiux design phase  */
+	.mike-mathis-design-phase-paragraph {
+		font-size: 17px;
+		line-height: 1.8;
+	}
+
+
+	.mike-mathis-design-phase-left-container img {
+		object-fit: cover;
+	}
+
+
+	.user-research {
+		padding: 70px 0;
+	}
+
+	.user-research h2 {
+		font-size: 2.2rem;
+	}
+
+	.user-research-ul li {
+		font-size: 1.05rem;
+	}
 
 	/* grave love app case study start */
 
@@ -5758,7 +6651,7 @@
 		max-width: 590px;
 	}
 
-	/* Start  problem-section  */
+	/* Start  Problem-section  */
 	.grave-love-problem-section {
 		background-size: 100% 100%;
 		border-radius: 40px;
@@ -5775,6 +6668,20 @@
 		display: block;
 	}
 
+	/* load board case study start */
+	.load-board-tech-card img {
+		width: 50px;
+		height: 50px;
+	}
+
+	.load-board-tech .common-heading h2 {
+		font-size: 1.75rem;
+	}
+
+	.load-board-tech .common-heading p {
+		font-size: 1rem;
+		margin-bottom: 40px;
+	}
 }
 
 @media (min-width: 992px) {
@@ -5787,10 +6694,10 @@
 		margin-top: 80px;
 	}
 
-	/* .feature-box:hover {
+	.feature-box:hover {
 		transform: scaley(1.2);
 		transition: transform 0.3s ease;
-	} */
+	}
 
 	.left-item .feature-box::after {
 		content: '';
@@ -5848,6 +6755,15 @@
 		background-color: #dcb880;
 		z-index: 0;
 	}
+
+	.row-five-cols>.col-custom {
+		width: 20%;
+		padding: 0 10px;
+	}
+
+	.section-wrapper {
+		padding-left: 50px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -5867,7 +6783,20 @@
 		text-align: center;
 	}
 
+	/* royal ride case study start */
+	.persona-goals-section h3,
+	.persona-painpoints-section h3 {
+		display: block;
+		border-bottom: 2px solid #ff7f00;
+		width: 100%;
+	}
 
+	/* wood land case study start */
+	.wood-land-hero-img img {
+		padding-left: 22px;
+		width: 100%;
+		max-width: 500px;
+	}
 }
 
 @media (max-width: 1400px) {
@@ -5945,7 +6874,14 @@
 		text-align: center;
 	}
 
-	/* .section-wrapper {
+	/* royal side case study start */
+	.section-wrapper::before,
+	.section-wrapper::after,
+	.start-connector {
+		display: none;
+	}
+
+	.section-wrapper {
 		padding-top: 20px;
 	}
 
@@ -5961,13 +6897,21 @@
 
 	.number-circle {
 		margin-bottom: 15px;
-	} */
+	}
 
-s
+	.phone-screen img {
+		width: 100%;
+		max-width: 265px;
+	}
 
 	/* bomb defuse case study start*/
 	#bomb-defuse-background {
 		background-size: 100% 69%;
+	}
+
+	/* boujee-beachin case study */
+	.boujee-beachin-designs .central-line {
+		display: none;
 	}
 }
 
@@ -5994,6 +6938,26 @@ s
 		border-radius: 10px;
 	}
 
+	/* neur knight app start */
+
+	.neuro-knight-app h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+
+	.neuro-knight-app p {
+		font-size: 15px;
+		line-height: 26px;
+	}
+
+
+
+	.neuro-night-hero-img img {
+		width: 90%;
+		margin: 0 auto;
+		display: block;
+	}
 
 }
 
@@ -6056,11 +7020,53 @@ s
 	.bomb-defuse-spaceing {
 		margin: 50px 0 50px 0;
 	}
+
+	/* all traders case study start */
+	.all-traders-clients-overview .common-heading h2 {
+		font-size: 18px;
+	}
+
+	.all-traders-clients-overview .common-heading p {
+		font-size: 12px;
+	}
+
+	.all-traders-clients-overview .common-heading {
+		height: 75vh;
+
+	}
 }
 
 
+@media (max-width:1024px) {
+
+	/* MAP SECTION */
+	.distribution-map .map-point.map-button-third:focus {
+		left: 70%;
+	}
+
+	.distribution-map .map-point.map-button-five:focus {
+		left: 55%
+	}
+}
 
 @media (max-width: 576px) {
+	.testimonial-text {
+		font-size: 15px;
+	}
+
+	.testimonialsCard {
+		padding: 20px;
+	}
+
+	.tech-card {
+		padding: 15px;
+	}
+
+	.tech-card img {
+		width: 50px;
+		height: 50px;
+	}
+
 
 	/* toy sort puzzle case study */
 	.imageFloteLeft img,
@@ -6068,8 +7074,71 @@ s
 		max-width: 50px;
 		animation-duration: 2s;
 	}
-	
 
+	h1 {
+		font-size: 24px;
+	}
+
+	/* wood land case study start */
+	.goals-img {
+		max-height: 250px;
+	}
+
+	.goals-cards {
+		gap: 18px;
+	}
+
+
+	/* neuro knight app case study start */
+	.bread-titlev2 .logo {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.neuro-knight-app h1 {
+		font-size: 22px;
+		line-height: 23px;
+		text-align: center;
+	}
+
+	.neuro-knight-app p {
+		font-size: 16px;
+		line-height: 23px;
+		text-align: center;
+	}
+
+	.neuro-night-hero-img img {
+		width: 90%;
+	}
+
+	/* mike mathis case study completed */
+	.user-research {
+		padding: 30px 0;
+	}
+
+	.user-research h2 {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+
+	.user-research-ul {
+		padding-left: 18px;
+	}
+
+	.user-research img {
+		margin-top: 25px;
+	}
+
+	/* load board case study start */
+	.load-board-tech-card img {
+		width: 45px;
+		height: 45px;
+	}
+
+	.load-board-tech-card {
+		padding: 15px 10px;
+	}
 
 	/* MAP SECTION */
 	.distribution-map .map-point:focus {
@@ -6092,6 +7161,14 @@ s
 		margin-top: 15px;
 	}
 
+	/* royal ride case study start */
+	.comp-analysis-title {
+		font-size: 1.3rem;
+	}
+
+	.comp-analysis-image {
+		width: 90%;
+	}
 
 	/* toy sort case study start */
 	#toy-sort-puzzle {
@@ -6107,9 +7184,59 @@ s
 		display: none;
 	}
 
+	/*wood land case study  start  */
+
+	.wood-land-app h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.wood-land-button {
+		width: 100%;
+		padding: 12px 20px;
+	}
+
+	.wood-land-hero-img img {
+		width: 90%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.wood-land-project-goals .info-card3 {
+		padding: 18px 20px;
+	}
+
+	.wood-land-project-goals .info-card3 h5 {
+		font-size: 16px;
+	}
+
+	.wood-land-project-goals .info-card3 p {
+		font-size: 13px;
+	}
 
 	/* mike mathis completed */
-	
+	.mike-mathis-app h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+
+	.mike-mathis-app p {
+		font-size: 15px;
+		line-height: 26px;
+	}
+
+	.mike-mathis-app .bread-titlev2 .logo {
+		display: block;
+		margin: 0px 30px 30px 20px;
+		text-align: center;
+	}
+
+	.mike-mathis-hero-img img {
+		width: 90%;
+		margin: 0 auto;
+		display: block;
+	}
 
 
 	/* mike mathis project decribtion section */
@@ -6121,9 +7248,26 @@ s
 		font-size: 18px;
 	}
 
+	/* boujee-beachin case study */
+	.boujee-beachin-app .boujee-beachin-logo {
+		width: 100%;
+		max-width: 200px;
+	}
+
 }
 
 @media (max-width: 480px) {
+
+	/*Start banner setion */
+	.banner-box-section .banner-box-image {
+		aspect-ratio: 1592 / 1297;
+	}
+
+	/*End banner setion */
+	/* home */
+	.solutions-carousel .item {
+		min-height: 100vh;
+	}
 
 	.solutions-section .owl-nav {
 		bottom: 9.5%;
@@ -6154,9 +7298,9 @@ s
 	}
 
 	/* royal ride case study start */
-	/* .persona-card {
+	.persona-card {
 		height: 50%;
-	} */
+	}
 
 	.persona-left-column-card {
 		height: 100%;
@@ -6167,6 +7311,14 @@ s
 		font-size: 24px;
 	}
 
+	/* royal ride case study start */
+	.comp-analysis-title {
+		font-size: 1.2rem;
+	}
+
+	.comp-analysis-image {
+		width: 100%;
+	}
 
 	/* couple app case study */
 	.couple-app {
@@ -6189,7 +7341,80 @@ s
 		background-size: 100% 55.3%;
 
 	}
-	
+
+	/*wood land case study start */
+	.wood-land-app h1 {
+		font-size: 26px;
+		line-height: 33px;
+	}
+
+	.wood-land-button {
+		font-size: 10px;
+	}
+
+	.wood-land-hero-img img {
+		width: 90%;
+	}
+
+	/* mike mathis case study start */
+
+	.mike-mathis-app h1 {
+		font-size: 36px;
+		line-height: 45px;
+		text-align: start;
+	}
+
+	.mike-mathis-app p {
+		font-size: 13px;
+		line-height: 23px;
+		text-align: start;
+	}
+
+	.mike-mathis-hero-img img {
+		width: 90%;
+	}
+
+	.mike-mathis-app .bread-titlev2 .logo {
+		display: block;
+		margin: 0px 70px 30px 70px;
+		text-align: center;
+	}
+
+	/* project decribtion */
+	.Project-Description-title {
+		font-size: 31px;
+		padding: 31px;
+	}
+
+	.Project-Description-titleparagraph {
+		font-size: 16px;
+		line-height: 1.6;
+	}
+
+	/* ==========start Project-info====== */
+
+	.Project-info .Project-info-img img {
+		width: 100%;
+		max-width: 200px;
+	}
+
+	.Project-info-contant h2 {
+		text-align: start;
+		font-size: 34px;
+		font-weight: bold;
+		margin-bottom: 5px;
+		color: black;
+	}
+
+	.Project-info-contant p {
+		text-align: start;
+		font-size: 16px;
+		line-height: 1.9;
+		font-weight: bold;
+		color: black;
+	}
+
+
 	/* bomb defuse case study start */
 	#bomb-defuse-background {
 		background-size: 100% 69%;
@@ -6233,8 +7458,53 @@ s
 	}
 
 
-	
+	/* new process section */
+
+	.process-tabs .tabs {
+		height: 815px;
+
+	}
+
+	.process-tabs .tabs .tabs-icons-wrapper {
+		gap: 10px;
+		margin: 10px 0;
+
+	}
+
+	.process-tabs .tabs .tabs-icons-wrapper i {
+		font-size: 25px;
+
+	}
+
+	.process-tabs .tabs ul li {
+		font-size: 16px;
+	}
+
+	/* MAP SECTION */
+	.distribution-map .map-point:focus {
+		left: 50% !important;
+	}
+
+	.distribution-map .map-point.map-button-five {
+		left: 18%;
+	}
+
+	.distribution-map .map-point.map-button-third {
+		top: 82%;
+		left: 84%;
+	}
+
+	.distribution-map .map-point.map-button-eight {
+		top: 53%;
+		left: 62%;
+	}
+
+	.distribution-map .map-point.map-button-seven {
+		top: 52%;
+		left: 58%;
+	}
 }
+
 
 @media only screen and (min-width: 1280px) and (max-width: 1802px) and (max-height: 800px) {
 	.hero-main-rp {
@@ -6246,7 +7516,6 @@ s
 		line-height: 50px;
 	}
 }
-
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) and (max-height: 800px) {
 	.hero-main-rp {
@@ -6315,719 +7584,3 @@ s
 		font-size: 17px;
 	}
 }
-
-/* test */
-
-@media (max-width: 1600px) {
-	.hero-1 .container-fluid {
-		padding: 0 50px;
-	}
-}
-
-@media (max-width: 1199px) {
-	.hero-1 .container-fluid {
-		padding: 0 30px;
-	}
-}
-
-@media (max-width: 1399px) {
-	.hero-1 .hero-image {
-		margin-left: 0;
-	}
-
-	.hero-1 .hero-image img {
-		width: 100%;
-	}
-}
-
-@media (max-width: 991px) {
-	.scrolling-wrap {
-		gap: 14px;
-	}
-	.scrolling-wrap .comm {
-		gap: 14px;
-	}
-}
-
-@media (max-width: 575px) {
-	.scrolling-wrap .comm {
-		gap: 12px;
-	}
-}
-
-@media (max-width: 991px) {
-        .case-studies-wrapper-2 .case-studies-items {
-            flex-wrap: wrap;
-            gap: 30px;
-        }
-}
-
-@media (max-width: 1600px) {
-	.case-study-section .left-shape {
-		display: none;
-	}
-}
-
-@media (max-width: 1600px) {
-	.case-study-section .right-shape {
-		display: none;
-	}
-}
-
-@media (max-width: 1399px) {
-	.case-study-wrapper .main-box .box {
-		width: 100% !important;
-	}
-
-	.case-study-wrapper .main-box .box.active {
-		width: 100% !important;
-	}
-	
-
-	.case-study-wrapper .main-box .box::before {
-		border: 0.5px solid var(--white-color);
-		background: radial-gradient(258.86% 216.49% at -18.48% -74.46%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
-		backdrop-filter: blur(25px);
-	}
-
-	.case-study-wrapper .main-box .box .number-hover {
-		opacity: 1;
-		visibility: visible;
-	}
-
-	.case-study-wrapper .main-box .box .project-content {
-		opacity: 1;
-		visibility: visible;
-		bottom: 20px;
-	}
-
-}
-
-@media (max-width: 575px) {
-	.case-study-wrapper .case-study-box-items .thumb {
-		height: 450px;
-	}
-
-	.case-study-wrapper .case-study-box-items .thumb img {
-		object-fit: cover;
-	}
-}
-
-@media (max-width: 1399px) {
-	.case-study-wrapper .main-box {
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 0 30px;
-	}
-}
-
-@media (max-width: 1399px) {
-	.case-study-wrapper .main-box .box .title-items .number {
-		display: none;
-	}
-}
-
-@media (max-width: 1399px) {
-	.case-study-wrapper .main-box .box::before {
-		display: none;
-	}
-}
-
-@media (max-width: 1399px) {
-	.case-study-wrapper .main-box .box .number-hover {
-		opacity: 1;
-		visibility: visible;
-	}
-}
-
-@media (max-width: 1399px) {
-	.case-study-wrapper .main-box .box .project-content {
-		opacity: 1;
-		visibility: visible;
-		bottom: 30px;
-	}
-}
-
-
-@media (max-width: 1899px) {
-	.about-wrapper {
-		margin-top: 0;
-	}
-}
-@media (max-width: 1399px) {
-	.about-wrapper .about-content .circle-progress-bar-wrapper {
-		gap: 30px;
-	}
-}
-
-@media (max-width: 991px) {
-	.about-wrapper .about-content .circle-progress-bar-wrapper {
-		margin-top: 40px;
-		gap: 70px;
-	}
-}
-
-@media (max-width: 991px) {
-	.about-wrapper .about-content .circle-progress-bar-wrapper {
-		gap: 20px;
-	}
-}
-
-@media (max-width: 575px) {
-	.about-wrapper .about-content .circle-progress-bar-wrapper .single-circle-bar .content br {
-		display: block;
-	}
-}
-
-@media (max-width: 1899px) {
-	.about-section .brand-wrapper {
-		max-width: initial;
-		position: static;
-		transform: initial;
-		margin-bottom: 120px;
-	}
-}
-
-@media (max-width: 1199px) {
-	.about-section .brand-wrapper {
-		margin-bottom: 100px;
-	}
-}
-
-@media (max-width: 991px) {
-	.about-section .brand-wrapper {
-		margin-bottom: 80px;
-	}
-}
-
-@media (max-width: 1399px) {
-	.about-section .brand-wrapper .brand-title::before {
-		display: none;
-	}
-}
-
-@media (max-width: 1399px) {
-	.about-section .brand-wrapper .brand-title::after {
-		display: none;
-	}
-}
-
-@media (max-width: 1399px) {
-	.about-section .left-shape {
-		display: none;
-	}
-}
-
-@media (max-width: 1199px) {
-	.about-wrapper-2 .about-image {
-		margin-left: 0;
-	}
-}
-
-@media (max-width: 1399px) {
-	.about-wrapper-2 .about-image img {
-		width: 100%;
-		height: 100%;
-	}
-}
-
-@media (max-width: 1199px) {
-	.about-wrapper-2 .about-image .box-shape {
-		display: none;
-	}
-}
-
-@media (max-width: 991px) {
-	.about-wrapper-2 .about-image .box-shape {
-		display: block;
-	}
-}
-
-@media (max-width: 575px) {
-	.about-wrapper-2 .about-image .box-shape {
-		display: none;
-	}
-}
-
-
-@media (max-width: 1399px) {
-	.about-wrapper-2 .about-image .gap-shape {
-		right: -20%;
-	}
-}
-
-@media (max-width: 1199px) {
-	.about-wrapper-2 .about-image .gap-shape {
-		display: none;
-	}
-}
-
-@media (max-width: 991px) {
-	.about-wrapper-2 .about-image .gap-shape {
-		display: block;
-	}
-}
-
-@media (max-width: 575px) {
-	.about-wrapper-2 .about-image .gap-shape {
-		display: none;
-	}
-}
-
-@media (max-width: 1399px) {
-	.about-wrapper-2 .about-content {
-		margin-left: 40px;
-	}
-}
-
-@media (max-width: 1199px) {
-	.about-wrapper-2 .about-content {
-		margin-left: 0;
-	}
-}
-
-@media (max-width: 1199px) {
-	.about-wrapper-2 .about-content .icon-items-area {
-		flex-wrap: wrap;
-		gap: 25px;
-	}
-}
-
-@media (max-width: 575px) {
-	.about-wrapper-2 .about-content .about-button {
-		flex-wrap: wrap;
-		gap: 20px;
-	}
-}
-
-@media (max-width: 1600px) {
-	.about-section-2 .right-shape {
-		display: none;
-	}
-}
-
-@media (max-width: 992px) {
-	.stats-container {
-		padding: 60px 30px;
-	}
-
-	.stat-number {
-		font-size: 1.5em;
-	}
-
-	.stat-description {
-		font-size: 1em;
-	}
-}
- 
-@media (max-width: 768px) {
-	.stats-container {
-		padding: 40px 25px;
-	}
-
-	.stat-number {
-		font-size: 1.4em;
-	}
-
-	.stat-description {
-		font-size: 0.95em;
-	}
-
-	.stat-item {
-		line-height: 32px;
-	}
-}
-
- 
-@media (max-width: 576px) {
-	.stats-container {
-		padding: 30px 20px;
-		border-radius: 12px;
-	}
-
-	.stat-number {
-		font-size: 1.3em;
-	}
-
-	.stat-description {
-		font-size: 0.9em;
-	}
-
-	.stat-item {
-		line-height: 28px;
-	}
-
-	.stats-container .row {
-		padding-left: 0;
-	}
-}
-
- 
-@media (min-width: 768px) {
-	.custom-col-content {
-		flex-direction: row;
-		justify-content: flex-start;
-		text-align: left;
-	}
-
-	.first-col-content {
-		justify-content: flex-end;
-		text-align: right;
-	}
-}
-
-@media (max-width: 768px) {
-	.video-container {
-		margin-left: 5%;
-
-	}
-
-	.btn-close {
-		filter: invert(1);
-	}
-
-	.video-container iframe {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
-}
-
-@media (max-width:1200px) {
-
-	.btn-close {
-		filter: invert(1);
-	}
-}
-
-@media (max-width: 768px) {
-    .video-card iframe {
-        height: 300px; /* Medium screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .video-card {
-        padding: 12px;
-    }
-    .video-card iframe {
-        height: 420px; /* Small screens */
-    }
-}
-@media screen and (min-width:766px) and (max-width:992px) {
-	.hidden-industries {
-		display: none;
-	}
-}
-
-
-@media (max-width: 1200px) {
-    .Our-Creative-Process p {
-        font-size: 48px;
-    }
-
-    .Our-Creative-Process p:nth-child(2) {
-        font-size: 56px;
-    }
-}
-
-@media (max-width: 992px) {
-    .Our-Creative-Process {
-        margin-top: 60px;
-    }
-
-    .Our-Creative-Process p {
-        font-size: 36px;
-    }
-}
-
-@media (max-width: 768px) {
-    .Our-Creative-Process {
-        text-align: center;
-        border-bottom: 2px solid #000;
-        padding-bottom: 10px;
-    }
-
-    .Our-Creative-Process p {
-        border: none;
-        font-size: 32px;
-    }
-
-    .card-body-gifs img {
-        max-width: 200px;
-    }
-}
-
-@media (max-width: 1199px) {
-	.team-wrapper .team-image .shape-image {
-		display: none;
-	}
-}
-
-@media (max-width: 991px) {
-	.team-wrapper .team-image .shape-image {
-		display: block;
-	}
-}
-
-@media (max-width: 575px) {
-	.team-wrapper .team-image .shape-image {
-		display: none;
-	}
-}
-
-@media (max-width: 1199px) {
-	.team-wrapper .team-content .list-items {
-		flex-wrap: wrap;
-		gap: 20px;
-	}
-}
-
-@media (max-width: 470px) {
-	.team-wrapper .team-image-2::before {
-		display: none;
-	}
-}
-
-@media (max-width: 575px) {
-	.team-wrapper .team-image-2 .client-shape {
-		display: none;
-	}
-}
-
-
-@media (max-width: 1399px) {
-	.team-wrapper .team-image-2 .box-shape {
-		right: -10%;
-	}
-}
-
-@media (max-width: 1199px) {
-	.team-wrapper .team-image-2 .box-shape {
-		right: 0;
-	}
-}
-
-@media (max-width: 575px) {
-	.team-wrapper .team-image-2 .box-shape {
-		display: none;
-	}
-}
-@media (max-width: 470px) {
-	.team-wrapper .team-image-2 .circle-button {
-		display: none;
-	}
-}
-
-@media (max-width: 1399px) {
-	.team-wrapper.style-3 {
-		padding-bottom: 0;
-	}
-}
-
-@media (max-width: 1399px) {
-	.team-wrapper.style-3 {
-		padding-bottom: 15px;
-	}
-}
-
-@media (max-width: 575px) {
-	.team-wrapper.style-4 .results-left-items {
-		flex-wrap: wrap;
-	}
-}
-
-@media (max-width: 1199px) {
-	.team-wrapper.style-4 .team-content {
-		margin-left: 0;
-	}
-}
-
-
-@media (max-width: 1399px) {
-	.team-section .shape-img {
-		display: none;
-	}
-}
-
-@media (max-width: 1399px) {
-	.team-section .shape-img-2 {
-		display: none;
-	}
-}
-
-@media (max-width: 1600px) {
-	.team-section-3 .container-fluid {
-		padding: 0 50px;
-	}
-}
-
-@media (max-width: 1399px) {
-	.team-section-3 .container-fluid {
-		padding: 0 40px;
-	}
-}
-
-@media (max-width: 1199px) {
-	.team-section-3 .container-fluid {
-		padding: 0 30px;
-	}
-}
-
-@media (max-width: 1399px) {
-	.team-details-wrapper .team-details-items {
-		flex-wrap: wrap;
-		gap: 30px;
-	}
-}
-
-@media (max-width: 1199px) {
-	.team-details-wrapper .team-details-items .content .team-contact-info {
-		padding: 20px 20px;
-		flex-wrap: wrap;
-		gap: 30px;
-	}
-}
-
-@media (max-width: 1199px) {
-	.team-details-wrapper .team-details-items .content .team-contact-info .icon-items {
-		flex-wrap: wrap;
-	}
-}
-
-@media (max-width: 767px) {
-	.team-details-wrapper .team-details-items .content .team-contact-info .icon-items {
-		flex-wrap: nowrap;
-		justify-content: space-between;
-	}
-}
-
-@media (min-width: 1200px) {
-    .shop-container {
-        max-width: 1110px !important;
-    }
-}
-
-@media (max-width: 767px) {
-    .problem-section {
-        padding: 10px 0;
-        text-align: center;
-    }
-
-    .problem-left-container,
-    .problem-right-container {
-        margin-bottom: 30px;
-    }
-
-    .problem-section h2 {
-        font-size: 26px;
-    }
-
-    .problem-section p {
-        font-size: 15px;
-    }
-
-}
-
-@media (max-width:992px) {
-
-    .Objectives-section h3 {
-        text-align: center;
-        margin-top: 22px;
-    }
-}
-
-@media (max-width:1399px) {
-
-    .busniess-img-paytem img,
-    .busniess-img-phone img,
-    .bussness-img-lady img {
-        width: 300px;
-        height: auto;
-        padding-left: 22px;
-    }
-}
-
-@media (max-width: 992px) {
-
-    .busniess-img-paytem img,
-    .busniess-img-phone img,
-    .bussness-img-lady img {
-        width: 100%;
-        max-width: 400px;
-        height: auto;
-        margin: 0 auto;
-        /* center the image */
-        display: block;
-        /* ensures centering works */
-        padding-left: 0;
-        /* remove fixed padding */
-    }
-}
-
-
-@media (max-width: 767px) {
-    .uiux-title {
-        font-size: 2rem;
-    }
-
-    .uiux-paragraph {
-        margin-bottom: 2rem;
-    }
-
-    .research-image {
-        margin-bottom: 2rem;
-    }
-}
-
-@media (min-width: 992px) {
-    .start-connector {
-        left: calc((100% - 1320px) / 226 + 20px);
-    }
-
-    .section-wrapper::before {
-        content: '';
-        position: absolute;
-        top: 60px;
-        left: 50px;
-        width: 2px;
-        height: 150px;
-        background-color: #dcb880;
-        z-index: 0;
-    }
-
-    .section-wrapper::after {
-        content: '';
-        position: absolute;
-        top: 210px;
-        left: 50px;
-        width: 60px;
-        height: 2px;
-        background-color: #dcb880;
-        z-index: 0;
-    }
-
-	
-}
-
-/* @media (max-width: 991px) {
-
-    .section-wrapper {
-        padding-top: 20px;
-    }
-
-    .card-connector-plus {
-        display: none;
-    }
-
-    .card-custom {
-        min-height: auto;
-        margin-bottom: 20px;
-    }
-
-    .number-circle {
-        margin-bottom: 15px;
-    }
-} */

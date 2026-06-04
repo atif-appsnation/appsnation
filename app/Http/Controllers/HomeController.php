@@ -804,7 +804,7 @@ class HomeController extends Controller
         $metatitle = Metatitle::where('slug', 'Portfolio')->get();
 
         if (request()->has('a')) {
-            $portfolio = Portfolio::where('type', request('a'))->orderBy('lft', 'asc')->paginate(3)->appends('a', request('a'));
+            $portfolio = Portfolio::where('type', request('a'))->orderBy('lft', 'asc')->paginate(6)->appends('a', request('a'));
         } else {
             $portfolio = Portfolio::orderBy('lft', 'asc')->paginate(6);
         }
@@ -3308,6 +3308,20 @@ class HomeController extends Controller
 
         return view(
             'alltraders',
+            [
+                'metatitle' => $metatitle,
+                'metatag' => $metatag,
+            ]
+        );
+    }
+
+    public function alejandroApp()
+    {
+        $metatag = Metatag::where('slug', 'alejandroApp')->get();
+        $metatitle = Metatitle::where('slug', 'alejandroApp')->get();
+
+        return view(
+            'alejandro',
             [
                 'metatitle' => $metatitle,
                 'metatag' => $metatag,
