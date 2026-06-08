@@ -109,7 +109,7 @@ class CaseStudyController extends Controller
         {
             $meta = $this->loadMeta('mikeMathisApp');
     
-            return view('mikemathisapp', array_merge(
+            return view('mikemathis', array_merge(
                 $meta,
             ));
         }
@@ -117,7 +117,7 @@ class CaseStudyController extends Controller
         {
             $meta = $this->loadMeta('graveLove');
     
-            return view('graveloveApp', array_merge(
+            return view('gravelove', array_merge(
                 $meta,
             ));
         }
