@@ -1,4 +1,4 @@
-/* Version: 1.6 | Last updated: 15-06-2026 */
+/* Version: 1.5 | Last updated: 08-06-2026 */
 
 :root {
     --first-color: #0dacaf;
@@ -36,9 +36,6 @@
     --yellow-color: #FBF0C4;
     --grey-color: #373631;
     --brown-color-2: #42262b;
-    --yellow-color: #FAAF3A;
-    --orange-color-2: #FF5E00;
-    --yellow-color-2: #FFEC00;
     --dur: .15s;
     --delay: .15s;
     --radius: 10px;
@@ -5366,6 +5363,229 @@ h3 a {
     background-size: contain;
     background-repeat: repeat-x;
     background-position: center center;
+}
+
+.service-section-app {
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    position: relative;
+}
+
+.service-section-app .servive-card-col .card {
+    background: var(--light-grey);
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.services-img-div {
+    width: 15%;
+}
+
+.services-card-rows .servive-card-col.service-one .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/android-app-development.webp") center /cover no-repeat;
+}
+
+.services-card-rows .servive-card-col.service-two .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/ios-app-development.webp") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.service-three .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/cross-platform-app-development.webp") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.service-four .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/game-app-development.webp") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.service-five .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/web-app-development.webp") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.service-six .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/wearable-app-development.webp") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.service-seven .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/ar-app-development.webp") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.service-eight .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/vr-app-development.webp") center /cover no-repeat;
+}
+
+.services-card-rows .servive-card-col.service-nine .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/mr-app-development.webp") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.iot-app-development .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/iot-app-development.jpg") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.industrial-app-development .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/industrial-app-development.jpg") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.animation-services .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/animation-services.jpg") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.Three-D-exterior .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/3D-exterior.jpg") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.Three-D-Interior .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/3D-Interior.jpg") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.floor-Plan .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/floor-Plan.jpg") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.two-d-art .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/2d-art.jpg") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.three-d-art .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/3D-art.jpg") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col.e-commerce-service .card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/services-banner/e-commerce-service.jpg") center /cover no-repeat;
+
+}
+
+.services-card-rows .servive-card-col .card:hover .services-img-div {
+    display: none;
+}
+
+.services-card-rows .servive-card-col .card .services-text-div p {
+    color: var(--black-color);
+    font-weight: 500;
+    word-spacing: 2px;
+}
+
+.services-card-rows .servive-card-col .card:hover .services-text-div p {
+    color: var(--white-color);
+    font-weight: 500;
+    word-spacing: 2px;
+}
+
+.services-card-rows .servive-card-col .card:hover .service-heading h3 {
+    font-size: 34px;
+    line-height: 40px;
+    color: var(--white-color);
+}
+
+.service-card:hover .service-heading h3 {
+     color: var(--white-color);
+}
+
+.service-card:hover .services-img-div img{
+        filter: invert(1);
+}
+
+.scale-up-services-section {
+    background: var(--light-grey);
+    /* background: linear-gradient(135deg, #FFFFFF 0%, var(--light-grey) 100%); */
+}
+
+.scale-up-services-section img {
+    border-radius: 10px;
+    margin-top: 32px;
+}
+
+.scale-up-services-section .achievements-count {
+    background-color: var(--white-color);
+    border-radius: 30px;
+}
+
+.servive-card-col .link-prbs {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.service-section-app .servive-card-col .card .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* margin-top: 60px; */
+}
+
+.services-tital {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-section-app .owl-theme .owl-nav {
+    position: absolute;
+    top: 40%;
+}
+
+.service-section-app .owl-theme .owl-nav .owl-prev {
+    left: -55px;
+    font-size: 60px;
+}
+
+.service-section-app .owl-theme .owl-nav .owl-next {
+    right: -1255px;
+    font-size: 60px;
+
+
+}
+
+
+/* .service-section-app .card:hover {
+    background-color: var(--first-color);
+}
+
+.service-section-app .card:hover img {
+    filter: invert(1);
+} */
+
+/* .service-section-app .card:hover h4, .service-section-app .card:hover p, .service-section-app .card:hover a {
+    color: var(--white-color);
+} */
+
+.service-section-app .card:hover i {
+    transform: rotateZ(45deg);
+    transition: 0.3s;
 }
 
 .green-bg {
@@ -10732,9 +10952,11 @@ button:not(:disabled) {
 
 /* End Solutions Page */
 
-/* Start Industries Page */
+/* Industries Page */
 
 .industries-banner {
+
+
     background:url('../images/banner/Indusries.png')  right/ cover no-repeat;
 }
 
@@ -10939,15 +11161,13 @@ button:not(:disabled) {
     background-image: url(../images/industries/web-portal-and-development-hover.webp);
 }
 
-/* End Industries Pages */
-
-/* Start Services Page */
+/* Services Page */
 
 .services-banner {
     background-image: url('../images/banner/service-new-banner.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .services-content-list {
@@ -10984,301 +11204,12 @@ button:not(:disabled) {
 .leadpopup .form-block input,
 .leadpopup .form-block textarea {
     border: 2px solid var(--second-color);
+
 }
 
 .services-img-div img {
     width: 75px;
 }
-
-.app-services .card {
-    background: var(--light-grey);
-    position: relative;
-    height: 360px;
-    overflow: hidden;
-    border-radius: 25px;
-}
-
-.services-card i {
-    color: #b6c0c8;
-}
-
-.services-image {
-    width: 15%;
-}
-
-.owl-theme .owl-dots .owl-dot span {
-    width: 14px;
-    height: 14px;
-    background: #bfbfbf;
-    border-radius: 50%;
-    transition: .3s;
-}
-
-.owl-theme .owl-dots .owl-dot.active span {
-    background: #000;
-    transform: scale(1.4);
-}
-
-.app-services .service-one .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/android-app-development.webp") center /cover no-repeat;
-}
-
-.app-services .service-two .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/ios-app-development.webp") center /cover no-repeat;
-}
-
-.app-services .service-three .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/cross-platform-app-development.webp") center /cover no-repeat;
-}
-
-.app-services .service-four .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/game-app-development.webp") center /cover no-repeat;
-}
-
-.services-box .banner-box-image {
-    aspect-ratio: 1171 / 549;
-    border-radius: 30px;
-    padding: 24px 0 23px 63px;
-}
-
-.services-box .owl-theme .owl-dots .owl-dot.active {
-    padding: 0;
-    border: 3px solid var(--first-color) !important;
-    border-radius: 50%;
-}
-
-.services-box .owl-theme .owl-dots .owl-dot span {
-    height: 0.6em;
-    width: 0.6em;
-    margin: 5px;
-}
-
-.services-box .owl-theme .owl-nav.disabled+.owl-dots {
-    margin-top: -46px;
-}
-
-.services-box .service-one {
-    background-image: url("../images/services-banner/android-app-development-background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.services-box .service-two {
-    background-image: url("../images/services-banner/ar-app-development-background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.services-box .service-three {
-    background-image: url("../images/services-banner/cross-platform-app-development-background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.services-card .card {
-    background: var(--light-grey);
-    position: relative;
-    height: 360px;
-    overflow: hidden;
-    border-radius: 25px;
-}
-
-.ai-services .service-one .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/ar-app-development.webp") center /cover no-repeat;
-    
-}
-
-.ai-services .service-two .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/vr-app-development.webp") center /cover no-repeat;
-}
-
-.ai-services .service-three .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../images/services-banner/mr-app-development.webp") center /cover no-repeat;
-}
-
-.connected-services .service-one .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/iot-app-development.jpg") center /cover no-repeat;
-}
-
-.connected-services .service-two .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/wearable-app-development.webp") center /cover no-repeat;
-}
-
-.connected-services .service-three .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/industrial-app-development.jpg") center /cover no-repeat;
-}
-
-.services-box .service-four {
-    background-image: url("../images/services-banner/e-commerce-app-development-background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.services-box .service-five {
-    background-image: url("../images/services-banner/game-app-development-background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.services-box .service-six {
-    background-image: url("../images/services-banner/ios-app-development-background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.design-services .service-one .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/animation-services.webp") center /cover no-repeat;
-}
-
-.design-services .service-two .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/3d-exterior.webp") center /cover no-repeat;
-}
-
-.design-services .service-three .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/3d-interior.webp") center /cover no-repeat;
-}
-
-.design-services .service-four .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/floor-Plan.webp") center /cover no-repeat;
-}
-
-.design-services .service-five .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/2d-art.webp") center /cover no-repeat;
-}
-
-.design-services .service-six .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/3d-art.webp") center /cover no-repeat;
-}
-
-.web-development-services .service-one .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/web-portal-development.webp") center /cover no-repeat;
-}
-
-.web-development-services .service-two .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/e-commerce-app-development.webp") center /cover no-repeat;
-}
-
-.web-development-services .service-three .card:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/services-banner/web-app-development.webp") center /cover no-repeat;
-}
-
-.services-box .service-seven {
-    background-image: url("../images/services-banner/iot-app-development-background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.services-box .service-eight {
-    background-image: url("../images/services-banner/vr-app-development-background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.services-box .service-nine {
-    background-image: url("../images/services-banner/web-app-development-background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* .services-card .card:hover .services-image {
-    display: none;
-} */
-
-.services-card .card:hover .services-image img {
-    filter: invert(1);
-}
-
-.services-card .card .services-text p {
-    color: var(--black-color);
-    font-weight: 500;
-    padding-top: 10px;
-    /* word-spacing: 2px; */
-}
-
-.services-card .card:hover .services-text p {
-    color: var(--white-color);
-    font-weight: 500;
-    /* word-spacing: 2px; */
-}
-
-.services-card .card:hover .service-heading h3 {
-    /* font-size: 34px; */
-    line-height: 40px;
-    color: var(--white-color);
-}
-
-/* .service-card:hover .service-heading h3 {
-     color: var(--white-color);
-} */
-
-
-.scale-up-services {
-    background: var(--light-grey);
-    /* background: linear-gradient(135deg, #FFFFFF 0%, var(--light-grey) 100%); */
-}
-
-.scale-up-services img {
-    border-radius: 10px;
-    margin-top: 32px;
-}
-
-.scale-up-services .achievements-count {
-    background-color: var(--white-color);
-    border-radius: 30px;
-}
-
-.link-prbs {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-}
-
-.service-section-app .card .card-body {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    /* margin-top: 60px; */
-}
-
-.services-title {
-    display: flex;
-    flex-direction: column;
-}
-
-.service-section-app .owl-theme .owl-nav {
-    position: absolute;
-    top: 40%;
-}
-
-.service-section-app .owl-theme .owl-nav .owl-prev {
-    left: -55px;
-    font-size: 60px;
-}
-
-.service-section-app .owl-theme .owl-nav .owl-next {
-    right: -1255px;
-    font-size: 60px;
-}
-
-
-/* .service-section-app .card:hover {
-    background-color: var(--first-color);
-}
-
-.service-section-app .card:hover img {
-    filter: invert(1);
-} */
-
-/* .service-section-app .card:hover h4, .service-section-app .card:hover p, .service-section-app .card:hover a {
-    color: var(--white-color);
-} */
-
-.services-card .card:hover i {
-    transform: rotateZ(-45deg);
-    transition: 0.3s;
-}
-
-/* End Services Page */
 
 /* New */
 
@@ -21170,19 +21101,24 @@ textarea::-ms-input-placeholder {
 
 /* End Grave Love App */
 
-/* Start Bomb Defuse */
+/* End Case Studies */
 
+
+
+/*start bomb defuse section  */
 #bomb-defuse-background {
-    background: url("../images/case-studies/bomb-defuse-app/bomb-defuse-app-background.webp")top center/cover no-repeat;
-    background-size: 100% 86%;
+    background: url("../images/case-studies/bomb-defuse-app/background812.webp")top center/cover no-repeat;
+    background-size: 100% 76%;
 }
 
-.bomb-defuse-spacing {
-    padding: 60px 0px;
+.bomb-defuse-spaceing {
+    margin: 120px 0 120px 0;
 }
 
+/* start hero section bomb defuse */
 .bomb-defuse-app {
     padding: 200px 0px 190px 0px;
+
 }
 
 .bomb-defuse-app .bread-titlev2 {
@@ -21191,19 +21127,28 @@ textarea::-ms-input-placeholder {
 }
 
 .bomb-defuse-app .bread-titlev2 h1 {
-    color: var(--yellow-color);
+    color: #FAAF3A;
+    margin-top: 20px;
 }
 
 .bomb-defuse-app .bread-titlev2 p {
+    margin: 30px;
     font-size: 29px;
+    word-spacing: 2px;
+
 }
 
 .bomb-defuse-app .logo {
+    width: 100%;
     max-width: 500px;
     display: block;
     margin: 0 auto;
 }
 
+/* End hero section bomb defuse */
+
+
+/*Start introduction bomb squad Section*/
 .introduction-bomb-squad .introduction-bomb-squad-content h2 {
     padding-bottom: 20px;
 }
@@ -21211,53 +21156,70 @@ textarea::-ms-input-placeholder {
 .introduction-bomb-squad .introduction-bomb-squad-content h2,
 .introduction-bomb-squad .introduction-bomb-squad-content p {
     color: var(--white-color);
+    margin-bottom: 20px;
 }
 
 .introduction-bomb-squad .introduction-bomb-squad-content h2 span,
 .introduction-bomb-squad .introduction-bomb-squad-content p span {
-    color: var(--yellow-color);
+    color: #FAAF3A;
 }
 
-.introduction-bomb-squad-img {
+.introduction-bomb-squad-img img {
+    width: 100%;
     max-width: 380px;
     display: block;
     margin: 0 auto;
 }
 
-.project-idea-bomb-defuse h2 {
+/*End introduction bomb squad Section*/
+
+
+
+/*start project idea bomb defuse squad Section*/
+.project-idea-bomb-defuse .project-idea-content h2 {
     padding-bottom: 20px;
 }
 
-.project-idea-bomb-defuse h2,
-.project-idea-bomb-defuse p {
+.project-idea-bomb-defuse .project-idea-content h2,
+.project-idea-bomb-defuse .project-idea-content p {
     color: var(--white-color);
 }
 
-.project-idea-bomb-defuse h2 span,
-.project-idea-bomb-defuse p span {
-    color: var(--yellow-color);
+.project-idea-bomb-defuse .project-idea-content h2 span,
+.project-idea-bomb-defuse .project-idea-content p span {
+    color: #FAAF3A;
 }
 
-.project-idea-bomb-defuse-img {
+.project-idea-bomb-defuse-img img {
+    width: 100%;
     max-width: 300px;
     display: block;
     margin: 0 auto;
 }
 
-.bomb-defuse-ranking h2 {
-    color: var(--yellow-color);
+/*End project idea bomb defuse Section */
+
+
+/*Start bomb defuse Ranking section */
+.bomb-defuse-Ranking-section h2 {
+    color: #FAAF3A;
     text-align: center;
+    padding: 50px 0 50px 0;
+
 }
 
-.bomb-defuse-ranking img {
+.bomb-defuse-Ranking-section img {
+    width: 100%;
     max-width: 300px;
     display: block;
     margin: 0 auto;
 }
 
+/* start bomb-defuse-mockup section */
 .bomb-defuse-mockup h2 {
-    color: var(--yellow-color);
+    color: #FAAF3A;
     text-align: center;
+    padding: 50px 0 50px 0;
 }
 
 .bomb-defuse-mockup img {
@@ -21265,12 +21227,17 @@ textarea::-ms-input-placeholder {
     margin: 0 auto;
 }
 
+/* End bomb-defuse-mockup section */
+
+
+/* start bomb defuse Achievements section  */
 .achievements-bomb-defuse h2 {
     color: wheat;
+    margin: 10px 0 10px 0;
 }
 
 .achievements-bomb-defuse h2 span {
-    color: var(--yellow-color);
+    color: #FAAF3A;
 }
 
 .achievements-bomb-defuse p {
@@ -21278,6 +21245,9 @@ textarea::-ms-input-placeholder {
     line-height: 40px;
 }
 
+/* End bomb defuse Achievements section  */
+
+/*Start bomb defuse result section  */
 .bomb-defuse-result-section {
     text-align: center;
 }
@@ -21287,33 +21257,34 @@ textarea::-ms-input-placeholder {
 }
 
 .bomb-defuse-result-section h2 span {
-    color: var(--yellow-color);
+    color: #FAAF3A;
 }
 
 .bomb-defuse-result-section p {
     color: var(--white-color);
-    line-height: 2;
+    line-height: 40px;
 }
 
-/*End Bomb Defuse  */
+/* 
+    /*End bomb defuse result section  */
+/*End bomb defuse section  */
 
-/* Start Car Mechanic App */
 
-.car-mechanic {
-    padding: 60px 0px;
-}
 
-.car-mechanic-app {
-    padding: 200px 0px 100px 0px;
-}
 
+
+
+
+/* start car mechanic case study Section*/
 #car-mechanic-background {
-    background: url("../images/case-studies/car-mechanic-app/car-mechanic-app-background.webp")top center / cover no-repeat;
+    background: url("../images/case-studies/car-mechanic-app/background-car-mechanic.webp")top center / cover no-repeat;
     background-size: 100% 78%;
 }
 
-.car-mechanic h2, .car-mechanic p, .car-mechanic h5 {
-    color: var(--white-color);
+/* start hero car mechanic */
+.car-mechanic {
+    padding: 200px 0px 190px 0px;
+
 }
 
 .car-mechanic .bread-titlev2 {
@@ -21323,10 +21294,18 @@ textarea::-ms-input-placeholder {
 
 .car-mechanic .bread-titlev2 h1 {
     color: var(--white-color);
+    margin-top: 20px;
+}
+
+.car-mechanic .bread-titlev2 p {
+    margin: 30px;
+    font-size: 29px;
+    word-spacing: 2px;
+
 }
 
 .car-mechanic .bread-titlev2 h1 span {
-    color: var(--orange-color-2);
+    color: #FF5E00;
 }
 
 .car-mechanic .logo {
@@ -21338,7 +21317,7 @@ textarea::-ms-input-placeholder {
 
 .car-mechanic .car-mechanic-hero-tag {
     background-color: var(--white-color);
-    color: var(--orange-color-2);
+    color: #FF5E00;
     padding: 20px 10px 20px 10px;
     text-align: center;
     display: inline-block;
@@ -21346,36 +21325,97 @@ textarea::-ms-input-placeholder {
     font-weight: bold;
 }
 
-.car-mechanic h2 span,
-.car-mechanic p span {
-    color: var(--orange-color-2);
+
+/* Start introduction bomb squad Section   */
+.car-mehanic .car-mehanic-content h2 {
+    padding-bottom: 20px;
 }
 
-/* End Car Mechanic App */
-
-/* Start Toy Sort Puzzle */
-
-#toy-sort-puzzle {
-    background: url("../images/case-studies/toy-sort-puzzle/toy-sort-puzzle-background.webp")top center / cover no-repeat;
-    background-size: 100% 75.4%;
-    padding: 220px 0px 180px 0px;
+.car-mehanic .car-mehanic-content h2,
+.car-mehanic .car-mehanic-content p {
+    color: var(--white-color);
+    margin-bottom: 20px;
 }
 
-.toy-sort-puzzle h1, .toy-sort-puzzle h2, .toy-sort-puzzle p {
+.car-mehanic .car-mehanic-content h2 span,
+.car-mehanic .car-mehanic-content p span {
+    color: #FF5E00;
+}
+
+.car-mehanic-img img {
+    width: 100%;
+    max-width: 380px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Start introduction bomb squad Section   */
+
+
+
+/*start project idea car mechanic Section*/
+.project-idea-car-mechanic .project-idea-content h2 {
+    padding-bottom: 20px;
+}
+
+.project-idea-car-mechanic .project-idea-content h2,
+.project-idea-car-mechanic .project-idea-content p {
     color: var(--white-color);
 }
 
-.toy-sort-puzzle h2 span, .toy-sort-puzzle p span {
-    color: var(--yellow-color-2);
+.project-idea-car-mechanic .project-idea-content h2 span,
+.project-idea-car-mechanic .project-idea-content p span {
+    color: #FF5E00;
+}
+
+.project-idea-car-mechanic-img img {
+    width: 100%;
+    max-width: 380px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*End project idea car mechanic Section*/
+.car-mechanic-result-section h2,
+.car-mechanic-result-section p {
+    color: var(--white-color);
+    text-align: center;
+}
+
+.car-mechanic-result-section h2 span,
+.car-mechanic-result-section p span {
+    color: #FF5E00;
+}
+
+/* End car mechanic case study Section*/
+
+
+
+
+/* start toy sort puzzle case studys section  */
+#toy-sort-puzzle {
+    background: url("../images/case-studies/toy-sort-puzzle/toy-sort-puzzle-background.webp")top center / cover no-repeat;
+    background-size: 100% 76.1%;
+
+}
+
+/*Start toy sort hero section */
+.toy-sort-puzzle {
+    padding: 220px 0px 235px 0px;
+
 }
 
 .toy-sort-puzzle .bread-titlev2 h1,
 .toy-sort-puzzle .bread-titlev2 p {
     text-align: center;
     color: var(--white-color);
+
 }
 
-.animate {
+/* ===== Floating Animation ===== */
+.imageFloteLeft img,
+.imageFloteRight img {
+    width: 100%;
     max-width: 80px;
     height: auto;
     animation: floatY 3s ease-in-out infinite;
@@ -21395,7 +21435,186 @@ textarea::-ms-input-placeholder {
     }
 }
 
-/* End Case Studies */
+/* Logo center */
+/* .logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+} */
+
+/*End toy sort hero section */
+
+/* start toy sort introduction */
+.toy-sort-introduction .imageFloteRight img {
+    max-width: 200px;
+
+}
+
+.toy-sort-introduction .toy-sort-title,
+.toy-sort-introduction .toy-sort-paragraph {
+    color: var(--white-color);
+}
+
+.toy-sort-introduction .toy-sort-title span,
+.toy-sort-introduction .toy-sort-paragraph span {
+    color: #FFEC00;
+    text-align: start;
+}
+
+/* end toy sort introduction */
+
+/*start toy sort  project-idea section*/
+.toy-sort-project-idea .imageFloteRight img {
+    max-width: 80px;
+
+}
+
+.toy-sort-project-idea .toy-sort-title,
+.toy-sort-project-idea .toy-sort-paragraph {
+    color: var(--white-color);
+}
+
+.toy-sort-project-idea .toy-sort-title span,
+.toy-sort-project-idea .toy-sort-paragraph span {
+    color: #FFEC00;
+    text-align: start;
+}
+
+/*End toy sort  project-idea section */
+
+/*start toy sort target audience  section*/
+.toy-sort-audience-target h2,
+.toy-sort-audience-target p {
+    text-align: center;
+    color: var(--white-color);
+}
+
+.toy-sort-audience-target h2 span {
+    color: #FFEC00;
+}
+
+.toy-sort-target-audience-img img {
+    width: 100%;
+    max-width: 900px;
+}
+
+/*End toy sort target audience  section*/
+
+
+
+/*start toy sort element section*/
+.toy-sort-Element h2 {
+    color: var(--white-color);
+    text-align: center;
+}
+
+.toy-sort-Element .imageFloteLeft img {
+    width: 100%;
+    max-width: 100px;
+
+}
+
+.toy-sort-Element img {
+    width: 100%;
+    max-width: 900px;
+}
+
+/*end toy sort element section*/
+
+
+/*start toy sort player feedback section */
+.toy-sort-player-feedback h2 {
+    color: var(--white-color);
+}
+
+.toy-sort-player-feedback .imageFloteLeft img,
+.toy-sort-player-feedback .imageFloteRight img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.toy-sort-user-feedback-img img {
+    width: 100%;
+    max-width: 320px;
+}
+
+/*End toy sort player feedback section */
+
+
+
+
+/* new case study start  royal relax spa */
+/* start hero royal relax spa section */
+
+/* new case study end  royal relax spa */
+
+
+
+
+.challenges-turned-section .challenges-turned-box img {
+    width: 100%;
+    /* max-width: 460px;
+    display: block;
+    margin: 0 auto; */
+}
+
+.challenges-turned-section .challenges-turned-box {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4);
+    padding: 13px;
+}
+
+.challenges-turned-section .challenges-turned-box .challenges-turned-contant p {
+    color: var(--black-color);
+    font-weight: 400;
+}
+
+.challenges-turned-section .challenges-turned-box .challenges-turned-contant .challenges-turned-tital {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0 10px 0;
+}
+
+.challenges-turned-section .challenges-turned-box .challenges-turned-contant .challenges-turned-tital h4 {
+    font-size: 19px;
+}
+
+.challenges-turned-section .challenges-turned-box .challenges-turned-contant .challenges-turned-tital span {
+    background: #026DBF;
+    color: var(--white-color);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+/* ===== Start services BANNERS Section ===== */
+.services-box-section .banner-box-image {
+    aspect-ratio: 1171 / 549;
+    border-radius: 30px;
+    padding: 24px 0 23px 63px;
+}
+
+.services-box-section .owl-theme .owl-dots .owl-dot.active {
+    padding: 0;
+    border: 3px solid var(--first-color) !important;
+    border-radius: 50%;
+}
+
+.services-box-section .owl-theme .owl-dots .owl-dot span {
+    height: 0.6em;
+    width: 0.6em;
+    margin: 5px;
+}
+
+.services-box-section .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -46px;
+}
+
 
 /* hero bages slider start */
 .hero-bages-slides-div {
@@ -22586,6 +22805,18 @@ textarea::-ms-input-placeholder {
     height: 500px;   
     border: none;
     display: block;
+} 
+.owl-theme .owl-dots .owl-dot span {
+    width: 14px;
+    height: 14px;
+    background: #bfbfbf;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #000;
+    transform: scale(1.4);
 }
 
 .industries-link {

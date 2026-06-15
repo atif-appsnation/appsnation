@@ -513,7 +513,7 @@
 <script src="{{asset('js/owl.navigation.js')}}"></script>
 <script src="{{asset('js/owl.autoplay.js')}}"></script>
 <script src="{{asset('js/image-comparison-slider.min.js')}}"></script>
-<script src="{{asset('js/main.js?v1.1')}}"></script>
+<script src="{{asset('js/main.js?v1.2')}}"></script>
 <script src="{{asset('js/validate.js')}}"></script>
 <script src="{{asset('js/jquery.steps.js')}}"></script>
 <script src="{{asset('js/cost-calculator.js')}}"></script>

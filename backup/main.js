@@ -1,4 +1,4 @@
-/* Version: 1.2 | Last updated: 15-06-2026 */
+/* Version: 1.1 | Last updated: 11-03-2026 */
 
 (function ($) {
     "use strict";
@@ -58,53 +58,53 @@
         removalDelay: 160,
     });
 
-    // home counter
+// home counter
 
-    document.addEventListener("DOMContentLoaded", () => {
-        const section = document.querySelector("#mycounterSection");
-        if (!section) return;
+document.addEventListener("DOMContentLoaded", () => {
+  const section = document.querySelector("#mycounterSection");
+  if (!section) return;
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    animateCounter("count1", 10, "+");
-                    animateCounter("count2", 900, "+");
-                    animateCounter("count3", 10, "k");
-                    animateCounter("count4", 67);
-                }
-            });
-        }, {
-            threshold: 0.6
-        });
-
-        observer.observe(section);
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter("count1", 10, "+");
+        animateCounter("count2", 900, "+");
+        animateCounter("count3", 10, "k");
+        animateCounter("count4", 67);
+      }
     });
+  }, {
+    threshold: 0.6
+  });
 
-    function animateCounter(id, target, suffix = "") {
-        const element = document.getElementById(id);
-        if (!element) return;
+  observer.observe(section);
+});
 
+function animateCounter(id, target, suffix = "") {
+  const element = document.getElementById(id);
+  if (!element) return;
 
-        let startTime = null;
-        const duration = 1500;
+ 
+  let startTime = null;
+  const duration = 1500;
 
-        function updateCounter(timestamp) {
-            if (!startTime) startTime = timestamp;
-            const progress = Math.min((timestamp - startTime) / duration, 1);
-            const value = Math.floor(progress * target);
+  function updateCounter(timestamp) {
+    if (!startTime) startTime = timestamp;
+    const progress = Math.min((timestamp - startTime) / duration, 1);
+    const value = Math.floor(progress * target);
 
-            element.innerText = value + suffix;
+    element.innerText = value + suffix;
 
-            if (progress < 1) {
-                requestAnimationFrame(updateCounter);
-            } else {
-                element.innerText = target + suffix;
-            }
-        }
-
-        requestAnimationFrame(updateCounter);
+    if (progress < 1) {
+      requestAnimationFrame(updateCounter);
+    } else {
+      element.innerText = target + suffix;
     }
-    // home counter
+  }
+
+  requestAnimationFrame(updateCounter);
+}
+// home counter
 
     // Tooltips
     // $('[data-bs-toggle="tooltip"]').tooltip();
@@ -162,47 +162,12 @@
                 items: 1
             },
             520: {
-                items: 1,
-
+                items: 1 ,
+                 
             },
             768: {
                 items: 2,
-            },
-            1200: {
-                items: 3
-            },
-            1400: {
-                items: 3
-            },
-            1600: {
-                items: 3
-            },
-        }
-    });
-
-    var owl = $('.services-card');
-    owl.owlCarousel({
-        items: 9,
-        loop: true,
-        autoplay: true,
-        centre: true,
-        margin: 45,
-        nav: false,
-        dots: true,
-        autoplayTimeout: 9000,
-        autoplayHoverPause: true,
-        smartSpeed: 6000,
-        responsiveClass: true,
-        rewind: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            520: {
-                items: 1,
-            },
-            768: {
-                items: 2,
+                 
             },
             1200: {
                 items: 3
@@ -262,7 +227,7 @@
         autoplayTimeout: 6000,
         autoplayHoverPause: true,
         smartSpeed: 500,
-        nav: false,
+          nav: false,
         dots: false,
         autoHeight: true,
         margin: 13,
@@ -290,7 +255,7 @@
         autoplayTimeout: 6000,
         autoplayHoverPause: true,
         smartSpeed: 500,
-        nav: false,
+          nav: false,
         dots: false,
         autoHeight: true,
         margin: 13,
@@ -345,7 +310,7 @@
             },
         }
     });
-
+    
     //Owl-Carousel - services pages banner
 
     var owl = $('.service-banner-slider');
@@ -383,7 +348,7 @@
             },
         }
     });
-
+    
     //Owl-Carousel - Reviews testimonial
     var owl = $('.reviews-slider');
     owl.owlCarousel({
@@ -719,35 +684,9 @@
             },
         }
     });
-  $('.gif-slider').owlCarousel({
-    loop: true,
-    autoplay: true,
-    margin: 15,
-    nav: true,
-    dots: false,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
-    smartSpeed: 800,
-    center: true,
 
-    responsive: {
-        0: {
-            items: 1,
-            center: false
-        },
-        576: {
-            items: 2
-        },
-        992: {
-            items: 2
-        },
-        1200: {
-            items: 3
-        }
-    }
-});
     //Owl-Carousel - awards-slider
-    $('.awards-slider').owlCarousel({
+  $('.awards-slider').owlCarousel({
         items: 4,
         loop: true,
         autoplay: true,
@@ -992,42 +931,6 @@
         }
     });
 
-    //Owl-Carousel - partners-slider
-    $('.partners-slider').owlCarousel({
-        items: 4,
-        loop: true,
-        autoplay: true,
-        centre: true,
-        margin: 25,
-        nav: false,
-        dots: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
-        smartSpeed: 2000,
-        responsiveClass: true,
-        rewind: true,
-        responsive: {
-            0: {
-                items: 2
-            },
-            520: {
-                items: 2
-            },
-            768: {
-                items: 4
-            },
-            1200: {
-                items: 4
-            },
-            1400: {
-                items: 5
-            },
-            1600: {
-                items: 5
-            },
-        }
-    });
-
     $(function () {
         var owl = $('.solutions-carousel');
         owl.owlCarousel({
@@ -1167,100 +1070,26 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-//>> Project Hover Js Start <<//
-const getSlide = $('.main-box, .box').length - 1;
-const slideCal = 100 / getSlide + '%';
 
-$('.box').css({
-    "width": slideCal
-});
 
-$('.box').hover(function () {
-    $('.box').removeClass('active');
-    $(this).addClass('active');
-});
 
 
 // demo
 
 function openTab(tabId, btn) {
-
+     
     let tabs = document.getElementsByClassName("tabs");
     for (let i = 0; i < tabs.length; i++) {
-        tabs[i].style.display = "none";
+      tabs[i].style.display = "none";
     }
-
+ 
     let buttons = document.getElementsByClassName("tabBtn");
     for (let i = 0; i < buttons.length; i++) {
-        buttons[i].classList.remove("active");
+      buttons[i].classList.remove("active");
     }
-
+ 
     document.getElementById(tabId).style.display = "block";
     btn.classList.add("active");
-}
-
-document.getElementById("tab1").style.display = "block";
-
-
-//   click video to play sound digital marketing 
-// Load YouTube API
-var tag = document.createElement('script');
-tag.src = "https://www.youtube.com/iframe_api";
-document.getElementsByTagName('script')[0].parentNode.insertBefore(tag, null);
-
-var player;
-
-function onYouTubeIframeAPIReady() {
-    player = new YT.Player('player', {
-        height: '540',
-        width: '360',
-        videoId: 'djZV4wG8j_c', // Updated ID
-        playerVars: {
-            autoplay: 1,
-            mute: 1,
-            loop: 1,
-            playlist: 'djZV4wG8j_c', // Updated playlist
-            controls: 0,
-            rel: 0,
-            modestbranding: 1,
-            playsinline: 1
-        }
-    });
-}
-
-// CLICK → Unmute video
-document.getElementById('overlay').addEventListener('click', function () {
-    if (player && player.unMute) {
-        player.unMute();
-        this.style.display = 'none';
-    }
-});
-
-
-// Digital Marketing
-document.addEventListener('DOMContentLoaded', function () {
-    const carousel = document.querySelector('#dmPortfolioCarousel');
-    const bsCarousel = new bootstrap.Carousel(carousel);
-    let startX = 0;
-    let endX = 0;
-
-    // Touch (mobile)
-    carousel.addEventListener('touchstart', e => startX = e.touches[0].clientX);
-    carousel.addEventListener('touchend', e => {
-        endX = e.changedTouches[0].clientX;
-        handleSwipe();
-    });
-
-    // Mouse (desktop)
-    carousel.addEventListener('mousedown', e => startX = e.clientX);
-    carousel.addEventListener('mouseup', e => {
-        endX = e.clientX;
-        handleSwipe();
-    });
-
-    function handleSwipe() {
-        if (Math.abs(startX - endX) < 50) return;
-        if (endX < startX) bsCarousel.next();
-        else bsCarousel.prev();
-    }
-});
+  }
+ 
+  document.getElementById("tab1").style.display = "block";

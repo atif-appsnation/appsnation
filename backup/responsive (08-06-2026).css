@@ -1,4 +1,4 @@
-/* Version: 1.6 | Last updated: 15-06-2026 */
+/* Version: 1.5 | Last updated: 08-06-2026 */
 
 @media screen and (max-width:1920px) and (min-width:992px) {
 	.dropdown:hover>.dropdown-menu {
@@ -2303,6 +2303,7 @@
 		left: 55%
 	}
 
+
 	.cost-calculator .wizard-form .book-a-consultant-now .text-cont {
 		margin-left: 35%;
 	}
@@ -2356,11 +2357,6 @@
 	}
 
 	.services-box-section .banner-box-image {
-		border-radius: 30px;
-		padding: 24px 0 23px 63px;
-	}
-
-	.services-box .banner-box-image {
 		border-radius: 30px;
 		padding: 24px 0 23px 63px;
 	}
@@ -2456,48 +2452,7 @@
 	.couple-app-designs .central-line {
 		display: none;
 	}
-
-	.bomb-defuse-app .logo {
-		max-width: 350px;
-	}
-
-	.bomb-defuse-app .bread-titlev2 p {
-		font-size: 16px;
-	}
-
-	.animate-right, .animate-left {
-		display: block;
-		margin: 0 auto;
-	}
-
-	#toy-sort-puzzle {
-		background-size: 100% 55.9%;
-	}
-
-	.services-box .banner-box-image {
-		aspect-ratio: 531 / 549;
-		border-radius: 30px;
-		padding: 23px;
-	}
-
-	.services-box .owl-theme .owl-nav.disabled+.owl-dots {
-		margin-top: -28px;
-	}
-
-	.services-box .owl-theme .owl-dots .owl-dot span {
-		height: 0.3em;
-		width: 0.3em;
-		margin: 3px;
-	}
-
-	#car-mechanic-background {
-		background-size: 100% 54.6%;
-	}
-
-	#bomb-defuse-background {
-        background-size: 100% 67%;
-    }
-
+	
 }
 
 @media screen and (max-width: 767px) {
@@ -2553,16 +2508,6 @@
 @media (max-width: 991px) {
 	.boujee-beachin-designs .central-line {
 		display: none;
-	}
-
-	.services-box .owl-theme .owl-nav.disabled+.owl-dots {
-		margin-top: -28px;
-	}
-
-	.services-box .owl-theme .owl-dots .owl-dot span {
-		height: 0.3em;
-		width: 0.3em;
-		margin: 3px;
 	}
 }
 
@@ -3144,6 +3089,24 @@
 		right: 38.5%;
 	}
 
+
+	/* toy sort case study start */
+	#toy-sort-puzzle {
+		background-size: 100% 71%;
+
+	}
+
+	/* royal relax case study start */
+	.royal-relax-spaceing {
+		margin: 95px 0 80px 0;
+	}
+
+	/* load board case study start */
+	.load-board-hero-section .logo img {
+		max-width: 220px;
+		padding-bottom: 10px;
+	}
+
 	/* map section */
 	.distribution-map .map-point i {
 		font-size: 20px;
@@ -3291,23 +3254,6 @@
 	.couple-app-designs .central-line {
 		display: none;
 	}
-
-	.animate-right, .animate-left {
-		display: block;
-		margin: 0 auto;
-	}
-
-	#toy-sort-puzzle {
-		background-size: 100% 64.4%;
-	}
-
-	#car-mechanic-background {
-        background-size: 100% 64.5%;
-    }
-
-	#bomb-defuse-background {
-        background-size: 100% 67%;
-    }
 
 }
 
@@ -3870,28 +3816,6 @@
 		padding: 150px 0px 0px;
 	}
 
-	.animate-right {
-		display: block;
-		margin-left: auto;
-	}
-
-	.animate-left {
-		display: block;
-		margin-right: auto;
-	}
-
-	#toy-sort-puzzle {
-		background-size: 100% 70.0%;
-	}
-
-	#car-mechanic-background {
-		background-size: 100% 69.7%;
-	}
-
-	#bomb-defuse-background {
-		background-size: 100% 79%;
-	}
-
 }
 
 @media only screen and (min-width:1440px) and (max-width:1599px) {
@@ -4205,28 +4129,6 @@
 		padding: 270px 0px 0px;
 	}
 
-	.animate-right {
-		display: block;
-		margin-left: auto;
-	}
-
-	.animate-left {
-		display: block;
-		margin-right: auto;
-	}
-
-	#toy-sort-puzzle {
-		background-size: 100% 75.5%;
-	}
-
-	#car-mechanic-background {
-		background-size: 100% 69.7%;
-	}
-
-	#bomb-defuse-background {
-		background-size: 100% 86%;
-	}
-
 }
 
 @media only screen and (min-width:1600px) and (max-width:1919px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
@@ -4533,14 +4435,6 @@
 
 	.alejandro-hero-section {
 		padding: 240px 0px 0px;
-	}
-
-	#car-mechanic-background {
-		background-size: 100% 76.7%;
-	}
-
-	#bomb-defuse-background {
-		background-size: 100% 86%;
 	}
 
 }
@@ -5191,11 +5085,52 @@
 	}
 }
 
+@media (max-width: 1199px) {
+
+	.banner-box-image h2 {
+		font-size: 35px;
+	}
+
+	.banner-box-image p {
+		font-size: 13px;
+		word-spacing: 1.5px;
+	}
+
+	.banner-box-image .banner-btn a {
+		font-size: 12px;
+		line-height: 6px;
+	}
+
+	/*End banners section*/
+
+	/* royal relax spa case study start*/
+	.royal-relax-spa h1 {
+		color: black;
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.royal-relax-spa p {
+		line-height: 33px;
+	}
+
+
+
+	/* bomb defuse case study start */
+	#bomb-defuse-background {
+		background-size: 100% 72%;
+	}
+}
+
+
 
 @media (max-width: 767px) {
 	/* start case studys */
 	/* car mechanic case study */
-	
+	#car-mechanic-background {
+		background-size: 100% 58.7%;
+	}
 
 	/* awards section */
 
@@ -5235,7 +5170,10 @@
 	}
 
 
-
+	/* car mechanic case study */
+	#car-mechanic-background {
+		background-size: 100% 66.4%;
+	}
 
 
 	/* hero bages slider start */
@@ -5253,7 +5191,10 @@
 
 
 	/* car-mechanic case study */
+	#car-mechanic-background {
+		background-size: 100% 72%;
 	
+	}
 
 
 
@@ -5329,7 +5270,181 @@
 	}
 }
 
+
+@media (max-width: 1400px) {
+
+
+	.logo-img {
+		max-width: 120px;
+	}
+
+	.case-tag {
+		padding: 8px 20px;
+		font-size: 1rem;
+	}
+
+	.hero-main-img {
+		margin-top: 20px;
+	}
+}
+
+
+@media (max-width: 767px) {
+
+
+
+	.logo-img {
+		max-width: 170px;
+	}
+
+	.case-tag {
+		padding: 8px 20px;
+		font-size: 1rem;
+	}
+
+	.hero-main-img {
+		margin-top: 20px;
+	}
+
+
+	/* toy sort puzzle case study start */
+
+	.toy-sort-audience-target .imageFloteRight img,
+	.toy-sort-player-feedback .imageFloteRight img {
+		display: none;
+	}
+
+
+	/* bomb defuse case study start */
+	#bomb-defuse-background {
+		background-size: 100% 70%;
+	}
+
+
+	.bomb-defuse-app {
+		padding: 150px 0px 60px 0px;
+	}
+
+	.bomb-defuse-app .bread-titlev2 p {
+		font-size: 29px;
+	}
+
+	.bomb-defuse-app .logo {
+		max-width: 350px;
+	}
+
+
+	.bomb-defuse-Ranking-section img {
+		padding: 10px 0 10px 0;
+	}
+
+}
+
+@media (max-width: 575px) {
+
+	.logo-img {
+		max-width: 150px;
+	}
+
+
+	.case-tag {
+		padding: 6px 16px;
+		font-size: 0.9rem;
+	}
+
+	/* car mechanic case study */
+	#car-mechanic-background {
+		background-size: 100% 54.4%;
+	}
+}
+
+@media (max-width: 992px) {
+
+
+
+	
+
+
+	/* start tech-img-box */
+
+	.col-12.d-flex {
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.tech-img-box {
+		width: 100%;
+		justify-content: flex-start;
+		padding: 15px 10px;
+	}
+
+
+
+}
+
+@media (min-width: 992px) {
+
+	
+}
+
+@media (max-width: 768px) {
+	.wireframes-section {
+		text-align: center;
+	}
+
+	.wireframes-section ul {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.wireframes-section ul li {
+		width: 100%;
+		max-width: 320px;
+		text-align: center;
+	}
+
+
+}
+
+@media (max-width: 1400px) {
+	.challenges-heading span {
+		font-size: 24px;
+	}
+
+	.challenges-section {
+		padding: 40px 0;
+	}
+
+	.challenges ul li {
+		align-items: center;
+	}
+
+	.challenges-img {
+		margin-top: 20px;
+	}
+
+	.challenges-img img {
+		width: 100%;
+		max-width: 510px;
+
+	}
+}
+
 @media (max-width: 991px) {
+	/*Start services section banner */
+
+	.services-box-section .owl-theme .owl-nav.disabled+.owl-dots {
+		margin-top: -28px;
+	}
+
+	.services-box-section .owl-theme .owl-dots .owl-dot span {
+		height: 0.3em;
+		width: 0.3em;
+		margin: 3px;
+	}
+
+	/*end services section banner */
 	/* home  */
 	.portfolio-wide-image img {
 		display: block;
@@ -5337,7 +5452,35 @@
 		margin: 0 auto;
 	}
 
+	.challenges-heading span {
+		font-size: 24px;
+	}
 
+	.challenges-section {
+		padding: 40px 0;
+	}
+
+	.challenges ul li {
+		align-items: center;
+		font-size: 20px;
+	}
+
+	.challenges-img {
+		margin-top: 20px;
+	}
+
+	.challenges-img img {
+		width: 100%;
+		max-width: 480px;
+		border-radius: 10px;
+	}
+
+	/* toy sort puzzle case study */
+	.imageFloteLeft,
+	.imageFloteRight {
+		margin-bottom: 20px;
+		text-align: center;
+	}
 
 	/* .section-wrapper {
 		padding-top: 20px;
@@ -5357,10 +5500,39 @@
 		margin-bottom: 15px;
 	} */
 
+s
+
+	/* bomb defuse case study start*/
+	#bomb-defuse-background {
+		background-size: 100% 69%;
+	}
+}
+
+@media (max-width: 768px) {
+	.challenges-heading span {
+		font-size: 24px;
+	}
+
+	.challenges-section {
+		padding: 40px 0;
+	}
+
+	.challenges ul li {
+		align-items: center;
+	}
+
+	.challenges-img {
+		margin-top: 20px;
+	}
+
+	.challenges-img img {
+		width: 100%;
+		max-width: 480px;
+		border-radius: 10px;
+	}
 
 
 }
-
 
 @media (max-width: 768px) {
 		.user-testing-img {
@@ -5386,7 +5558,11 @@
 
 
 	/*start service pages banner section */
-	
+	.services-box-section .banner-box-image {
+		aspect-ratio: 531 / 549;
+		border-radius: 30px;
+		padding: 24px 0 23px 63px;
+	}
 
 	/*End service pages banner section */
 
@@ -5397,12 +5573,38 @@
 	.user-testing-img img {
 		width: 55px;
 	}
+
+	/* car mechanic case study*/
+	#car-mechanic-background {
+		background-size: 100% 59.4%;
+	}
+
+	.car-mechanic .bread-titlev2 h1 {
+		font-size: 33px;
+	}
+
+	.car-mechanic .bread-titlev2 p {
+
+		font-size: 18px;
+		word-spacing: 1px;
+
+	}
+
+	.bomb-defuse-spaceing {
+		margin: 50px 0 50px 0;
+	}
 }
 
 
 
 @media (max-width: 576px) {
 
+	/* toy sort puzzle case study */
+	.imageFloteLeft img,
+	.imageFloteRight img {
+		max-width: 50px;
+		animation-duration: 2s;
+	}
 	
 
 
@@ -5413,6 +5615,50 @@
 
 }
 
+@media (max-width: 768px) {
+	.conclusion-heading {
+		font-size: 26px;
+		text-align: center;
+	}
+
+	.conclusion-paragraph {
+		text-align: center;
+	}
+
+	.conclusion-right img {
+		margin-top: 15px;
+	}
+
+
+	/* toy sort case study start */
+	#toy-sort-puzzle {
+		background-size: 100% 67%;
+
+	}
+
+	.toy-sort-puzzle .imageFloteRight {
+		margin-top: 52px;
+	}
+
+	.toy-sort-playstore .imageFloteLeft img {
+		display: none;
+	}
+
+
+	/* mike mathis completed */
+	
+
+
+	/* mike mathis project decribtion section */
+	.Project-Description-title {
+		font-size: 30px;
+	}
+
+	.Project-Description-titleparagraph {
+		font-size: 18px;
+	}
+
+}
 
 @media (max-width: 480px) {
 
@@ -5431,6 +5677,9 @@
 		right: 42.1%;
 	}
 
+	.conclusion-heading {
+		font-size: 24px;
+	}
 
 	.portfolio-main-tag {
 		display: flex;
@@ -5451,6 +5700,67 @@
 
 	}
 
+	.conclusion-heading {
+		font-size: 24px;
+	}
+
+
+	/* couple app case study */
+	.couple-app {
+		background: url("../images/case-studies/couple-app/hero-background-couple-app.webp")center center/cover no-repeat;
+
+	}
+
+	.couple-app .logo {
+		max-width: 110px;
+		margin: 0;
+	}
+
+	.couple-app h1 {
+		font-size: 52px;
+		line-height: 65px;
+	}
+
+	/* toy sort case study start */
+	#toy-sort-puzzle {
+		background-size: 100% 55.3%;
+
+	}
+	
+	/* bomb defuse case study start */
+	#bomb-defuse-background {
+		background-size: 100% 69%;
+	}
+
+	/* responsive bomb defuse hero */
+	.bomb-defuse-app {
+		padding: 170px 0px 90px 0px;
+
+	}
+
+	.bomb-defuse-app .bread-titlev2 {
+		text-align: center;
+		color: white;
+	}
+
+	.bomb-defuse-app .bread-titlev2 h1 {
+		color: #FAAF3A;
+		margin-top: 20px;
+	}
+
+	.bomb-defuse-app .bread-titlev2 p {
+		margin: 7px 0 7px 0;
+		font-size: 14px;
+		word-spacing: 2px;
+
+	}
+
+	.bomb-defuse-app .logo {
+		width: 100%;
+		max-width: 500px;
+		display: block;
+		margin: 0 auto;
+	}
 
 
 	.tcd iframe {
@@ -5909,6 +6219,10 @@
 
 	}
 
+	.btn-close {
+		filter: invert(1);
+	}
+
 	.video-container iframe {
 		position: absolute;
 		top: 0;
@@ -5918,7 +6232,12 @@
 	}
 }
 
+@media (max-width:1200px) {
 
+	.btn-close {
+		filter: invert(1);
+	}
+}
 
 @media (max-width: 768px) {
     .video-card iframe {

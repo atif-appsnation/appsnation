@@ -582,7 +582,6 @@
 								<div class="card-body">
 									<img src="uploads/{{$item['image']}}" class="award-img" width="auto" height="auto">
 									<h5 class="text-center pt-3">{{$item['heading']}}</h5>
-									 
 								</div>
 							</div>
 						</div>
@@ -596,7 +595,6 @@
 								<div class="card-body">
 									<img src="uploads/{{$item['image']}}" class="award-img" width="auto" height="auto">
 									<h5 class="text-center pt-3">{{$item['heading']}}</h5>
-									 
 								</div>
 							</div>
 						</div>
@@ -612,7 +610,6 @@
 								<div class="card-body">
 									<img src="uploads/{{$item['image']}}" class="award-img" width="auto" height="auto">
 									<h5 class="text-center pt-3">{{$item['heading']}}</h5>
-									 
 								</div>
 							</div>
 						</div>
@@ -625,7 +622,6 @@
 								<div class="card-body">
 									<img src="uploads/{{$item['image']}}" class="award-img" width="auto" height="auto">
 									<h5 class="text-center pt-3">{{$item['heading']}}</h5>
-									 
 								</div>
 							</div>
 						</div>
@@ -675,42 +671,21 @@
             </div>
         </div>
 		
-		
         <div class="testimonial-card-a owl-carousel owl-theme">
 			@foreach($testimonials as $key => $item)
 
 			<div class="tcd card h-100">
 				<div class="row">
 					<div class="col-lg-6 position-relative">
-
-						<!-- Overlay -->
-						<div class="video-overlay"
-							data-target="player-{{$key}}"
-							style="position:absolute;top:0;left:0;width:100%;height:100%;cursor:pointer;z-index:2;">
-						</div>
-
-						<!-- YouTube Video -->
-						<iframe
-							id="player-{{$key}}"
-							class="youtube-player testimonial-video"
-
-						src="{{$item['comments']}}"	
-						title="Client Testimonial"
-
-							frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin"
-							allowfullscreen>
-						</iframe>
+						<div class="video-overlay" data-target="player-{{$key}}" style="position:absolute;top:0;left:0;width:100%;height:100%;cursor:pointer;z-index:2;"></div>
+						<iframe id="player-{{$key}}" class="youtube-player testimonial-video" src="{{$item['comments']}}" title="Client Testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 					</div>
-
 					<div class="col-lg-6">
 						<div class="testimonial-card card-body">
 							<div class="tt-text">
 								<p>{{$item['title']}}</p>
 							</div>
-
 							<div class="client-thumbs mt30">
 								<div class="media v-center upset">
 									<div class="media-body user-info v-center">
@@ -722,10 +697,8 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
-
 			@endforeach
 		</div>
         <div class="row mt-5">

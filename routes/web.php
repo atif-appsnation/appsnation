@@ -358,11 +358,11 @@ Route::get('/app-development-uae','Location\GccLocationController@uae');
 // Route::get('/app-development-italy','HomeController@italy');
 Route::get('/app-development-italy','Location\EuropeLocationController@italy');
 
-// Route::get('/locations','HomeController@locations');
-Route::get('/locations','OtherController@locations');
+Route::get('/locations','HomeController@locations');
+// Route::get('/locations','OtherController@locations');
 
-// Route::get('/cost-calculator', 'HomeController@cost_calculator')->name('cost-calculator');
-Route::get('/cost-calculator', 'OtherController@cost_calculator')->name('cost-calculator');
+Route::get('/cost-calculator', 'HomeController@cost_calculator')->name('cost-calculator');
+// Route::get('/cost-calculator', 'OtherController@cost_calculator')->name('cost-calculator');
 
 // Route::get('/review-data2','ScraperController@scrapeTestimonials2');
 // Route::get('/review-data','ScraperController@scrapeTestimonials');
