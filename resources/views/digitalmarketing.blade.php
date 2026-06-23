@@ -180,9 +180,7 @@
 				</h2>
 			</div>
 		</div>
-		<p class="mt-3 mt-md-0 wow" data-wow-delay=".5s">
-			Dubai’s market rewards precision. Our agency provides AI-driven SEO services in Houston for small businesses, expert SEO consulting services, and manual link building service that combine data-driven insights with creative strategies.
-		</p>
+		<p class="mt-3 mt-md-0 wow" data-wow-delay=".5s"> Dubai’s market rewards precision. Our agency provides AI-driven SEO services in Houston for small businesses, expert SEO consulting services, and manual link building service that combine data-driven insights with creative strategies.</p>
 		<div class="case-study-wrapper">
 			<div class="row">
 				<div class="col-xxl-6 wow">
@@ -233,7 +231,7 @@
 								<p>Increase your website visibility with best SEO services for small business and reach your target audience effectively.</p>
 							</div>
 						</div>
-						<div class="box bg-1 wow wow" data-wow-delay=".2s">
+						<div class="box bg-1 wow" data-wow-delay=".2s">
 							<div class="title-items">
 								<h3>
 									<a href="javascript:void(0)">SMM</a>
@@ -246,7 +244,7 @@
 								<p>Engage your audience with social media management, content creation, and advertising across all platforms.</p>
 							</div>
 						</div>
-						<div class="box bg-2  wow wow" data-wow-delay=".4s">
+						<div class="box bg-2 wow" data-wow-delay=".4s">
 							<div class="title-items">
 								<h3>
 									<a href="javascript:void(0)">Google Ads</a>
@@ -259,7 +257,7 @@
 								<p>Maximize your ROI with Google Ads management services near me and Google local service ads management.</p>
 							</div>
 						</div>
-						<div class="box bg-3 wow wow" data-wow-delay=".6s">
+						<div class="box bg-3 wow" data-wow-delay=".6s">
 							<div class="title-items">
 								<h3>
 									<a href="javascript:void(0)">Lead Generation</a>
@@ -551,7 +549,7 @@
 		<p class="mt-3 mt-md-0 wow" data-wow-delay=".5s">At <b>AppsNation</b>, we help businesses of all sizes and sectors grow online. From startups to established brands, our <b>AI-driven digital marketing services</b> deliver results across multiple industries.</p>
 		<div class="industries wow mt-4" data-wow-delay="0.7s">
 			<div class="row ">
-				<div class="col-6 col-md-4 col-lg-3 ">
+				<div class="col-6 col-md-6 col-lg-3">
 					<ul class="industries-point">
 						<li>
 							<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 30 30">
@@ -580,7 +578,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-6 col-md-4 col-lg-3">
+				<div class="col-6 col-md-6 col-lg-3">
 					<ul class="industries-point">
 						<li>
 							<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 30 30">
@@ -609,7 +607,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-6 col-md-4 col-lg-3 mt-3 mt-md-0">
+				<div class="col-6 col-md-6 col-lg-3 mt-3 mt-md-0">
 					<ul class="industries-point">
 						<li>
 							<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 30 30">
@@ -638,7 +636,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-6 col-md-4 col-lg-3 mt-3 mt-lg-0 hidden-industries">
+				<div class="col-6 col-md-6 col-lg-3 mt-3 mt-lg-0 hidden-industries">
 					<ul class="industries-point">
 						<li>
 							<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 30 30">

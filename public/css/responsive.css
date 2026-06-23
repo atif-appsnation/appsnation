@@ -1,4 +1,4 @@
-/* Version: 1.5 | Last updated: 08-06-2026 */
+/* Version: 1.6 | Last updated: 23-06-2026 */
 
 @media screen and (max-width:1920px) and (min-width:992px) {
 	.dropdown:hover>.dropdown-menu {
@@ -5275,7 +5275,7 @@
 	}
 }
 
-@media only screen and (max-width: 1399px) {
+/* @media only screen and (max-width: 1399px) {
 	.case-study-wrapper .main-box .box::before {
 		border: 0.5px solid var(--white-color);
 		background: radial-gradient(258.86% 216.49% at -18.48% -74.46%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
@@ -5321,168 +5321,10 @@
 		visibility: visible;
 		bottom: 30px;
 	}
-}
+} */
 
-@media screen and (min-width:766px) and (max-width:992px) {
+/* @media screen and (min-width:766px) and (max-width:992px) {
 	.hidden-industries {
 		display: none;
 	}
-}
-
-
-
-@media (max-width: 1399px) {
-	.team-details-wrapper .team-details-items {
-		flex-wrap: wrap;
-		gap: 30px;
-	}
-}
-
-@media (max-width: 1199px) {
-	.team-details-wrapper .team-details-items .content .team-contact-info {
-		padding: 20px 20px;
-		flex-wrap: wrap;
-		gap: 30px;
-	}
-}
-
-@media (max-width: 1199px) {
-	.team-details-wrapper .team-details-items .content .team-contact-info .icon-items {
-		flex-wrap: wrap;
-	}
-}
-
-@media (max-width: 767px) {
-	.team-details-wrapper .team-details-items .content .team-contact-info .icon-items {
-		flex-wrap: nowrap;
-		justify-content: space-between;
-	}
-}
-
-@media (min-width: 1200px) {
-    .shop-container {
-        max-width: 1110px !important;
-    }
-}
-
-@media (max-width: 767px) {
-    .problem-section {
-        padding: 10px 0;
-        text-align: center;
-    }
-
-    .problem-left-container,
-    .problem-right-container {
-        margin-bottom: 30px;
-    }
-
-    .problem-section h2 {
-        font-size: 26px;
-    }
-
-    .problem-section p {
-        font-size: 15px;
-    }
-
-}
-
-@media (max-width:992px) {
-
-    .Objectives-section h3 {
-        text-align: center;
-        margin-top: 22px;
-    }
-}
-
-@media (max-width:1399px) {
-
-    .busniess-img-paytem img,
-    .busniess-img-phone img,
-    .bussness-img-lady img {
-        width: 300px;
-        height: auto;
-        padding-left: 22px;
-    }
-}
-
-@media (max-width: 992px) {
-
-    .busniess-img-paytem img,
-    .busniess-img-phone img,
-    .bussness-img-lady img {
-        width: 100%;
-        max-width: 400px;
-        height: auto;
-        margin: 0 auto;
-        /* center the image */
-        display: block;
-        /* ensures centering works */
-        padding-left: 0;
-        /* remove fixed padding */
-    }
-}
-
-
-@media (max-width: 767px) {
-    .uiux-title {
-        font-size: 2rem;
-    }
-
-    .uiux-paragraph {
-        margin-bottom: 2rem;
-    }
-
-    .research-image {
-        margin-bottom: 2rem;
-    }
-}
-
-@media (min-width: 992px) {
-    .start-connector {
-        left: calc((100% - 1320px) / 226 + 20px);
-    }
-
-    .section-wrapper::before {
-        content: '';
-        position: absolute;
-        top: 60px;
-        left: 50px;
-        width: 2px;
-        height: 150px;
-        background-color: #dcb880;
-        z-index: 0;
-    }
-
-    .section-wrapper::after {
-        content: '';
-        position: absolute;
-        top: 210px;
-        left: 50px;
-        width: 60px;
-        height: 2px;
-        background-color: #dcb880;
-        z-index: 0;
-    }
-
-	
-}
-
-/* @media (max-width: 991px) {
-
-    .section-wrapper {
-        padding-top: 20px;
-    }
-
-    .card-connector-plus {
-        display: none;
-    }
-
-    .card-custom {
-        min-height: auto;
-        margin-bottom: 20px;
-    }
-
-    .number-circle {
-        margin-bottom: 15px;
-    }
 } */
