@@ -189,8 +189,7 @@ class MetatagCrudController extends CrudController
                 'boujeeBeachinApp' => 'boujeeBeachinApp',
                 'woodLandApp' => 'woodLandApp',
                 'neuroKnightsApp' => 'neuroKnightsApp',
-
-                 'mikeMathisApp' => 'mikeMathisApp',
+                'mikeMathisApp' => 'mikeMathisApp',
                 'graveLove' => 'graveLove',
                 'bombDefuse' => 'bombDefuse',
                 'coupleApp' => 'coupleApp',
@@ -199,6 +198,9 @@ class MetatagCrudController extends CrudController
                 'royalrelaxspa' => 'royalrelaxspa',
                 'Loadboard' => 'Loadboard',
                 'alltraders' => 'alltraders',
+                'semApp' => 'semApp',
+                'seoApp' => 'seoApp',
+                'smmApp' => 'smmApp',
             ],
 
             'allows_null' => false,

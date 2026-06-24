@@ -384,3 +384,6 @@ Route::get('/case-studies/load-board','CaseStudyController@Loadboard');
 Route::get('/case-studies/all-traders-app','CaseStudyController@alltraders');
 Route::get('/case-studies/alejandro-app','HomeController@alejandroApp');
 Route::get('/metaverse-development','HomeController@metaverseAppDevelopment');
+Route::get('/social-media-marketing','HomeController@smmApp');
+Route::get('/search-engine-optimization','HomeController@seoApp');
+Route::get('/search-engine-marketing','HomeController@semApp');

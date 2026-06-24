@@ -22963,3 +22963,135 @@ textarea::-ms-input-placeholder {
 }
 
 /* End Digital Marketing */
+
+/* Start Social Media Marketing */
+
+.social-media-marketing-banner {
+    background-image: url(../images/services/social-media-marketing/hero-section.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.market-growth-banner {
+    background-image: url(../images/services/social-media-marketing/marketing-growth.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social-media-platforms-banner {
+    background-image: url(../images/services/social-media-marketing/socal-media-platfrom.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ad-spending-banner {
+    background-image: url(../images/services/social-media-marketing/ad-spending.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roi-banner {
+    background-image: url(../images/services/social-media-marketing/roi.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reach-out-banner {
+    position: relative;
+    padding: 100px 0;
+    background: url(../images/services/social-media-marketing/smm-morkup.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.reach-out-banner .container {
+    position: relative;
+    z-index: 2;
+}
+
+.banner-content {
+    color: #fff;
+}
+
+.banner-content h2 {
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: var(--white-color);
+}
+
+.banner-content h2 span {
+    color: var(--first-color);
+}
+
+.border_btn.dark_btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.border_btn.dark_btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* End Social Media Marketing */
+
+/* Start Search Engine Marketing */
+
+.social-engine-marketing-banner {
+    background-image: url(../images/services/search-engine-marketing/sem-hero-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sem-strategy-banner {
+    position: relative;
+    padding: 100px 0;
+    background: url(../images/services/search-engine-marketing/sem-mockup.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.sem-strategy-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.sem-strategy-banner .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* End Search Engine Marketing */
+
+/* Start search engine optemization */
+.social-media-optemization-banner {
+    background-image: url(../images/services/search-engine-optimization/seo-hero-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seo-morkup-banner {
+    position: relative;
+    padding: 100px 0;
+    background: url("../images/services/search-engine-optimization/seo-morkup.png")
+        no-repeat center center/cover;
+    overflow: hidden;
+}
+/* End search engine optemization */

@@ -391,9 +391,9 @@
 															<div class="menu-item-title align-middle">Digital Marketing</div>
 														</a>
 														<ul class="main-submenu">
-															<li> <a href="{{url('/iot-app-development')}}"><i class="fa-duotone fa-solid fa-chevrons-right pe-2"></i>Social Media Marketing</a> </li>
-															<li> <a href="{{url('/wearable-app-development')}}"><i class="fa-duotone fa-solid fa-chevrons-right pe-2"></i>Search Engine Marketing</a> </li>
-															<li> <a href="{{url('/industrial-automation')}}"><i class="fa-duotone fa-solid fa-chevrons-right pe-2"></i>Search Engine Optimization</a> </li>
+															<li> <a href="{{url('/social-media-marketing')}}"><i class="fa-duotone fa-solid fa-chevrons-right pe-2"></i>Social Media Marketing</a> </li>
+															<li> <a href="{{url('/search-engine-marketing')}}"><i class="fa-duotone fa-solid fa-chevrons-right pe-2"></i>Search Engine Marketing</a> </li>
+															<li> <a href="{{url('/search-engine-optimization')}}"><i class="fa-duotone fa-solid fa-chevrons-right pe-2"></i>Search Engine Optimization</a> </li>
 														</ul>
 													</li>
 												</ul>

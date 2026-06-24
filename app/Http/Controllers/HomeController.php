@@ -3361,4 +3361,100 @@ class HomeController extends Controller
         );
     }
 
+    public function seoApp()
+    {
+        $metabank = Metabank::where('slug', 'SeoApp')->where('type', 'Tag')->get();
+        $metabank2 = Metabank::where('slug', 'SeoApp')->where('type', 'Meta')->get();
+
+        $metatag = Metatag::where('slug', 'SeoApp')->get();
+        $metatitle = Metatitle::where('slug', 'SeoApp')->get();
+
+        $techstack = Techstack::where('xr', 1)->orderBy('lft', 'asc')->get()->toArray();
+        $agencystack = Agencystack::where('xr', 1)->orderBy('lft', 'asc')->get()->toArray();
+        $awards = Award::orderBy('lft', 'asc')->get()->toArray();
+        $casestudy = Casestudyapp::all();
+        $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
+        $data = $this->blogApi('xr-app');
+
+        return view(
+            'seo',
+            [
+                'techstack' => $techstack,
+                'agencystack' => $agencystack,
+                'awards' => $awards,
+                'casestudy' => $casestudy,
+                'testimonials' => $testimonials,
+                'metabank' => $metabank,
+                'metabank2' => $metabank2,
+                'metatitle' => $metatitle,
+                'metatag' => $metatag,
+                'data' => $data,
+            ]
+        );
+    }
+
+    public function smmApp()
+    {
+        $metabank = Metabank::where('slug', 'SmmApp')->where('type', 'Tag')->get();
+        $metabank2 = Metabank::where('slug', 'SmmApp')->where('type', 'Meta')->get();
+
+        $metatag = Metatag::where('slug', 'SmmApp')->get();
+        $metatitle = Metatitle::where('slug', 'SmmApp')->get();
+
+        $techstack = Techstack::where('xr', 1)->orderBy('lft', 'asc')->get()->toArray();
+        $agencystack = Agencystack::where('xr', 1)->orderBy('lft', 'asc')->get()->toArray();
+        $awards = Award::orderBy('lft', 'asc')->get()->toArray();
+        $casestudy = Casestudyapp::all();
+        $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
+        $data = $this->blogApi('xr-app');
+
+        return view(
+            'smm',
+            [
+                'techstack' => $techstack,
+                'agencystack' => $agencystack,
+                'awards' => $awards,
+                'casestudy' => $casestudy,
+                'testimonials' => $testimonials,
+                'metabank' => $metabank,
+                'metabank2' => $metabank2,
+                'metatitle' => $metatitle,
+                'metatag' => $metatag,
+                'data' => $data,
+            ]
+        );
+    }
+
+    public function semApp()
+    {
+        $metabank = Metabank::where('slug', 'SemApp')->where('type', 'Tag')->get();
+        $metabank2 = Metabank::where('slug', 'SemApp')->where('type', 'Meta')->get();
+
+        $metatag = Metatag::where('slug', 'SemApp')->get();
+        $metatitle = Metatitle::where('slug', 'SemApp')->get();
+
+        $techstack = Techstack::where('xr', 1)->orderBy('lft', 'asc')->get()->toArray();
+        $agencystack = Agencystack::where('xr', 1)->orderBy('lft', 'asc')->get()->toArray();
+        $awards = Award::orderBy('lft', 'asc')->get()->toArray();
+        $casestudy = Casestudyapp::all();
+        $testimonials = Testimonial::orderBy('lft', 'asc')->get()->toArray();
+        $data = $this->blogApi('xr-app');
+
+        return view(
+            'sem',
+            [
+                'techstack' => $techstack,
+                'agencystack' => $agencystack,
+                'awards' => $awards,
+                'casestudy' => $casestudy,
+                'testimonials' => $testimonials,
+                'metabank' => $metabank,
+                'metabank2' => $metabank2,
+                'metatitle' => $metatitle,
+                'metatag' => $metatag,
+                'data' => $data,
+            ]
+        );
+    }
+
 }
