@@ -1,7 +1,7 @@
 @extends('app.main')
 @section('content')
 <!--Start Breadcrumb Area-->
-<section class="breadcrumb-areav2 social-media-optemization-banner services-banner">
+<section class="breadcrumb-areav2 social-media-optimization-banner services-banner">
 	@if ($errors->has('g-recaptcha-response'))
 	<div class="alert alert-danger">
 		<strong>{{ $errors->first('g-recaptcha-response') }}</strong>
@@ -9,7 +9,7 @@
 	@endif
 	<div class="container">
 		<div class="row justify-content-between">
-			<div class="col-md-12 col-lg-6 order-2 order-lg-1 my-auto wow fadeIn">
+			<div class="col-md-12 col-lg-6 my-auto wow fadeIn">
 				<div class="bread-titlev2 common-heading">
 					<h1 class="banner-heading pt-3">
 						<span>Search Engine Optimization </span> Services
@@ -17,7 +17,7 @@
 					<p class="mt20 text-white">Here at <a href="{{url('/')}}" target="_blank"> AppsNation</a> Build your website’s authority with promising results following our proven SEO strategy. </p>
 				</div>
 			</div>
-			<div class="col-md-12 col-lg-4 order-1 order-lg-2 wow fadeIn">
+			<div class="col-md-12 col-lg-4 col-xl-6 wow fadeIn">
 				<div class="niwax23form shadow">
 					<div class="common-heading text-l">
 						{!! NoCaptcha::renderJs() !!}
@@ -121,8 +121,8 @@
 </div>
 <!-- End Marquee-->
 
-<!-- Start about service -->
-<section class="wood-land-client-overview py-5 wow fadeIn" data-wow-delay="0.4s">
+<!-- Start About Service -->
+<section class="py-5 wow fadeIn" data-wow-delay="0.4s">
 	<div class="container">
 		<div class="row client-wood-land-wrapper">
 			<div class="col-lg-6  my-lg-auto ">
@@ -132,16 +132,16 @@
             		<p>If any of these situations are recognizable, you’ve come to the right site. We understand that the environment is constantly changing, and so, our SEO techniques are tailored to fit into the current market needs.</p>
         		</div>
       		</div>
-			<div class="col-lg-6">
-				<img loading="lazy" class="img-fluid" src="{{asset('images/services/search-engine-optimization/sustainable-ranking.png')}}" alt="client-overview" width="100%" height="100%">
+			<div class="col-lg-6 mt-4 mt-lg-0">
+				<img loading="lazy" class="img-fluid" src="{{asset('images/services/search-engine-optimization/sustainable-ranking.webp')}}" alt="client-overview" width="100%" height="100%">
 			</div>
     	</div>
   	</div>
 </section>
-<!-- end about services -->
+<!-- End About Services -->
 
 <!-- Start Services -->
-<section class="case-study-section fix section-padding">
+<section class="case-study-section fix section-padding seo-case-study-section">
   	<div class="container">
     	<div class="section-title-area">
       		<div class="section-title">
@@ -437,10 +437,10 @@
 
 <!-- Start Industries -->
 <section class="case-study-section fix section-padding">
-	<div class="left-shape float-bob-x">
+	<div class="left-shape float-bob-x d-none d-lg-block">
 		<img src="images/services/search-engine-optimization/left-shape.png" alt="img " loading="lazy">
 	</div>
-	<div class="right-shape float-bob-x">
+	<div class="right-shape float-bob-x d-none d-lg-block">
 		<img src="images/services/search-engine-optimization/right-shape.png" alt="img" loading="lazy">
 	</div>
 	<div class="container">
@@ -594,7 +594,7 @@
 <!-- End Industries -->
 
 <!-- Start Badges -->
-<section class="badges-section new-bages-section pt-5 section-padding">
+<section class="badges-section new-bages-section services-bages-section pt-5 section-padding">
 	<div class="container">
 		<div class="row wow fadeIn">
 			<div class="col-12">
@@ -607,7 +607,7 @@
 		</div>
 		<div class="row wow fadeIn mt-5" data-wow-delay=".5s">
 			<div class="col-12">
-				<div class="awards-slider owl-carousel owl-theme owl-loaded owl-drag">
+				<div class="awards-slider services-awards-slider owl-carousel owl-theme owl-loaded owl-drag">
 					<div class="award-item">
 						<div class="item">
 							<div class="card">
@@ -795,22 +795,22 @@
 </section>
 <!-- End Badges -->
  
-<!-- Start reach-out-banner -->
+<!-- Start Reach Out Banner -->
 <section class="banner-box-section p-100 text-white py-5">
 	<div class="h-100 container">
-		<div class="  wow fadeIn">
-			<div class="banner-box-image seo-morkup-banner">
+		<div class="wow fadeIn">
+			<div class="banner-box-image seo-reach-out-banner">
 				<div class="h-100 align-items-center row">
 					<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12 ps-3 common-heading">
-						<h2> Reach Out To <span>Your Target Audiences</span> Through Social Media And Create More Brand Awareness </h2>
-						<a class="border_btn dark_btn" data-bs-toggle="modal" data-bs-target="#myModal" aria-label="Appsnation"> Contact our Social Media Marketing team</a>
+						<h2> Reach Out To <span>Your Target Audiences</span> Through Social Engine And Create More Brand Awareness </h2>
+						<a class="border_btn dark_btn mt-3" data-bs-toggle="modal" data-bs-target="#myModal" aria-label="Appsnation"> Contact our Social Engine Optimization team </a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- End reach-out-banner -->
+<!-- End Reach Out Banner -->
 
 <!--Start Process-->
 <section class="process-block bg-gradient3 py-5">
@@ -1008,6 +1008,7 @@
 	</div>
 </section>
 <!--End Badges-->
+
 <!--Start Let's Work Together-->
 <section class="my-1">
 	<div class="container">
@@ -1088,7 +1089,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-md-0">
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.bark.com/en/us/company/appsnation/wGVQn/" target="_blank">
@@ -1099,7 +1100,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-xl-0">
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-lg-0">
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.designrush.com/agency/profile/appsnation" target="_blank">

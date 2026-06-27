@@ -10,13 +10,13 @@
 	@endif
 	<div class="container">
 		<div class="row justify-content-between">
-			<div class="col-md-12 col-lg-6 order-2 order-lg-1 my-auto wow fadeIn">
+			<div class="col-md-12 col-lg-6 my-auto wow fadeIn">
 				<div class="bread-titlev2 common-heading">
 					<h1 class="banner-heading pt-3">Responsive <span>Search Ads </span> for Wider Reach & Higher CTR </h1>
 					<p class="mt20 text-white">Here at <a href="{{url('/')}}" target="_blank"> AppsNation</a>Get found by millions of potential prospects with custom, high-impact search ads. We plan, execute, and scale funnel-optimized ad campaigns for custom audiences. Our search engine marketing services help businesses rank above the fold, generate instant traffic, and drive conversion rate lift.</p>
 				</div>
 			</div>
-			<div class="col-md-12 col-lg-4 order-1 order-lg-2 wow fadeIn">
+			<div class="col-md-12 col-lg-6 col-xxl-4 wow fadeIn">
 				<div class="niwax23form shadow">
 					<div class="common-heading text-l">
 						{!! NoCaptcha::renderJs() !!}
@@ -136,7 +136,7 @@
 					<p>Our professional team diligently monitors and fine-tunes your campaign to adjust changes according to the market requirements. For us, each click counts, and thus our tailored SEM services ensure that we convert every potential click into your loyal customer.</p>
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="col-lg-6 mt-4 mt-lg-0">
 				<img loading="lazy" class="img-fluid" src="{{asset('images/services/search-engine-marketing/search-engine-marketing.webp')}}" alt="client-overview" width="100%" height="100%">
 			</div>
 		</div>
@@ -487,11 +487,11 @@
 
 <!-- Start Industries -->
 <section class="case-study-section fix section-padding">
-	<div class="left-shape float-bob-x">
-		<img src="images/services/search-engine-marketing/left-shape.png" alt="img" loading="lazy">
+	<div class="left-shape float-bob-x d-none d-lg-block">
+		<img src="images/services/social-media-marketing/left-shape.png" alt="img " loading="lazy">
 	</div>
-	<div class="right-shape float-bob-x">
-		<img src="images/services/search-engine-marketing/right-shape.png" alt="img" loading="lazy">
+	<div class="right-shape float-bob-x d-none d-lg-block">
+		<img src="images/services/social-media-marketing/right-shape.png" alt="img" loading="lazy">
 	</div>
 	<div class="container">
 		<div class="section-title-area">
@@ -592,7 +592,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-6 col-md-6 col-lg-3 mt-3 mt-lg-0">
+				<div class="col-6 col-md-6 col-lg-3 mt-3 mt-md-0">
 					<ul class="industries-point">
 						<li>
 							<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 30 30">
@@ -649,7 +649,7 @@
 <!-- End Industries -->
 
 <!-- Start Badges -->
-<section class="badges-section new-bages-section pt-5 section-padding">
+<section class="badges-section new-bages-section services-bages-section pt-5 section-padding">
 	<div class="container">
 		<div class="row wow fadeIn">
 			<div class="col-12">
@@ -850,22 +850,22 @@
 </section>
 <!-- End Badges -->
 
-<!-- Start reach-out-banner -->
+<!-- Start Reach Out Banner -->
 <section class="banner-box-section p-100 text-white py-5">
 	<div class="h-100 container">
 		<div class="wow fadeIn">
-			<div class="banner-box-image sem-strategy-banner">
+			<div class="banner-box-image sem-reach-out-banner">
 				<div class="h-100 align-items-center row">
 					<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12 ps-3 common-heading">
-						<h2> Reach Out To <span>Your Target Audiences</span> Through Social Media And Create More Brand Awareness </h2>
-						<a class="border_btn dark_btn mt-3" data-bs-toggle="modal" data-bs-target="#myModal" aria-label="Appsnation"> Contact our Social Media Marketing team</a>
+						<h2> Reach Out To <span>Your Target Audiences</span> Through Social Engine And Create More Brand Awareness </h2>
+						<a class="border_btn dark_btn mt-3" data-bs-toggle="modal" data-bs-target="#myModal" aria-label="Appsnation"> Contact our Social Engine Marketing team </a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- End reach-out-banner -->
+<!-- End Reach Out Banner -->
 
 <!--Start Let's Work Together-->
 <section class="container my-1">
@@ -1100,7 +1100,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-lg-0">
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.bark.com/en/us/company/appsnation/wGVQn/" target="_blank">
@@ -1111,7 +1111,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-xl-0">
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-lg-0">
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.designrush.com/agency/profile/appsnation" target="_blank">

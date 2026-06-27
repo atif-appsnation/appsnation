@@ -12,10 +12,7 @@
 			<div class="col-sm-12 col-xl-6 my-auto wow fadeIn">
 				<div class="bread-titlev2">
 					<h1 class="banner-heading pt-3" data-wow-delay=".2s">Mobile App Development Company in Canada</h1>
-					<p class="mt20 text-white" data-wow-delay=".4s">Are you looking to release a potent mobile application that promotes growth in Canada?
- At AppsNation, we help businesses in Toronto, Vancouver, Calgary, and beyond create next-generation mobile apps for iOS, Android, cross-platform, AR/VR, and wearables that not only look good but also deliver real results.
- Whether you're a startup looking for your first MVP or an enterprise looking to scale across devices, our award-winning team can help you transform your vision into a high-performance digital product.
-  Let's bring your app idea to life quickly, strategically, and effectively.</p>
+					<p class="mt20 text-white" data-wow-delay=".4s">Are you looking to release a potent mobile application that promotes growth in Canada? At AppsNation, we help businesses in Toronto, Vancouver, Calgary, and beyond create next-generation mobile apps for iOS, Android, cross-platform, AR/VR, and wearables that not only look good but also deliver real results. Whether you're a startup looking for your first MVP or an enterprise looking to scale across devices, our award-winning team can help you transform your vision into a high-performance digital product. Let's bring your app idea to life quickly, strategically, and effectively.</p>
 				</div>
 				<div class="row mt-3">
 					<div class="col-md-4">
@@ -699,13 +696,17 @@ With years of industry experience, we’ve refined not only our technical expert
 <!--End Process-->
 
 <!--Start Let's Work Together-->
-<div class="row justify-content-center hire-developer hire-developer-app-development">
-	<div class="col-lg-7">
-		<div class="free-cta-title v-center wow fadeIn">
-			<p class="text-center text-lg-start text-white">We're dedicated to keeping our promises and striving for excellence</p>
-		</div>
-		<div class="hire-developer-img d-none d-xl-block">
-			<img src="images/locations/hire-developer.webp" alt="Hire Developer" class="img-fluid" width="auto" height="auto">
+<div class="hire-developer hire-developer-app-development">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="free-cta-title v-center wow fadeIn">
+					<p class="text-center text-lg-start text-white">We're dedicated to keeping our promises and striving for excellence</p>
+				</div>
+				<div class="hire-developer-img d-none d-xl-block">
+					<img loading="lazy" src="images/locations/hire-developer.webp" alt="Hire Developer" class="img-fluid" width="auto" height="auto">
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

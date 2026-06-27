@@ -1,4 +1,4 @@
-/* Version: 1.6 | Last updated: 23-06-2026 */
+/* Version: 1.8 | Last updated: 26-06-2026 */
 
 @media screen and (max-width:1920px) and (min-width:992px) {
 	.dropdown:hover>.dropdown-menu {
@@ -1564,6 +1564,20 @@
 	.real-estate-app img, .restaurant-app img, .shopping-express-app img, .sports-app img {
 		width: 65%;
 	} */
+
+	/* .case-study-wrapper .main-box {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0 30px;
+    }
+
+	.case-study-wrapper .main-box .box {
+        width: 100% !important;
+    } */
+
+	.case-study-wrapper .case-study-box-items .thumb {
+		height: 328px;
+	}
 }
 
 @media only screen and (max-width:767px) {
@@ -2542,6 +2556,42 @@
 		padding-left: 0;
 	}
 
+	.case-study-wrapper .case-study-box-items .thumb .post-box-items {
+		right: 30px;
+	}
+
+	.awards-slider .owl-stage-outer {
+        height: 290px !important;
+    }
+
+	.badges-section .award-item .card {
+		height: 260px;
+	}
+
+	.smm-banner-box .banner-box-image {
+		height: 272px;
+	}
+
+	.services-bages-section  .award-item .card {
+		height: 220px !important;
+	}
+
+	.services-bages-section .awards-slider .owl-item .card img {
+        max-width: 180px;
+    }
+
+	.services-bages-section .awards-slider .owl-stage-outer {
+        height: 250px !important;
+    }
+
+	.seo-case-study-section .case-study-wrapper .main-box .box {
+		height: 390px;
+	}
+
+	.seo-case-study-section .case-study-wrapper .main-box .box .project-content {
+		top: 92px;
+	}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -3375,6 +3425,30 @@
 		font-size: 1em;
 	}
 
+	.awards-slider .owl-stage-outer {
+        height: 290px !important;
+    }
+
+	.badges-section .award-item .card {
+		height: 260px;
+	}
+
+	.smm-banner-box .banner-box-image {
+		height: 336px;
+	}
+
+	.services-bages-section  .award-item .card {
+		height: 190px !important;
+	}
+
+	.services-bages-section .awards-slider .owl-item .card img {
+        max-width: 150px;
+    }
+
+	.services-bages-section .awards-slider .owl-stage-outer {
+        height: 210px !important;
+    }
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -3973,8 +4047,32 @@
 	}
 
 	.awards-slider .owl-item .card img {
-		max-width: 152px;
+		max-width: 150px;
 	}
+
+	.awards-slider .owl-stage-outer {
+        height: 290px !important;
+    }
+
+	.badges-section .award-item .card {
+		height: 260px;
+	}
+
+	.smm-banner-box .banner-box-image {
+		height: 284px;
+	}
+
+	.services-bages-section  .award-item .card {
+		height: 190px !important;
+	}
+
+	.services-bages-section .awards-slider .owl-item .card img {
+        max-width: 150px;
+    }
+
+	.services-bages-section .awards-slider .owl-stage-outer {
+        height: 210px !important;
+    }
 
 }
 
@@ -4311,6 +4409,14 @@
 		background-size: 100% 86%;
 	}
 
+	.services-bages-section  .award-item .card {
+		height: 200px !important;
+	}
+
+	.services-bages-section .awards-slider .owl-stage-outer {
+        height: 210px !important;
+    }
+
 }
 
 @media only screen and (min-width:1600px) and (max-width:1919px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
@@ -4626,6 +4732,14 @@
 	#bomb-defuse-background {
 		background-size: 100% 86%;
 	}
+
+	.services-bages-section  .award-item .card {
+		height: 200px !important;
+	}
+
+	.services-bages-section .awards-slider .owl-stage-outer {
+        height: 210px !important;
+    }
 
 }
 
@@ -5272,6 +5386,42 @@
 @media only screen and (min-width:1200px) {
 	.hire-developer-app-development {
 		margin: 200px 0px 50px;
+	}
+}
+
+@media only screen and (max-width:1439px) {
+	.case-study-wrapper .main-box {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0 30px;
+    }
+
+	.case-study-wrapper .main-box .box {
+        width: 100% !important;
+    }
+
+	.case-study-wrapper .main-box .box .title-items {
+        display: none;
+    }
+
+	.case-study-wrapper .main-box .box .title-items {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+	.case-study-wrapper .main-box .box .number-hover {
+        opacity: 1;
+        visibility: visible;
+    }
+
+	.case-study-wrapper .main-box .box .project-content {
+        opacity: 1;
+        visibility: visible;
+        bottom: 20px;
+    }
+
+	.case-study-wrapper .main-box .box.active::before {
+		display: none;
 	}
 }
 

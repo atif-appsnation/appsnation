@@ -10,13 +10,13 @@
 	@endif
 	<div class="container">
 		<div class="row justify-content-between">
-			<div class="col-md-12 col-lg-6 order-2 order-lg-1 my-auto wow fadeIn">
+			<div class="col-md-12 col-lg-6 my-auto wow fadeIn">
 				<div class="bread-titlev2 common-heading">
 					<h1 class="banner-heading pt-3" data-wow-delay=".2s">Engage Your Target Audience with Custom <span>Social Media Marketing</span> Services</h1>
 					<p class="mt20 text-white" data-wow-delay=".4s">Here at <a href="{{url('/')}}" target="_blank"> AppsNation</a>,We at Tekrevol offer you top-of-the-line social media marketing services that guarantee high engagement from your target audiences, drive traffic and generate meaningful new sales leads for your business.</p>
 				</div>
 			</div>
-			<div class="col-md-12 col-lg-4 order-1 order-lg-2 wow fadeIn">
+			<div class="col-md-12 col-lg-6 col-xxl-4 wow fadeIn">
 				<div class="niwax23form shadow">
 					<div class="common-heading text-l">
 						{!! NoCaptcha::renderJs() !!}
@@ -246,7 +246,7 @@
 <!-- End Services-->
 
 <!-- Start Services -->
-<section class="banner-box-section p-100 text-white py-5">
+<section class="banner-box-section smm-banner-box p-100 text-white py-5">
 	<div class="h-100 container">
 		<div class="mb-4 row">
 			<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
@@ -442,10 +442,10 @@
 
 <!-- Start Industries -->
 <section class="case-study-section fix section-padding">
-	<div class="left-shape float-bob-x">
+	<div class="left-shape float-bob-x d-none d-lg-block">
 		<img src="images/services/social-media-marketing/left-shape.png" alt="img " loading="lazy">
 	</div>
-	<div class="right-shape float-bob-x">
+	<div class="right-shape float-bob-x d-none d-lg-block">
 		<img src="images/services/social-media-marketing/right-shape.png" alt="img" loading="lazy">
 	</div>
 	<div class="container">
@@ -547,7 +547,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-6 col-md-6 col-lg-3 mt-3 mt-lg-0">
+				<div class="col-6 col-md-6 col-lg-3 mt-3 mt-md-0">
 					<ul class="industries-point">
 						<li>
 							<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 30 30">
@@ -604,7 +604,7 @@
 <!-- End Industries -->
 
 <!-- Start Badges -->
-<section class="badges-section new-bages-section pt-5 section-padding">
+<section class="badges-section new-bages-section services-bages-section pt-5 section-padding">
 	<div class="container">
 		<div class="row wow fadeIn">
 			<div class="col-12">
@@ -617,7 +617,7 @@
 		</div>
 		<div class="row wow fadeIn mt-5" data-wow-delay=".5s">
 			<div class="col-12">
-				<div class="awards-slider owl-carousel owl-theme owl-loaded owl-drag">
+				<div class="awards-slider services-awards-slider owl-carousel owl-theme owl-loaded owl-drag">
 					<div class="award-item">
 						<div class="item">
 							<div class="card">
@@ -805,11 +805,11 @@
 </section>
 <!-- End Badges -->
 
-<!-- Start reach-out-banner -->
+<!-- Start Reach Out Banner -->
 <section class="banner-box-section p-100 text-white py-5">
 	<div class="h-100 container">
 		<div class="wow fadeIn">
-			<div class="banner-box-image reach-out-banner">
+			<div class="banner-box-image smm-reach-out-banner">
 				<div class="h-100 align-items-center row">
 					<div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-12 ps-3 common-heading">
 						<h2> Reach Out To <span>Your Target Audiences</span> Through Social Media And Create More Brand Awareness </h2>
@@ -820,7 +820,7 @@
 		</div>
 	</div>
 </section>
-<!-- End reach-out-banner -->
+<!-- End Reach Out Banner -->
 
 <!-- Start Technologies -->
 <section class="technologies certificates py-5">
@@ -1033,7 +1033,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-md-0">
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.bark.com/en/us/company/appsnation/wGVQn/" target="_blank">
@@ -1044,7 +1044,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-xl-0">
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-md-0">
 						<div class="card h-100">
 							<div class="card-body">
 								<a href="https://www.designrush.com/agency/profile/appsnation" target="_blank">

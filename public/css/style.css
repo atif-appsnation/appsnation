@@ -1,4 +1,4 @@
-/* Version: 1.6 | Last updated: 23-06-2026 */
+/* Version: 1.8 | Last updated: 26-06-2026 */
 
 :root {
     --first-color: #0dacaf;
@@ -22200,7 +22200,7 @@ textarea::-ms-input-placeholder {
 .case-study-wrapper .main-box .box .project-content p,
 .case-study-wrapper .main-box .box .project-content h3 {
 	color: var(--white-color);
-	line-height: 162%;
+	/* line-height: 162%; */
 }
 
 .case-study-wrapper .main-box .box .project-content .link-btn {
@@ -22934,6 +22934,10 @@ textarea::-ms-input-placeholder {
     height: 250px !important;
 }
 
+.smm-bages-section  .award-item .card {
+    height: 240px !important;
+}
+
 .seo-banner {
     background-image: url(../images/services/digital-marketing/seo.png); 
     background-repeat: no-repeat; 
@@ -22996,17 +23000,17 @@ textarea::-ms-input-placeholder {
     background-size: cover;
 }
 
-.reach-out-banner {
+.smm-reach-out-banner {
     position: relative;
     padding: 100px 0;
-    background: url(../images/services/social-media-marketing/smm-morkup.webp);
+    background: url(../images/services/social-media-marketing/smm-mockup.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     overflow: hidden;
 }
 
-.reach-out-banner .container {
+.smm-reach-out-banner .container {
     position: relative;
     z-index: 2;
 }
@@ -23078,20 +23082,54 @@ textarea::-ms-input-placeholder {
     z-index: 2;
 }
 
+.sem-reach-out-banner {
+    position: relative;
+    padding: 100px 0;
+    background: url(../images/services/social-engine-marketing/sem-mockup.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.sem-reach-out-banner .container {
+    position: relative;
+    z-index: 2;
+}
+
 /* End Search Engine Marketing */
 
-/* Start search engine optemization */
-.social-media-optemization-banner {
-    background-image: url(../images/services/search-engine-optimization/seo-hero-banner.png);
+/* Start Search Engine Optimization */
+
+.social-media-optimization-banner {
+    background-image: url(../images/services/search-engine-optimization/seo-hero-banner.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.seo-morkup-banner {
+.seo-mockup-banner {
     position: relative;
     padding: 100px 0;
-    background: url("../images/services/search-engine-optimization/seo-morkup.png")
-        no-repeat center center/cover;
+    background: url(../images/services/search-engine-optimization/seo-mockup.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     overflow: hidden;
 }
+
+.seo-reach-out-banner {
+    position: relative;
+    padding: 100px 0;
+    background: url(../images/services/search-engine-optimization/seo-mockup.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.seo-reach-out-banner .container {
+    position: relative;
+    z-index: 2;
+}
+
 /* End search engine optemization */
