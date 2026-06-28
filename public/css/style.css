@@ -1,4 +1,4 @@
-/* Version: 1.8 | Last updated: 26-06-2026 */
+/* Version: 1.9 | Last updated: 28-06-2026 */
 
 :root {
     --first-color: #0dacaf;
@@ -1970,8 +1970,8 @@ a.play-video::after {
     border: 0;
     /* border-bottom: 2px solid #e6e6e6; */
     border-bottom: 2px solid #fff;
-    -webkit-border-radius: 0px;
-    border-radius: 0px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
 }
 
 .form-block textarea {
@@ -1987,8 +1987,8 @@ a.play-video::after {
     border: 0;
     /* border-bottom: 2px solid #e6e6e6; */
     border-bottom: 2px solid #fff;
-    -webkit-border-radius: 0px;
-    border-radius: 0px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
 }
 
 .form-block .form-group {
@@ -10592,7 +10592,7 @@ color: var(--white-color); */
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     /* padding: 30px; */
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .innerbody {
@@ -14530,7 +14530,7 @@ textarea::-ms-input-placeholder {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.hire-developer-app-development {
+.hire-developer-location {
     background: url(../images/locations/hire-developer-background.webp);
     position: relative;
     padding: 100px 0px;
@@ -14540,7 +14540,7 @@ textarea::-ms-input-placeholder {
     position: relative;
 }
 
-.hire-developer-app-development img {
+.hire-developer-location img {
     position: absolute;
     top: -338px;
     right: 0px;

@@ -691,7 +691,7 @@
 <!--End Process-->
 
 <!--Start Let's Work Together-->
-<div class="row justify-content-center hire-developer hire-developer-app-development">
+<div class="row justify-content-center hire-developer hire-developer-location">
 	<div class="col-lg-7">
 		<div class="free-cta-title v-center wow fadeIn">
 			<p class="text-center text-lg-start text-white">We Promise. <span>We Deliver.</span> </p>

@@ -216,7 +216,7 @@
 		line-height: 57px;
 	}
 
-	.costom-modal {
+	.custom-modal {
 		display: none !important;
 		background: transparent !important;
 		backdrop-filter: blur(0px);
@@ -3801,7 +3801,7 @@
 		top: -390px;
 	}
 
-	.hire-developer-app-development img {
+	.hire-developer-location img {
 		position: absolute;
 		top: -338px;
 		right: -160px;
@@ -4122,7 +4122,7 @@
 		top: -390px;
 	}
 
-	.hire-developer-app-development img {
+	.hire-developer-location img {
 		position: absolute;
 		top: -338px;
 		right: -160px;
@@ -4784,7 +4784,7 @@
 		top: -445px;
 	}
 
-	.hire-developer-app-development img {
+	.hire-developer-location img {
 		position: absolute;
 		top: -338px;
 		right: -160px;
@@ -4896,7 +4896,7 @@
 }
 
 @media only screen and (min-width:1200px) {
-	.hire-developer-app-development {
+	.hire-developer-location {
 		margin: 200px 0px 50px;
 	}
 }
@@ -6105,7 +6105,7 @@
 		font-size: 60px;
 	}
 
-	.hire-developer-app-development img {
+	.hire-developer-location img {
 		right: -250px;
 	}
 

@@ -701,13 +701,30 @@
 <!--End Process-->
 
 <!--Start Let's Work Together-->
-<div class="row justify-content-center hire-developer hire-developer-app-development">
+<div class="row justify-content-center hire-developer hire-developer-location">
 	<div class="col-lg-7">
 		<div class="free-cta-title v-center wow fadeIn">
 			<p class="text-center text-lg-start text-white">We Keep Our Promises to <span>Excellence</span> </p>
 		</div>
 		<div class="hire-developer-img d-none d-xl-block">
 			<img src="images/locations/hire-developer.webp" alt="Hire Developer" class="img-fluid" width="auto" height="auto">
+		</div>
+	</div>
+</div>
+<!--End Let's Work Together-->
+
+<!--Start Let's Work Together-->
+<div class="hire-developer hire-developer-location">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="free-cta-title v-center wow fadeIn">
+					<p class="text-center text-lg-start text-white">We Keep Our Promises to <span>Excellence</span> </p>
+				</div>
+				<div class="hire-developer-img d-none d-xl-block">
+					<img loading="lazy" src="images/locations/hire-developer.webp" alt="Hire Developer" class="img-fluid" width="auto" height="auto">
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

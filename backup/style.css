@@ -15875,7 +15875,7 @@ textarea::-ms-input-placeholder {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.hire-developer-app-development {
+.hire-developer-location {
     background: url(../images/locations/hire-developer-background.webp);
     position: relative;
     padding: 100px 0px;
@@ -15885,7 +15885,7 @@ textarea::-ms-input-placeholder {
     position: relative;
 }
 
-.hire-developer-app-development img {
+.hire-developer-location img {
     position: absolute;
     top: -338px;
     right: 0px;

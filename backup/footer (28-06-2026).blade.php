@@ -361,7 +361,66 @@
 <!-- End Footer -->
 <div class="modal custom-modal" id="myModal">
     <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
+        <div class="modal-content  ">
+            <!-- Modal Header -->
+
+            <!-- Modal body -->
+            <!-- <div class="modal-body">
+                <div class="form-block header-quote-form">
+                    <form action="{{route('leads')}}" method="post" id="contactForm" data-toggle="validator" class="shake">
+                        @csrf
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <input type="text" id="name" name="name" placeholder="Enter name" required="" data-error="Please fill Out" class="form-control" maxlength="50">
+                                <div class="help-block with-errors"></div> 
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <input type="email" id="email" name="email" placeholder="Enter email" required="" maxlength="50">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <input type="text" id="mobile" name="mobile" placeholder="Enter mobile" required="" data-error="Please fill Out">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <select name="service" class="custom-select">
+                                    <option selected="">Select</option>
+                                    <option value="mobile-app-development">Mobile App Development</option>
+                                    <option value="ar-vr-app-development">AR & VR App Development</option>
+                                    <option value="strategic-design-consultancy">Strategic Design Consultancy</option>
+                                    <option value="mobile-app-qa-and-testing">Mobile App QA and Testing</option>
+                                    <option value="web-portal-development">Web Portal Development</option>
+                                    <option value="connected-devices">Connected Devices</option>
+                                </select>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <input type="text" name="company" id="company" placeholder="Enter company name (optional)" required="" data-error="" maxlength="50">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <input type="text" id="subject" name="subject" placeholder="Enter subject" required="" data-error="Please fill Out" maxlength="50">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required="" maxlength="500"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group mb-2">
+							{!! NoCaptcha::renderJs() !!}
+							{!! NoCaptcha::display() !!}
+						</div>
+                        <div class="modal-footer">
+                            <button type="submit" name="submit" id="form-submit" class="btn lnk button-arounder bg-btn">Submit <i class="fas fa-chevron-right fa-icon"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div> -->
+
             <div class="modal-body" style="padding: 0;">
                 <div class="form-block header-quote-form">
                     <form action="{{route('leads')}}" method="post" id="contactForm" data-toggle="validator" class="shake">

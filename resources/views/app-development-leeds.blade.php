@@ -697,7 +697,7 @@
 <!--End Process-->
 
 <!--Start Let's Work Together-->
-<div class="hire-developer hire-developer-app-development">
+<div class="hire-developer hire-developer-location">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">

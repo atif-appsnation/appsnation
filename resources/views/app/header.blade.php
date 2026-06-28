@@ -76,8 +76,8 @@
 	<link href="{{asset('css/owl.theme.default.min.css')}}" rel="stylesheet">
 	<link href="{{asset('css/all.min.css')}}" rel="stylesheet">
 	<link href="{{asset('css/manrope.css')}}" rel="stylesheet">
-	<link href="{{asset('css/style.css?v=1.8')}}" rel="stylesheet">
-	<link href="{{asset('css/responsive.css?v=1.8')}}" rel="stylesheet">
+	<link href="{{asset('css/style.css?v=1.9')}}" rel="stylesheet">
+	<link href="{{asset('css/responsive.css?v=1.9')}}" rel="stylesheet">
 	<link href="{{asset('css/darkmode.css')}}" rel="stylesheet">
 	<link href="{{asset('css/image-comparison-slider.css')}}" rel="styleheet">
 	<link rel="canonical" href="{{url()->current()}}" />
@@ -740,19 +740,19 @@
 
 								<div class="fieldsets row">
 									<div class="col-md-12">
-										<input type="text" placeholder="Full Name" name=" ssname">
+										<input type="text" placeholder="Full Name" name=" ssname" class="form-control">
 									</div>
 									<div class="col-md-12">
-										<input type="email" placeholder="Email Address" name="email">
+										<input type="email" placeholder="Email Address" name="email" class="form-control">
 									</div>
 									<div class="col-md-12">
-										<input type="number" placeholder="Contact Number" name="mobile">
+										<input type="number" placeholder="Contact Number" name="mobile" class="form-control">
 									</div>
 									<div class="col-md-12">
-										<input type="text" placeholder="Subject" name="subject">
+										<input type="text" placeholder="Subject" name="subject" class="form-control">
 									</div>
 									<div class="col-md-12">
-										<textarea placeholder="Message" name="message"></textarea>
+										<textarea placeholder="Message" name="message" class="form-control"></textarea>
 									</div>
 								</div>
 								<div class="fieldsets mt20 pb20 d-flex justify-content-center">
