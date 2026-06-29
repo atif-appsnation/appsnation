@@ -43,15 +43,15 @@
 <!--End About-->
 
 <!--Start Service-->
-<section class="service-section-app py-5 dark-bg2">
+<section class="service-section-app metaverse-services py-5 dark-bg2">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 wow fadeIn">
 				<div class="common-heading ptag">
 					<div data-text="Our Services" class="light-bg-text bg-text">
-						<h2>Our<span> Metaverse</span> Development Services</h2>
+						<h2 class="text-white">Our<span> Metaverse</span> Development Services</h2>
 					</div>
-					<p>Our Metaverse development services allow you to focus on the creative aspects of your project while we take care of the technical details. We help you explore the possibilities of custom-made virtual worlds by creating a tailor-made solution to suit your requirements and budget.</p>
+					<p class="text-white">Our Metaverse development services allow you to focus on the creative aspects of your project while we take care of the technical details. We help you explore the possibilities of custom-made virtual worlds by creating a tailor-made solution to suit your requirements and budget.</p>
 				</div>
 			</div>
 		</div>
@@ -133,6 +133,198 @@
 						<p>No matter what you need to do in the Metaverse, we can help. Whether you are trying to raise money for your app/product or seeking help marketing, we are your source for everything social media. We know the tools, how to use them, and how to make them work for you.</p>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--End Service-->
+
+<!--Start Service-->
+<section class="service-section-app py-5 dark-bg2">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 wow fadeIn">
+				<div class="common-heading ptag">
+					<div data-text="Our Services" class="light-bg-text bg-text">
+						<h2>See How<span> Metaverse Development</span> Solutions Benefits You</h2>
+					</div>
+					<p>Our Metaverse development solutions are industry-leading, with multiple applications across many industries. From building a virtual world to integrating Augmented Reality into your business, our experts will help you create the ultimate immersive experience for your customers.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-sm-12 col-md-12 col-lg-4 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="service-heading">
+						<h3>Interactive Experience</h3>
+					</div>
+					<div class="services-text-div">
+						<p>We develop an interactive Metaverse experience that combines the latest technology, engaging and immersive storytelling, and face-to-face interactions. Our solution lets you build brand awareness, increase organization loyalty, and improve audiences' understanding of your purpose and goals.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-4 mt-3 mt-lg-0 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="service-heading">
+						<h3>Peer-To-Peer (P2P) Interactions</h3>
+					</div>
+					<div class="services-text-div">
+						<p>Our Metaverse development solutions enable peer-to-per (p2p) interactions for your users, increasing their sense of community and furthering their engagement with your platform. Our team of experts has the expertise to ensure that your metaverse delivers all the features you require from a social VR world.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-4 mt-3 mt-lg-0 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="service-heading">
+						<h3>Wallet Integration</h3>
+					</div>
+					<div class="services-text-div">
+						<p>Wallet integration is a gateway to the Metaverse. The wallet allows users to send and receive digital assets, view their transaction history and other details, and check their token balances. Our wallet integration solutions are perfect for applications users want to access with just one click.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-4 mt-3 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="service-heading">
+						<h3>Secured Storage</h3>
+					</div>
+					<div class="services-text-div">
+						<p>We develop enterprise-grade Metaverse development solutions that allow you to store data in a secure, decentralized way. Through our service, we guarantee that your data will be safe and secured and keep you up-to-date with the latest technologies in cloud computing.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-4 mt-3 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="service-heading">
+						<h3>Interoperability</h3>
+					</div>
+					<div class="services-text-div">
+						<p>Our Metaverse development solutions are built on open-source technologies' flexible, interoperable, and scalable foundation. We improve the way companies run their businesses by streamlining operations, connecting experts, and empowering entrepreneurs.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-4 mt-3 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="service-heading">
+						<h3>Multi-Layer Security</h3>
+					</div>
+					<div class="services-text-div">
+						<p>Our customers do not need to worry about the multi-layer security provided by our system as it is designed to be failproof and user-friendly. We take security very seriously and have several layers of protection built into our products to ensure that your data is safe and secure.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-4 mt-3 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="service-heading">
+						<h3>Tokenization</h3>
+					</div>
+					<div class="services-text-div">
+						<p>Tokenization of assets is one of the most significant advantages of blockchain technology, and by creating tokens, we can track real-world assets in a digital form. Our metaverse development solutions allow you to easily create and distribute your tickets to investors, customers, and users.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-4 mt-3 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="service-heading">
+						<h3>Decentralization</h3>
+					</div>
+					<div class="services-text-div">
+						<p>Decentralization is a critical element of many applications and solutions that we develop. We believe in using decentralized solutions when possible because it maximizes data security. Our decentralized approach can also be applied to configuring, distributing, and retrieving content information.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--End Service-->
+
+<!--Start Service-->
+<section class="service-section-app metaverse-services py-5 dark-bg2">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 wow fadeIn">
+				<div class="common-heading ptag">
+					<div data-text="Our Services" class="light-bg-text bg-text">
+						<h2 class="text-white"><span>Metaverse</span> Games</h2>
+					</div>
+					<p class="text-white">Our Metaverse games development services aim to offer you a new type of gaming environment you have never experienced before. We create games that build a bridge between physical and virtual reality, which are just as immersive as they are addicting.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-sm-12 col-md-12 col-lg-4 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="service-heading">
+						<h3>2D Virtual Game Development</h3>
+					</div>
+					<div class="services-text-div">
+						<p>We have experts who develop the Metaverse gaming platform with 2D virtual gaming effects & features.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-4 mt-3 mt-lg-0 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="service-heading">
+						<h3>3D Virtual Game Development</h3>
+					</div>
+					<div class="services-text-div">
+						<p>Developing a 3D Virtualized Metaverse gaming environment that attracts players is a core expertise of ours.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-4 mt-3 mt-lg-0 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="service-heading">
+						<h3>Role Play & Play-To-Earn Game</h3>
+					</div>
+					<div class="services-text-div">
+						<p>We develop NFT Metaverse based role-play games, play and earn gaming platforms with advanced plugins.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--End Service-->
+
+<!--Start Service-->
+<section class="service-section-app py-5 dark-bg2">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 wow fadeIn">
+				<div class="common-heading ptag">
+					<div data-text="Our Services" class="light-bg-text bg-text">
+						<h2>Customize<span> AR/VR/MR Game Development</span> Solutions</h2>
+					</div>
+					<p>At our Metaverse development center, we focus on providing customized AR/VR solutions based on your needs. We combine the latest technologies, including Augmented Reality, Virtual Reality, and Mixed Reality, with custom-tailored solutions for specific industries.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-lg-6 mv-ar-game wow fadeIn my-auto common-heading">
+				<h3><span>Augmented Reality</span> Devices</h3>
+				<p class="pt-2">Our team is behind some of the most innovative and widely adopted projects in the emerging Metaverse and Augmented Reality space. We focus on delivering compelling and immersive user experiences that maximize technology while preserving privacy.</p>
+			</div>
+			<div class="col-lg-6 wow fadeIn mt-3 mt-lg-0">
+				<img src="images/services/metaverse-development/ar-game-development.webp" alt="AR Development" class="ar-game-development-image img-fluid">
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-lg-6 wow fadeIn">
+				<img src="images/services/metaverse-development/vr-game-development.webp" alt="VR Development" class="vr-game-development-image img-fluid">
+			</div>
+			<div class="col-lg-6 mv-vr-game wow fadeIn mt-3 my-lg-auto common-heading">
+				<h3><span>Virtual Reality</span> Development</h3>
+				<p class="pt-2">Virtual Reality development can help you bring your vision to life, design a new VR application, or create the next blockbuster VR game. We will take your idea and turn it into a fantastic experience.</p>
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-lg-6 mv-mr-game wow fadeIn my-auto common-heading">
+				<h3><span>Mixed-Reality</span> User Experiences</h3>
+				<p class="pt-2">As a leading Metaverse development company, we leverage our expertise in immersive technologies to craft exceptional MR experiences. The product allows users to explore virtual worlds by walking, moving, and interacting within the real world.</p>
+			</div>
+			<div class="col-lg-6 wow fadeIn mt-3 mt-lg-0">
+				<img src="images/services/metaverse-development/mr-game-development.webp" alt="MR Development" class="mr-game-development-image img-fluid">
 			</div>
 		</div>
 	</div>

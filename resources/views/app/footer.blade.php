@@ -360,7 +360,7 @@
 
 <!-- End Footer -->
 <div class="modal custom-modal" id="myModal">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-body" style="padding: 0;">
                 <div class="form-block header-quote-form">

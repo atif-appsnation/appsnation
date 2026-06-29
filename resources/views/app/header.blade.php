@@ -724,7 +724,7 @@
 	<!-- Mobile Contact -->
 	<div class="popup-modal bg-modal">
 		<div class="modal" id="menu-popup" >
-			<div class="modal-dialog">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
 				<div class="modal-content">
 					<div class="modal-header">
 						<div class="common-heading">
