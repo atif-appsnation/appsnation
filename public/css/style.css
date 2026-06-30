@@ -1,4 +1,4 @@
-/* Version: 1.9 | Last updated: 28-06-2026 */
+/* Version: 2.0 | Last updated: 30-06-2026 */
 
 :root {
     --first-color: #0dacaf;
@@ -14220,6 +14220,25 @@ ul.list {
     background: -webkit-linear-gradient(bottom, #030104 0%, #190420 50%, #030104 100%);
     background: linear-gradient(to bottom, #030104 0%, #190420 50%, #030104 100%);
     /* background-color: #190F28; */
+}
+
+.metaverse-development {
+	background: -moz-linear-gradient(bottom, #030104 0%, #190420 50%, #030104 100%);
+	background: -webkit-linear-gradient(bottom, #030104 0%, #190420 50%, #030104 100%);
+	background: linear-gradient(to bottom, #030104 0%, #190420 50%, #030104 100%);
+	/* background-color: #190F28; */
+}
+
+.metaverse-development .card {
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0);
+	background: -moz-linear-gradient(left, #df296f 0%, #610e60 50%, #230158 100%);
+	background: -webkit-linear-gradient(left, #df296f 0%, #610e60 50%, #230158 100%);
+	background: linear-gradient(to right, #df296f 0%, #610e60 50%, #230158 100%);
+}
+
+.metaverse-project .services-img-div img {
+    width: 50px;
 }
 
 /* End Metaverse */

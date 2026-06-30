@@ -59,7 +59,7 @@
 			<div class="col-sm-12 col-md-12 col-lg-4 wow fadeIn">
 				<div class="service-card-app home-services gradient-border h-100">
 					<div class="services-img-div">
-						<img src="images/services/mr-app-development/mixed-reality-apps-development.svg" alt="Mixed Reality Apps Development" class="img-fluid" width="100%" height="100%">
+						<img src="images/services/mr-app-development/mixed-reality-apps-development.svg" alt="Metaverse Development" class="img-fluid" width="100%" height="100%">
 					</div>
 					<div class="service-heading">
 						<h3>Metaverse Applications</h3>
@@ -301,11 +301,13 @@
 			</div>
 		</div>
 		<div class="row mt-5">
-			<div class="col-lg-6 mv-ar-game wow fadeIn my-auto common-heading">
-				<h3><span>Augmented Reality</span> Devices</h3>
-				<p class="pt-2">Our team is behind some of the most innovative and widely adopted projects in the emerging Metaverse and Augmented Reality space. We focus on delivering compelling and immersive user experiences that maximize technology while preserving privacy.</p>
+			<div class="col-lg-6 mv-ar-game wow fadeIn my-auto">
+				<div class="common-heading ptag">
+					<h3><span>Augmented Reality</span> Devices</h3>
+					<p class="pt-2">Our team is behind some of the most innovative and widely adopted projects in the emerging Metaverse and Augmented Reality space. We focus on delivering compelling and immersive user experiences that maximize technology while preserving privacy.</p>
+				</div>
 			</div>
-			<div class="col-lg-6 wow fadeIn mt-3 mt-lg-0">
+			<div class="col-lg-6 wow fadeIn mt-4 mt-lg-0">
 				<img src="images/services/metaverse-development/ar-game-development.webp" alt="AR Development" class="ar-game-development-image img-fluid">
 			</div>
 		</div>
@@ -313,23 +315,273 @@
 			<div class="col-lg-6 wow fadeIn">
 				<img src="images/services/metaverse-development/vr-game-development.webp" alt="VR Development" class="vr-game-development-image img-fluid">
 			</div>
-			<div class="col-lg-6 mv-vr-game wow fadeIn mt-3 my-lg-auto common-heading">
-				<h3><span>Virtual Reality</span> Development</h3>
-				<p class="pt-2">Virtual Reality development can help you bring your vision to life, design a new VR application, or create the next blockbuster VR game. We will take your idea and turn it into a fantastic experience.</p>
+			<div class="col-lg-6 mv-vr-game wow fadeIn mt-4 my-lg-auto">
+				<div class="common-heading ptag">
+					<h3><span>Virtual Reality</span> Development</h3>
+					<p class="pt-2">Virtual Reality development can help you bring your vision to life, design a new VR application, or create the next blockbuster VR game. We will take your idea and turn it into a fantastic experience.</p>
+				</div>
 			</div>
 		</div>
 		<div class="row mt-5">
-			<div class="col-lg-6 mv-mr-game wow fadeIn my-auto common-heading">
-				<h3><span>Mixed-Reality</span> User Experiences</h3>
-				<p class="pt-2">As a leading Metaverse development company, we leverage our expertise in immersive technologies to craft exceptional MR experiences. The product allows users to explore virtual worlds by walking, moving, and interacting within the real world.</p>
+			<div class="col-lg-6 mv-mr-game wow fadeIn my-auto">
+				<div class="common-heading ptag">
+					<h3><span>Mixed-Reality</span> User Experiences</h3>
+					<p class="pt-2">As a leading Metaverse development company, we leverage our expertise in immersive technologies to craft exceptional MR experiences. The product allows users to explore virtual worlds by walking, moving, and interacting within the real world.</p>
+				</div>
 			</div>
-			<div class="col-lg-6 wow fadeIn mt-3 mt-lg-0">
+			<div class="col-lg-6 wow fadeIn mt-4 mt-lg-0">
 				<img src="images/services/metaverse-development/mr-game-development.webp" alt="MR Development" class="mr-game-development-image img-fluid">
 			</div>
 		</div>
 	</div>
 </section>
 <!--End Service-->
+
+<!-- Start Development -->
+<section class="metaverse-development py-3 py-md-3 py-lg-5" id="blockchain">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 wow fadeIn">
+				<div class="common-heading text-l">
+					<h2 class="common-heading text-center text-white">Metaverse App Development</h2>
+					<p class="text-center text-white">Rule the future by developing your own Metaverse app. We have Metaverse experts who are skilled in developing next-gen Metaverse software which helps anyone to launch their own Metaverse mobile application. Based on the business requirements the features and plugins may vary. Here are the common Metaverse app development process steps we follow to build a Metaverse app.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row wow fadeIn mt-3">
+			<div class="col-lg-4 my-auto">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="text-white text-center text-lg-end">Asset Model</h5>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body">
+						<h5 class="text-white text-center text-lg-end">Requirement Gathering & Project Analysis</h5>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body">
+						<h5 class="text-white text-center text-lg-end">Event Model</h5>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body">
+						<h5 class="text-white text-center text-lg-end">Code Back-End Metaverse Application</h5>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body">
+						<h5 class="text-white text-center text-lg-end">Account Model</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 mt-3 mt-lg-0">
+				<img src="images/services/metaverse-development/app-development.webp" class="img-fluid mx-auto d-block">
+			</div>
+			<div class="col-lg-4 mt-3 my-lg-auto">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="text-white text-center text-lg-start">Development Of Digital Smart Contract</h5>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body">
+						<h5 class="text-white text-center text-lg-start">UX/UI</h5>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body">
+						<h5 class="text-white text-center text-lg-start">Integration Of APIs & Blockchain</h5>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body">
+						<h5 class="text-white text-center text-lg-start">Collection Model</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Development -->
+
+<!-- Start Project -->
+<section class="metaverse-project py-3 py-md-3 py-lg-5" id="project">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 wow fadeIn">
+				<div class="common-heading text-l">
+					<div data-text="Metaverse" class="light-bg-text bg-text">
+						<h2>We Are Your Biggest Support In A <span>Metaverse</span> Project</h2>
+					</div>
+					<p>We are a professional Virtual Reality development company that creates high-quality, well-functional products. Our team has developed many VR experiences for public use. We support your Metaverse project by creating highly interactive worlds, offering unique features and characters, and providing an outstanding interactive experience.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-4">
+			<div class="col-md-6 col-lg-4 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="services-img-div">
+						<img src="images/services/metaverse-development/custom-ar-development.webp" alt="Metaverse Development" class="img-fluid" width="100%" height="100%">
+					</div>
+					<div class="service-heading">
+						<h3>Blockchain Development</h3>
+					</div>
+					<div class="services-text-div">
+						<p>Our Blockchain Development services are well crafted to help businesses feel the real impact of blockchain technology. Our skilled Blockchain experts work with your team to create more secure financial transactions, improve business processes, and reduce costs for your company.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4 pt-3 pt-sm-3 pt-md-0 pt-lg-0 wow fadeIn">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="services-img-div">
+						<img src="images/services/metaverse-development/ar-experience-design.webp" alt="Metaverse Development" class="img-fluid" width="100%" height="100%">
+					</div>
+					<div class="service-heading">
+						<h3 class="metaverse-services-heading">Decentralized Network</h3>
+					</div>
+					<div class="services-text-div">
+						<p>We understand how to reach and engage with users in a decentralized network. We can help you design and create a channel content strategy that fits your audience's expectations and usage patterns and match the technical characteristics of a decentralized network.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4 wow fadeIn pt-3 pt-sm-3 pt-md-0 pt-xl-0">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="services-img-div">
+						<img src="images/services/metaverse-development/ar-games-development.webp" alt="Metaverse Development" class="img-fluid" width="100%" height="100%">
+					</div>
+					<div class="service-heading">
+						<h3>Smart Contract</h3>
+					</div>
+					<div class="services-text-div">
+						<p>We support your Metaverse project by building a secure and functional smart contract, leveraging our extensive experience in Blockchain, finance and business. The smart contract automatically calculates the earnings and securely manages funds while tracking the user's earnings and other financial information.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4 wow fadeIn pt-3">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="services-img-div">
+							<img src="images/services/metaverse-development/ar-app-development.webp" alt="Metaverse Development" class="img-fluid" width="100%" height="100%">
+						</div>
+					<div class="service-heading">
+						<h3>Full-Stack Development</h3>
+					</div>
+					<div class="services-text-div">
+						<p>We provide full-stack development services that include both front-end and back-end development. We also tend to your needs closely with our hand-held approach while implementing the latest technologies and tools in the industry to build the Metaverse project.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4 wow fadeIn pt-3">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="services-img-div">
+						<img src="images/services/metaverse-development/ar-support-and-maintenance.webp" alt="Metaverse Development" class="img-fluid" width="100%" height="100%">
+					</div>
+					<div class="service-heading">
+						<h3>Interoperable Standards</h3>
+					</div>
+					<div class="services-text-div">
+						<p>Our Metaverse team has been developing interoperable standards to support your Metaverse project. We design a platform gathered into an interoperability framework from the ground up to be fully compatible with whatever new means emerge for avatar and wearable devices.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4 wow fadeIn pt-3">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="services-img-div">
+						<img src="images/services/metaverse-development/ar-integration-service.webp" alt="Metaverse Development" class="img-fluid" width="100%" height="100%">
+					</div>
+					<div class="service-heading">
+						<h3>Payment Wallet Integration</h3>
+					</div>
+					<div class="services-text-div">
+						<p>Our team of payment wallet integration professionals has a virtual world experience. They create robust payment gateways for many Metaverse projects that connect your web application to the Metaverse project's wallet system.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4 wow fadeIn pt-3">
+				<div class="service-card-app home-services gradient-border h-100">
+					<div class="services-img-div">
+						<img src="images/services/metaverse-development/ar-support-and-maintenance.webp" alt="Metaverse Development" class="img-fluid" width="100%" height="100%">
+					</div>
+					<div class="service-heading">
+						<h3>Maintenance & Upgrades</h3>
+					</div>
+					<div class="services-text-div">
+						<p>We understand that your Metaverse project is a huge undertaking, and we are here to help you with the maintenance and upgradating of your Metaverse project. Our support team will be working with you throughout the entire process so that you always have access to our technical knowledge and expertise.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Project -->
+
+<!--Start Features-->
+<!-- <section class="features-section-app dark-bg2 py-5">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-5 fadeIn">
+				<div class="tab-content" id="imagetab">
+
+					@foreach($agencystack as $k=>$items)
+					@if($k==0)
+
+					<div class="tab-pane features-content active" id="panel_a_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
+						<img src="uploads/{!!$items['image']!!}" alt="img" class="img-fluid">
+					</div>
+					@else
+					<div class="tab-pane features-content fade" id="panel_a_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
+						<img src="uploads/{!!$items['image']!!}" alt="img" class="img-fluid">
+					</div>
+					@endif
+
+					@endforeach
+
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-7 my-auto pl-3 pl-sm-3 pl-md-5 pt-3 pt-sm-3 pt-md-3 pt-lg-0 wow fadeIn">
+				<h2>Different Industries We Serve:</h2>
+				<p class="py-3">We help a diverse clientele build result-driven mobile apps for different industries.</p>
+				<ul class="nav nav-tabs features-tab" id="headingtab" role="tablist">
+
+					@foreach($agencystack as $k=>$items)
+					@if($k==0)
+					<li class="nav-item">
+						<a class="nav-link active" id="{!!$items['id']!!}-tab" data-bs-target="#panel_b_{!!$items['id']!!}" data-bs-secondary="#panel_a_{!!$items['id']!!}" data-bs-toggle="tab" href="#{!!$items['id']!!}" role="tab" aria-controls="{!!$items['id']!!}" aria-selected="false">{!!$items['heading']!!}</a>
+					</li>
+
+					@else
+					<li class="nav-item">
+						<a class="nav-link" id="{!!$items['id']!!}-tab" data-bs-target="#panel_b_{!!$items['id']!!}" data-bs-secondary="#panel_a_{!!$items['id']!!}" data-bs-toggle="tab" href="#{!!$items['id']!!}" role="tab" aria-controls="{!!$items['id']!!}" aria-selected="false">{!!$items['heading']!!}</a>
+					</li>
+					@endif
+					@endforeach
+
+				</ul>
+				<div class="tab-content pt-3" id="texttab">
+
+					@foreach($agencystack as $k=>$items)
+					@if($k==0)
+
+					<div class="tab-pane image-content active" id="panel_b_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
+						<h3>{!!$items['heading']!!}</h3>
+						<p class="py-3">{!!$items['content']!!}</p>
+					</div>
+					@else
+
+					<div class="tab-pane image-content fade" id="panel_b_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
+						<h3>{!!$items['heading']!!}</h3>
+						<p class="py-3">{!!$items['content']!!}</p>
+					</div>
+
+					@endif
+					@endforeach
+				</div>
+			</div>
+		</div>
+	</div>
+</section> -->
+<!--End Features-->
 
 <!--Start Let's Work Together-->
 <section class="my-1">
@@ -354,66 +606,6 @@
 	</div>
 </section>
 <!--End Let's Work Together-->
-
-<!--Start Features-->
-<!-- <section class="features-section-app dark-bg2 py-5">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-5 wow fadeIn">
-				<div class="tab-content" id="imagetab">
-					@foreach($agencystack as $k=>$items)
-					@if($k==0)
-
-					<div class="tab-pane active" id="panel_a_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
-						<img src="uploads/{!!$items['image']!!}" alt="img" class="img-fluid">
-					</div>
-					@else
-					<div class="tab-pane fade" id="panel_a_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
-						<img src="uploads/{!!$items['image']!!}" alt="img" class="img-fluid">
-					</div>
-					@endif
-
-					@endforeach
-
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-12 col-lg-7 my-auto pl-3 pl-sm-3 pl-md-5 pt-3 pt-sm-3 pt-md-3 pt-lg-0 wow fadeIn">
-				<h2>Creative MR App Development Agency</h2>
-				<p class="py-3">We help a diverse clientele build result-driven mobile apps for different industries.</p>
-				<ul class="nav nav-tabs features-tab" id="headingtab" role="tablist">
-					@foreach($agencystack as $k=>$items)
-                    @if($k==0)
-                    <li class="nav-item">
-                        <a class="nav-link active" id="{!!$items['id']!!}-tab" data-bs-target="#panel_b_{!!$items['id']!!}" data-bs-secondary="#panel_a_{!!$items['id']!!}" data-bs-toggle="tab" href="#{!!$items['id']!!}" role="tab" aria-controls="{!!$items['id']!!}" aria-selected="false">{!!$items['heading']!!}</a>
-                    </li>
-
-                    @else
-                    <li class="nav-item">
-                        <a class="nav-link" id="{!!$items['id']!!}-tab" data-bs-target="#panel_b_{!!$items['id']!!}" data-bs-secondary="#panel_a_{!!$items['id']!!}" data-bs-toggle="tab" href="#{!!$items['id']!!}" role="tab" aria-controls="{!!$items['id']!!}" aria-selected="false">{!!$items['heading']!!}</a>
-                    </li>
-                    @endif
-                    @endforeach
-				</ul>
-				<div class="tab-content pt-3" id="texttab">
-					@foreach($agencystack as $k=>$items)
-					@if($k==0)
-					<div class="tab-pane active" id="panel_b_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
-						<h3>{!!$items['heading']!!}</h3>
-						<p>{!!$items['content']!!}</p>
-					</div>
-					@else
-					<div class="tab-pane fade" id="panel_b_{!!$items['id']!!}" role="tabpanel" aria-labelledby="{!!$items['id']!!}-tab">
-						<h3>{!!$items['heading']!!}</h3>
-						<p>{!!$items['content']!!}</p>
-					</div>
-					@endif
-					@endforeach
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
-<!--End Features-->
 
 <!--Start Why Choose-->
 <section class="why-choose bg-gradient3 py-5">
@@ -506,32 +698,28 @@
 				<div class="timeline wow fadeIn h-100">
 					<p class="timeline-year">01</p>
 					<h3 class="title">Requirement Analysis</h3>
-					<p class="description">Analyze your target audience, design, and technology needs to effectively create an app that meets your goals.
-</p>
+					<p class="description">Analyze your target audience, design, and technology needs to effectively create an app that meets your goals.</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3 mt-md-0">
 				<div class="timeline wow fadeIn h-100">
 					<p class="timeline-year">02</p>
 					<h3 class="title">App Development Strategies</h3>
-					<p class="description"> In-depth analysis of your business and competitors to create a result-driven Android app development strategy.
-</p>
+					<p class="description"> In-depth analysis of your business and competitors to create a result-driven Android app development strategy.</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3 mt-lg-0">
 				<div class="timeline wow fadeIn h-100">
 					<p class="timeline-year">03</p>
 					<h3 class="title">Wireframing And Designing</h3>
-					<p class="description"> Our skilled designers create attractive, scalable, and reliable UI/UX designs, ensuring an outstanding user experience.
-</p>
+					<p class="description"> Our skilled designers create attractive, scalable, and reliable UI/UX designs, ensuring an outstanding user experience.</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3">
 				<div class="timeline wow fadeIn h-100">
 					<p class="timeline-year">04</p>
 					<h3 class="title">Development Phase</h3>
-					<p class="description"> We build Android apps using cutting-edge technology, adhering to coding standards to solve complex customer challenges.
-</p>
+					<p class="description"> We build Android apps using cutting-edge technology, adhering to coding standards to solve complex customer challenges.</p>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 mt-3">
@@ -545,8 +733,7 @@
 				<div class="timeline wow fadeIn h-100">
 					<p class="timeline-year">06</p>
 					<h3 class="title">App Deployment</h3>
-					<p class="description"> After thorough testing and customer approval, we deploy your app to the Google Play Store with proven experience.
-</p>
+					<p class="description"> After thorough testing and customer approval, we deploy your app to the Google Play Store with proven experience.</p>
 				</div>
 			</div>
 		</div>
@@ -639,8 +826,6 @@
 <!--Start Let's Work Together-->
 <section class="my-1">
 	<div class="container">
-
-
 		<div class="row py-5 justify-content-center hire-developer">
 			<div class="col-lg-8">
 				<div class="free-cta-title v-center wow fadeIn">
@@ -831,39 +1016,17 @@
 
 		<div class="testimonial-card-a owl-carousel owl-theme">
 			@foreach($testimonials as $key => $item)
-
 			<div class="tcd card h-100">
 				<div class="row">
 					<div class="col-lg-6 position-relative">
-
-						<!-- Overlay -->
-						<div class="video-overlay"
-							data-target="player-{{$key}}"
-							style="position:absolute;top:0;left:0;width:100%;height:100%;cursor:pointer;z-index:2;">
-						</div>
-
-						<!-- YouTube Video -->
-						<iframe
-							id="player-{{$key}}"
-							class="youtube-player testimonial-video"
-
-							src="{{$item['comments']}}"
-							title="Client Testimonial"
-
-							frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin"
-							allowfullscreen>
-						</iframe>
-
+						<div class="video-overlay" data-target="player-{{$key}}" style="position:absolute;top:0;left:0;width:100%;height:100%;cursor:pointer;z-index:2;"></div>
+						<iframe id="player-{{$key}}" class="youtube-player testimonial-video" src="{{$item['comments']}}" title="Client Testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 					</div>
-
 					<div class="col-lg-6">
 						<div class="testimonial-card card-body">
 							<div class="tt-text">
 								<p>{{$item['title']}}</p>
 							</div>
-
 							<div class="client-thumbs mt30">
 								<div class="media v-center upset">
 									<div class="media-body user-info v-center">
@@ -875,7 +1038,6 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 
@@ -981,8 +1143,6 @@
 			</div>
 		</div>
 	</div>
-
-	</div>
 </section>
 <!--End Testinomial-->
 
@@ -1004,32 +1164,18 @@
 					<div class="accordion-item bdr0">
 						<h2 class="accordion-header" id="heading-b">
 							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1a" aria-expanded="true" aria-controls="collapseOne">
-								What is MR?
+								How much do Metaverse Development Services cost?
 							</button>
 						</h2>
 						<div id="collapse-1a" class="accordion-collapse collapse" aria-labelledby="heading-b" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>Mixed reality, or MR, is a technology that blends natural and virtual realities. It is often described as new technologies that combine physical and digital elements to create immersive experiences. For example, augmented reality (AR) integrates computer graphics into the user's view of the real world or virtual reality (VR), immersing people in an entirely digital environment.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="accordion-item bdr0">
-						<h2 class="accordion-header" id="heading-c">
-							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2a" aria-expanded="true" aria-controls="collapseOne">
-								What is difference between AR, MR and VR?
-							</button>
-						</h2>
-						<div id="collapse-2a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
-							<div class="accordion-body">
-								<div class="data-reqs">
-									<p>If you are new to augmented and mixed reality, you have probably heard these three terms thrown around a lot. But what do they mean?</p>
-									<p class="pt-2">Let us breakdown each of these terms;</p>
-									<ul class="ps-5">
-										<li><strong>Augmented Reality (AR)</strong> is when virtual objects are overlaid on top of real-world objects. You can see the real world with virtual things, like Pokémon Go! or Snapchat filters.</li>
-										<li><strong>Mixed Reality (MR)</strong> is a more advanced version of AR. Whereas AR adds objects to your field of vision, MR overlays them directly onto your body to look like they are there.</li>
-										<li><strong>Virtual Reality (VR)</strong> is an entirely immersive experience where you're completely cut off from the real world around you and transported into another world.</li>
+									<p>Metaverse is a decentralized platform and value transfer protocol that aims to build a bridge between the real and virtual worlds. We can say that the average cost for a custom application is $10,000.</p>
+									<p class="pt-2">However, the cost of developing an application on Metaverse depends on various factors such as:</p>
+									<ul class="list">
+										<li>The complexity of your project.</li>
+										<li>The size of the project.</li>
+										<li>The number of features required.</li>
 									</ul>
 								</div>
 							</div>
@@ -1037,19 +1183,34 @@
 					</div>
 					<div class="accordion-item bdr0">
 						<h2 class="accordion-header" id="heading-c">
-							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3a" aria-expanded="true" aria-controls="collapseOne">
-								How much does it cost to develop an MR application?
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2a" aria-expanded="true" aria-controls="collapseOne">
+								How do you develop a metaverse?
 							</button>
 						</h2>
-						<div id="collapse-3a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
+						<div id="collapse-2a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
 							<div class="accordion-body">
 								<div class="data-reqs">
-									<p>There is no set price for developing a mixed reality application. The cost depends on the size and type of the project, the project's scope, and how much time you have before the launch date. In addition, the price can be anywhere from $1000 to $1 million.</p>
+									<p>We approach a comprehensive, agile framework for building, testing, and deploying virtual worlds. The roadmap is updated periodically to reflect any changes we make during the development or testing process.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="accordion-item bdr0">
+						<h2 class="accordion-header" id="heading-c">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3a" aria-expanded="true" aria-controls="collapseOne">
+								What does metaverse company do?
+							</button>
+						</h2>
+						<div id="collapse-3a" class="accordion-collapse collapse" aria-labelledby="heading-c" data-bs-parent="#accordionExample-a">
+							<div class="accordion-body">
+								<div class="data-reqs">
+									<p>A metaverse company is a company that provides services to customers through the use of virtual reality (VR) technology.</p>
+									<p class="pt-2">Metaverse companies provide products and services to customers via mixed reality technologies such as augmented reality (AR) and virtual reality (VR). Their services also include software development, IT consulting, and systems integration. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="accordion-item bdr0">
 						<h2 class="accordion-header" id="heading-c">
 							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4a" aria-expanded="true" aria-controls="collapseOne">
 								How long does it take to make an MR project?
@@ -1097,7 +1258,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>

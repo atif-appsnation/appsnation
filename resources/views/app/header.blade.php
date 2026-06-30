@@ -76,8 +76,8 @@
 	<link href="{{asset('css/owl.theme.default.min.css')}}" rel="stylesheet">
 	<link href="{{asset('css/all.min.css')}}" rel="stylesheet">
 	<link href="{{asset('css/manrope.css')}}" rel="stylesheet">
-	<link href="{{asset('css/style.css?v=1.9')}}" rel="stylesheet">
-	<link href="{{asset('css/responsive.css?v=1.9')}}" rel="stylesheet">
+	<link href="{{asset('css/style.css?v=2.0')}}" rel="stylesheet">
+	<link href="{{asset('css/responsive.css?v=2.0')}}" rel="stylesheet">
 	<link href="{{asset('css/darkmode.css')}}" rel="stylesheet">
 	<link href="{{asset('css/image-comparison-slider.css')}}" rel="styleheet">
 	<link rel="canonical" href="{{url()->current()}}" />
@@ -347,6 +347,7 @@
 															<div class="menu-item-title align-middle">XR (AR & VR) App Development</div>
 														</a>
 														<ul class="main-submenu">
+															<li> <a href="{{url('/metaverse-development')}}"><i class="fa-duotone fa-solid fa-chevrons-right pe-2"></i>Metaverse Development</a> </li>
 															<li> <a href="{{url('/mr-app-development')}}"><i class="fa-duotone fa-solid fa-chevrons-right pe-2"></i>MR App Development</a> </li>
 															<li> <a href="{{url('/ar-app-development')}}"><i class="fa-duotone fa-solid fa-chevrons-right pe-2"></i>AR App Development</a> </li>
 															<li> <a href="{{url('/vr-app-development')}}"><i class="fa-duotone fa-solid fa-chevrons-right pe-2"></i>VR App Development</a> </li>
@@ -643,7 +644,8 @@
 							<li>
 								<a href="{{url('/xr-app-development')}}">XR (AR & VR) App Development</a>
 								<ul>
-									<li> <a href="{{url('/mr-app-development')}}">MR App Development</a> </li>
+									<li><a href="{{url('/metaverse-development')}}">Metaverse Development</a></li>
+									<li><a href="{{url('/mr-app-development')}}">MR App Development</a></li>
 									<li><a href="{{url('/ar-app-development')}}">AR App Development</a></li>
 									<li><a href="{{url('/vr-app-development')}}">VR Ap Development</a></li>
 								</ul>
